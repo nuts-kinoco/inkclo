@@ -74,7 +74,7 @@ export function CoordinateAssistant({ activeCategoryTab }: CoordinateAssistantPr
   const visibleGroups = groups.slice(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE);
 
   return (
-    <div className="w-full mt-6 bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden flex flex-col relative">
+    <div className="w-full mt-6 mb-6 bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden flex flex-col relative">
       <div className="absolute top-0 left-0 w-1 h-full bg-blue-500" />
       
       <div className="px-5 py-4 border-b border-gray-100 flex items-center gap-2 bg-gradient-to-r from-blue-50/50 to-transparent">
