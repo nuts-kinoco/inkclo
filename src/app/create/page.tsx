@@ -6,6 +6,7 @@ import { GearCard } from '@/components/gear/GearCard';
 import { FilterPanel, FilterState } from '@/components/gear/FilterPanel';
 import { CoordinatePreview } from '@/components/coordinate/CoordinatePreview';
 import { ShareActions } from '@/components/coordinate/ShareActions';
+import { CoordinateAssistant } from '@/components/coordinate/CoordinateAssistant';
 import { GearDetailModal } from '@/components/gear/GearDetailModal';
 import gearsData from '@/lib/data/gears';
 import { GearCategory, Gear } from '@/types';
@@ -134,6 +135,8 @@ export default function CreatePage() {
           filter={filter}
           onChange={setFilter}
         />
+        
+        <CoordinateAssistant activeCategoryTab={activeCategory} />
         
         {filteredGears.length === 0 ? (
           <div className="p-10 text-center text-gray-400 font-bold border-2 border-dashed border-gray-200 rounded-xl">
