@@ -2,27 +2,36 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { CoordinatePreset } from '@/types';
 
-interface FavoritesState {
-  favorites: CoordinatePreset[];
-  addFavorite: (preset: CoordinatePreset) => void;
-  removeFavorite: (id: string) => void;
+export interface FavoritesStore {
+  coordinates: CoordinatePreset[];
+  addCoordinate: (coord: CoordinatePreset) => void;
+  removeCoordinate: (id: string) => void;
+  updateCoordinate: (coord: CoordinatePreset) => void;
+  loadCoordinate: (id: string) => void;
 }
 
-export const useFavoritesStore = create<FavoritesState>()(
+export const useFavoritesStore = create<FavoritesStore>()(
   persist(
     (set) => ({
-      favorites: [],
-      addFavorite: (preset) =>
+      coordinates: [],
+      addCoordinate: (coord) =>
         set((state) => ({
-          favorites: [preset, ...state.favorites],
+          coordinates: [coord, ...state.coordinates],
         })),
-      removeFavorite: (id) =>
+      removeCoordinate: (id) =>
         set((state) => ({
-          favorites: state.favorites.filter((f) => f.id !== id),
+          coordinates: state.coordinates.filter((c) => c.id !== id),
         })),
+      updateCoordinate: (coord) =>
+        set((state) => ({
+          coordinates: state.coordinates.map((c) => (c.id === coord.id ? coord : c)),
+        })),
+      loadCoordinate: (id) => {
+        // Intentionally empty or handle side-effects if needed
+      },
     }),
     {
-      name: 'inclo-favorites', // LocalStorage key
+      name: 'inkclo-coordinates',
     }
   )
 );

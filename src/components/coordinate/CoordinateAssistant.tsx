@@ -6,14 +6,15 @@ import { GearCategory, Gear } from '@/types';
 import gearsData from '@/lib/data/gears';
 import { getWeightedAverageColor } from '@/lib/colorTheory';
 import { runRecommendationEngine } from '@/lib/recommendation/engine';
-import { Sparkles, Moon, Palette, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Sparkles, Moon, Palette, ChevronLeft, ChevronRight, Dices } from 'lucide-react';
 import { useState } from 'react';
 
 interface CoordinateAssistantProps {
   activeCategoryTab: GearCategory;
+  onShuffle?: () => void;
 }
 
-export function CoordinateAssistant({ activeCategoryTab }: CoordinateAssistantProps) {
+export function CoordinateAssistant({ activeCategoryTab, onShuffle }: CoordinateAssistantProps) {
   const { coordinate, setGear } = useBuilderStore();
   const allGears = gearsData.gears as Gear[];
   const [page, setPage] = useState(0);
@@ -74,28 +75,37 @@ export function CoordinateAssistant({ activeCategoryTab }: CoordinateAssistantPr
   const visibleGroups = groups.slice(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE);
 
   return (
-    <div className="w-full mt-6 mb-6 bg-white rounded-xl shadow-sm border border-blue-100 overflow-hidden flex flex-col relative">
+    <div className="w-full mt-6 mb-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-blue-100 dark:border-slate-700 overflow-hidden flex flex-col relative">
       <div className="absolute top-0 left-0 w-1 h-full bg-blue-500" />
       
-      <div className="px-5 py-4 border-b border-gray-100 flex items-center gap-2 bg-gradient-to-r from-blue-50/50 to-transparent">
+      <div className="px-5 py-4 border-b border-gray-100 dark:border-slate-700 flex items-center gap-2 bg-gradient-to-r from-blue-50/50 to-transparent dark:from-blue-900/20">
         <Sparkles className="text-blue-500" size={18} />
-        <h3 className="font-black text-gray-900 tracking-tight">Coordinate Assistant</h3>
-        <span className="ml-auto text-xs font-bold text-gray-400 bg-gray-100 px-2 py-1 rounded-md dark:bg-gray-800 dark:text-gray-400">
+        <h3 className="font-black text-gray-900 dark:text-gray-100 tracking-tight">Coordinate Assistant</h3>
+        <span className="ml-auto text-xs font-bold text-gray-400 bg-gray-100 px-2 py-1 rounded-md dark:bg-slate-700 dark:text-gray-300">
           Target: {targetCategory === 'head' ? 'アタマ' : targetCategory === 'body' ? 'フク' : 'クツ'}
         </span>
+        {onShuffle && (
+          <button
+            onClick={onShuffle}
+            className="flex items-center gap-1 ml-2 px-3 py-1.5 bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800 rounded-lg text-xs font-bold transition-colors"
+          >
+            <Dices size={14} />
+            シャッフル
+          </button>
+        )}
         {totalPages > 1 && (
           <div className="flex items-center gap-1 ml-2">
             <button 
               onClick={() => setPage(p => Math.max(0, p - 1))}
               disabled={page === 0}
-              className="p-1 rounded bg-white text-gray-600 disabled:opacity-30 hover:bg-gray-100 shadow-sm transition-all"
+              className="p-1.5 rounded-lg bg-white dark:bg-slate-700 text-gray-600 dark:text-gray-300 disabled:opacity-30 hover:bg-gray-100 dark:hover:bg-slate-600 shadow-sm transition-all border border-gray-200 dark:border-slate-600"
             >
               <ChevronLeft size={16} />
             </button>
             <button 
               onClick={() => setPage(p => Math.min(totalPages - 1, p + 1))}
               disabled={page === totalPages - 1}
-              className="p-1 rounded bg-white text-gray-600 disabled:opacity-30 hover:bg-gray-100 shadow-sm transition-all"
+              className="p-1.5 rounded-lg bg-white dark:bg-slate-700 text-gray-600 dark:text-gray-300 disabled:opacity-30 hover:bg-gray-100 dark:hover:bg-slate-600 shadow-sm transition-all border border-gray-200 dark:border-slate-600"
             >
               <ChevronRight size={16} />
             </button>

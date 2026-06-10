@@ -13,7 +13,7 @@ export function ColorPalette({ palette }: ColorPaletteProps) {
 
   return (
     <div className="flex flex-col gap-3">
-      {palette.map((p, idx) => (
+      {palette.filter(p => Math.round(p.ratio * 100) >= 1).map((p, idx) => (
         <div key={idx} className="flex items-center gap-3">
           <ColorChip color={p.color} className="w-8 h-8 rounded-md" />
           <div className="flex-1 flex items-center gap-2">

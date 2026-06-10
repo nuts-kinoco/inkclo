@@ -29,7 +29,7 @@ export interface Coordinate {
 
 export interface CoordinatePreset {
   id: string;
-  title?: string;
+  name: string;
   headId?: string;
   bodyId?: string;
   shoesId?: string;

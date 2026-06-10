@@ -9003,6 +9003,30 @@
       "manualTags": []
     },
     {
+      "id": "head-222",
+      "name": "ワールドMCクラウン",
+      "category": "head",
+      "brand": {
+        "brandId": "amiibo",
+        "brandName": "amiibo"
+      },
+      "imagePath": "/gears/head/head-222.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-223",
       "name": "オータムネル",
       "category": "body",
@@ -9041,6 +9065,30 @@
       "autoTags": [
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-223",
+      "name": "ワールドDJヘッドホン",
+      "category": "head",
+      "brand": {
+        "brandId": "amiibo",
+        "brandName": "amiibo"
+      },
+      "imagePath": "/gears/head/head-223.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9122,6 +9170,30 @@
       "manualTags": []
     },
     {
+      "id": "head-225",
+      "name": "コーラルキャップ",
+      "category": "head",
+      "brand": {
+        "brandId": "ホタックス",
+        "brandName": "ホタックス"
+      },
+      "imagePath": "/gears/head/head-225.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-226",
       "name": "ベクトルパターン レッド",
       "category": "body",
@@ -9161,6 +9233,30 @@
         "sporty",
         "street"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-226",
+      "name": "バイトヘルメット オレンジ",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-226.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9207,6 +9303,30 @@
       "manualTags": []
     },
     {
+      "id": "head-227",
+      "name": "バイトヘルメット グリーン",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-227.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-228",
       "name": "バラズシ ノリマキ",
       "category": "body",
@@ -9245,6 +9365,30 @@
         "formal",
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-228",
+      "name": "バイトヘルメット イエロー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-228.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9290,6 +9434,30 @@
       "manualTags": []
     },
     {
+      "id": "head-229",
+      "name": "バイトヘルメット ピンク",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-229.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-230",
       "name": "バーサークアーマー",
       "category": "body",
@@ -9325,6 +9493,30 @@
         "color:black",
         "color:pink"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "head-230",
+      "name": "バイトヘルメット ブルー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-230.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -9368,6 +9560,30 @@
       "manualTags": []
     },
     {
+      "id": "head-231",
+      "name": "バイトヘルメット ブラック",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-231.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-232",
       "name": "レイニーブルーT",
       "category": "body",
@@ -9403,6 +9619,30 @@
       "autoTags": [
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-232",
+      "name": "バイトヘルメット ホワイト",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-232.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9448,6 +9688,30 @@
       "manualTags": []
     },
     {
+      "id": "head-233",
+      "name": "バイトキャップ グリーン",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-233.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-234",
       "name": "イカセーラー ホワイト",
       "category": "body",
@@ -9490,6 +9754,30 @@
       "manualTags": []
     },
     {
+      "id": "head-234",
+      "name": "バイトキャップ グレー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-234.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-235",
       "name": "カモパーカー ドトン",
       "category": "body",
@@ -9528,6 +9816,30 @@
         "street",
         "winter"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-235",
+      "name": "バイトキャップ ブルー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-235.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9573,6 +9885,30 @@
       "manualTags": []
     },
     {
+      "id": "head-236",
+      "name": "バイトキャップ ブラック",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-236.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-237",
       "name": "デカロゴT ノーコン",
       "category": "body",
@@ -9611,6 +9947,30 @@
         "sporty",
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-237",
+      "name": "バイトヘルメット ネオン",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-237.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9655,6 +10015,30 @@
       "manualTags": []
     },
     {
+      "id": "head-238",
+      "name": "バイトヘルメット カーキ",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-238.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-239",
       "name": "キングベンチNV",
       "category": "body",
@@ -9693,6 +10077,30 @@
         "sporty",
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-239",
+      "name": "バイトヘルメット レッド",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-239.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9736,6 +10144,30 @@
       "manualTags": []
     },
     {
+      "id": "head-240",
+      "name": "バイトキャップ ホワイト",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-240.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-241",
       "name": "イカホワイト",
       "category": "body",
@@ -9775,6 +10207,30 @@
       "manualTags": []
     },
     {
+      "id": "head-241",
+      "name": "バイトキャップ イエロー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-241.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-242",
       "name": "タコサンT",
       "category": "body",
@@ -9809,6 +10265,30 @@
       "tags": [
         "color:white"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "head-242",
+      "name": "バイトキャップ ネイビー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-242.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -9854,6 +10334,30 @@
       "manualTags": []
     },
     {
+      "id": "head-243",
+      "name": "バイトヘルメット シルバー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-243.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-244",
       "name": "チョコガサネ",
       "category": "body",
@@ -9892,6 +10396,30 @@
         "sporty",
         "street"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-244",
+      "name": "バイトヘルメット ゴールド",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-244.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -9936,6 +10464,30 @@
       "manualTags": []
     },
     {
+      "id": "head-245",
+      "name": "バイトヘルメット プリズム",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-245.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-246",
       "name": "パドリングジャケット ネガ",
       "category": "body",
@@ -9977,6 +10529,30 @@
       "manualTags": []
     },
     {
+      "id": "head-246",
+      "name": "バイトヘルメット ブロッカー",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-246.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-247",
       "name": "タコティカルなよろい",
       "category": "body",
@@ -10012,6 +10588,30 @@
         "color:white",
         "color:black"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "head-247",
+      "name": "ガーディアンアーミーハット",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-247.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -10059,6 +10659,30 @@
       "manualTags": []
     },
     {
+      "id": "head-248",
+      "name": "スペボウ レプリカ",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-248.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-249",
       "name": "レタード グリーン",
       "category": "body",
@@ -10094,6 +10718,30 @@
       "autoTags": [
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-249",
+      "name": "マリリンハットウィズピンズ",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-249.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -10139,6 +10787,30 @@
       "manualTags": []
     },
     {
+      "id": "head-250",
+      "name": "ショーグンメット",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-250.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-251",
       "name": "パドリングジャケット ポジ",
       "category": "body",
@@ -10179,6 +10851,30 @@
         "cool",
         "formal"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-251",
+      "name": "バイトヘルメット レプリカ",
+      "category": "head",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/head/head-251.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -10267,6 +10963,30 @@
       "manualTags": []
     },
     {
+      "id": "head-253",
+      "name": "パーフェクトスリーパー",
+      "category": "head",
+      "brand": {
+        "brandId": "シチリン",
+        "brandName": "シチリン"
+      },
+      "imagePath": "/gears/head/head-253.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-254",
       "name": "パールドットT",
       "category": "body",
@@ -10307,6 +11027,30 @@
         "outdoor",
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-254",
+      "name": "キョンキョンぼう",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-254.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -10352,6 +11096,30 @@
       "manualTags": []
     },
     {
+      "id": "head-255",
+      "name": "ウミウシカチューシャ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-255.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-256",
       "name": "リイシューT ホワイト",
       "category": "body",
@@ -10393,6 +11161,30 @@
       "manualTags": []
     },
     {
+      "id": "head-256",
+      "name": "ホッケかめん",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-256.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-257",
       "name": "アゲアゲ・テン・プラーXXL",
       "category": "body",
@@ -10427,6 +11219,30 @@
       "tags": [
         "color:yellow"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "head-257",
+      "name": "アンコウラバーマスク",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-257.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -10472,6 +11288,30 @@
       "manualTags": []
     },
     {
+      "id": "head-258",
+      "name": "パーティーコーンデコ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-258.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-259",
       "name": "イシダイストライプスユニ",
       "category": "body",
@@ -10511,6 +11351,30 @@
         "sporty",
         "street"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-259",
+      "name": "ニューイヤーグラスDX",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-259.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -10556,6 +11420,30 @@
       "manualTags": []
     },
     {
+      "id": "head-260",
+      "name": "ねじりゴージャス",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-260.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-261",
       "name": "わかばタコT",
       "category": "body",
@@ -10591,6 +11479,30 @@
         "color:yellow",
         "color:pink"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "head-261",
+      "name": "ハッピーチンアナゴハット",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-261.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -10636,6 +11548,30 @@
       "manualTags": []
     },
     {
+      "id": "head-262",
+      "name": "ノベルティバイザールピナス",
+      "category": "head",
+      "brand": {
+        "brandId": "アロメ",
+        "brandName": "アロメ"
+      },
+      "imagePath": "/gears/head/head-262.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-263",
       "name": "ロッケンベルグT ホワイト",
       "category": "body",
@@ -10675,6 +11611,30 @@
       "autoTags": [
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-263",
+      "name": "ノベルティバイザーナズナ",
+      "category": "head",
+      "brand": {
+        "brandId": "アロメ",
+        "brandName": "アロメ"
+      },
+      "imagePath": "/gears/head/head-263.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -10721,6 +11681,30 @@
       "manualTags": []
     },
     {
+      "id": "head-264",
+      "name": "ノベルティバイザーポピー",
+      "category": "head",
+      "brand": {
+        "brandId": "アロメ",
+        "brandName": "アロメ"
+      },
+      "imagePath": "/gears/head/head-264.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-265",
       "name": "おどるイカアロハ",
       "category": "body",
@@ -10764,6 +11748,30 @@
       "manualTags": []
     },
     {
+      "id": "head-265",
+      "name": "ノベルティバイザーナデシコ",
+      "category": "head",
+      "brand": {
+        "brandId": "アロメ",
+        "brandName": "アロメ"
+      },
+      "imagePath": "/gears/head/head-265.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-266",
       "name": "シロシャツ",
       "category": "body",
@@ -10803,6 +11811,30 @@
         "casual",
         "formal"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-266",
+      "name": "バーニングブロイラー",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-266.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -10849,6 +11881,30 @@
       "manualTags": []
     },
     {
+      "id": "head-267",
+      "name": "ギガギョコツ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-267.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-268",
       "name": "スクールブレザーL",
       "category": "body",
@@ -10887,6 +11943,30 @@
       "autoTags": [
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-268",
+      "name": "コズミックアンテナ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-268.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -10931,6 +12011,30 @@
       "manualTags": []
     },
     {
+      "id": "head-269",
+      "name": "ジャスティスブレイン",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-269.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-270",
       "name": "3Dニット ホエール",
       "category": "body",
@@ -10970,6 +12074,30 @@
         "casual",
         "winter"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-270",
+      "name": "キャプテン・カサゴ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-270.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11016,6 +12144,30 @@
       "manualTags": []
     },
     {
+      "id": "head-271",
+      "name": "フェスフェイス カサゴ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-271.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-272",
       "name": "バトロング ホワイト",
       "category": "body",
@@ -11050,6 +12202,30 @@
       "tags": [
         "color:white"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "head-272",
+      "name": "フェスフェイス ハコフグ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-272.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -11096,6 +12272,30 @@
       "manualTags": []
     },
     {
+      "id": "head-273",
+      "name": "フェスフェイス チゴフグ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-273.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-274",
       "name": "ボーダーネイビー",
       "category": "body",
@@ -11133,6 +12333,30 @@
       "autoTags": [
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-274",
+      "name": "フェスフェイス サルカニ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-274.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11174,6 +12398,30 @@
         "outdoor",
         "winter"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-275",
+      "name": "フェスフェイス キツネ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-275.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11219,6 +12467,30 @@
       "manualTags": []
     },
     {
+      "id": "head-276",
+      "name": "フェスフェイス スマイル",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-276.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-277",
       "name": "アナアキダッフル",
       "category": "body",
@@ -11260,6 +12532,30 @@
       "manualTags": []
     },
     {
+      "id": "head-277",
+      "name": "ヌラネバカチューシャ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-277.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-278",
       "name": "ガンガゼロックT クロ",
       "category": "body",
@@ -11297,6 +12593,30 @@
       "autoTags": [
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-278",
+      "name": "ヌラネバクラウン",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-278.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11342,6 +12662,30 @@
       "manualTags": []
     },
     {
+      "id": "head-279",
+      "name": "ヌラネバキャップ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-279.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-280",
       "name": "ヤキフグ16bit カーキ",
       "category": "body",
@@ -11376,6 +12720,30 @@
       "tags": [
         "color:white"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "head-280",
+      "name": "ヌラネバピアス",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-280.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -11422,6 +12790,30 @@
       "manualTags": []
     },
     {
+      "id": "head-281",
+      "name": "ヌラネババレッタ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-281.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-282",
       "name": "マウンテンオリーブ",
       "category": "body",
@@ -11457,6 +12849,30 @@
       "autoTags": [
         "outdoor"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-282",
+      "name": "ヌラネバウィッグ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-282.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11498,6 +12914,30 @@
       "manualTags": []
     },
     {
+      "id": "head-283",
+      "name": "ヌラネバカベッサ",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-283.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-284",
       "name": "スシズメブロブ ベリー",
       "category": "body",
@@ -11536,6 +12976,30 @@
         "outdoor",
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-284",
+      "name": "サウナハット",
+      "category": "head",
+      "brand": {
+        "brandId": "シグレニ",
+        "brandName": "シグレニ"
+      },
+      "imagePath": "/gears/head/head-284.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11581,6 +13045,30 @@
       "manualTags": []
     },
     {
+      "id": "head-285",
+      "name": "ウミユリパイハット",
+      "category": "head",
+      "brand": {
+        "brandId": "ロッケンベルグ",
+        "brandName": "ロッケンベルグ"
+      },
+      "imagePath": "/gears/head/head-285.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-286",
       "name": "スクールカーデ リボン",
       "category": "body",
@@ -11619,6 +13107,30 @@
       "autoTags": [
         "cute"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-286",
+      "name": "マルノミウーパー",
+      "category": "head",
+      "brand": {
+        "brandId": "エゾッコリー",
+        "brandName": "エゾッコリー"
+      },
+      "imagePath": "/gears/head/head-286.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11664,6 +13176,30 @@
       "manualTags": []
     },
     {
+      "id": "head-287",
+      "name": "ケタコゾネスゴーグル",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-287.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-288",
       "name": "F-190",
       "category": "body",
@@ -11702,6 +13238,30 @@
         "outdoor",
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-288",
+      "name": "ケタコゾネスゴーグルワカメ",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-288.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11786,6 +13346,30 @@
       "manualTags": []
     },
     {
+      "id": "head-290",
+      "name": "ヒーローブレインLv1",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-290.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-291",
       "name": "クラーゲス528",
       "category": "body",
@@ -11824,6 +13408,30 @@
       "autoTags": [
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-291",
+      "name": "ヒーローブレインLv2",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-291.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11869,6 +13477,30 @@
       "manualTags": []
     },
     {
+      "id": "head-292",
+      "name": "ヒーローブレインLv3",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-292.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-293",
       "name": "フードレスパーカー イエロー",
       "category": "body",
@@ -11911,6 +13543,30 @@
       "manualTags": []
     },
     {
+      "id": "head-293",
+      "name": "ヒーローブレインST",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-293.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-294",
       "name": "イカテンくんポロ",
       "category": "body",
@@ -11948,6 +13604,30 @@
       "autoTags": [
         "summer"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-294",
+      "name": "ヒーロークリップ レプリカ",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-294.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -11993,6 +13673,30 @@
       "manualTags": []
     },
     {
+      "id": "head-295",
+      "name": "でんせつのぼうし",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-295.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "body-296",
       "name": "キングシースルーT",
       "category": "body",
@@ -12031,6 +13735,30 @@
         "sporty",
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-296",
+      "name": "コマンダーヘッド レプリカ",
+      "category": "head",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/head/head-296.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -12073,6 +13801,30 @@
         "street",
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "head-297",
+      "name": "ジャッジメントイヤー",
+      "category": "head",
+      "brand": {
+        "brandId": "バトロイカ",
+        "brandName": "バトロイカ"
+      },
+      "imagePath": "/gears/head/head-297.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -22308,8 +24060,8 @@
       "name": "アオサドーレ",
       "category": "body",
       "brand": {
-        "brandId": "エンペリー*1",
-        "brandName": "エンペリー*1"
+        "brandId": "エンペリー",
+        "brandName": "エンペリー"
       },
       "imagePath": "/gears/body/body-548.png",
       "dominantColor": "#bcb5a3",
@@ -23025,6 +24777,30 @@
       "manualTags": []
     },
     {
+      "id": "body-565",
+      "name": "ワールドMCジャンパー",
+      "category": "body",
+      "brand": {
+        "brandId": "amiibo",
+        "brandName": "amiibo"
+      },
+      "imagePath": "/gears/body/body-565.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-566",
       "name": "オレンジアローズ",
       "category": "shoes",
@@ -23064,6 +24840,30 @@
         "sporty",
         "street"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-566",
+      "name": "ワールドDJジャケット",
+      "category": "body",
+      "brand": {
+        "brandId": "amiibo",
+        "brandName": "amiibo"
+      },
+      "imagePath": "/gears/body/body-566.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -23110,6 +24910,30 @@
       "manualTags": []
     },
     {
+      "id": "body-567",
+      "name": "バイトツナギ オレンジ",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-567.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-568",
       "name": "カセブカブーツ レッド",
       "category": "shoes",
@@ -23150,6 +24974,30 @@
         "cool",
         "winter"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-568",
+      "name": "バイトツナギ グリーン",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-568.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -23194,6 +25042,30 @@
       "manualTags": []
     },
     {
+      "id": "body-569",
+      "name": "バイトツナギ イエロー",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-569.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-570",
       "name": "パワードレッグス",
       "category": "shoes",
@@ -23229,6 +25101,30 @@
         "color:white",
         "color:black"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "body-570",
+      "name": "バイトツナギ ピンク",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-570.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -23274,6 +25170,30 @@
       "manualTags": []
     },
     {
+      "id": "body-571",
+      "name": "バイトツナギ ブルー",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-571.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-572",
       "name": "ウォームブーツ",
       "category": "shoes",
@@ -23316,6 +25236,30 @@
       "manualTags": []
     },
     {
+      "id": "body-572",
+      "name": "バイトツナギ ブラック",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-572.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-573",
       "name": "ジャッジメントフット",
       "category": "shoes",
@@ -23350,6 +25294,30 @@
       "tags": [
         "color:white"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "body-573",
+      "name": "バイトツナギ ホワイト",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-573.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -23395,6 +25363,30 @@
       "manualTags": []
     },
     {
+      "id": "body-574",
+      "name": "バイトウェーダー オレンジ",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-574.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-575",
       "name": "イロマキ750 ブルー",
       "category": "shoes",
@@ -23432,6 +25424,30 @@
       "autoTags": [
         "sporty"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-575",
+      "name": "バイトウェーダー ブラック",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-575.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -23477,6 +25493,30 @@
       "manualTags": []
     },
     {
+      "id": "body-576",
+      "name": "バイトウェーダー イエロー",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-576.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-577",
       "name": "スリミクロッグ クサリ",
       "category": "shoes",
@@ -23515,6 +25555,30 @@
       "autoTags": [
         "street"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-577",
+      "name": "バイトウェーダー ブラウン",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-577.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -23560,6 +25624,30 @@
       "manualTags": []
     },
     {
+      "id": "body-578",
+      "name": "バイトツナギ ドット",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-578.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-579",
       "name": "ベリベリホワイト",
       "category": "shoes",
@@ -23601,6 +25689,30 @@
       "manualTags": []
     },
     {
+      "id": "body-579",
+      "name": "バイトツナギ カモ",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-579.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-580",
       "name": "スクールローファー ハイソ",
       "category": "shoes",
@@ -23639,6 +25751,30 @@
       "manualTags": []
     },
     {
+      "id": "body-580",
+      "name": "バイトツナギ ニシキ",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-580.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-581",
       "name": "スクールローファー スゲソ",
       "category": "shoes",
@@ -23673,6 +25809,30 @@
       "tags": [
         "color:black"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "body-581",
+      "name": "バイトウェーダー ピーチ",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-581.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     },
@@ -23717,6 +25877,30 @@
       "manualTags": []
     },
     {
+      "id": "body-582",
+      "name": "バイトウェーダー ライム",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-582.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-583",
       "name": "グリッチョ グリーン 限定版",
       "category": "shoes",
@@ -23758,6 +25942,30 @@
       "manualTags": []
     },
     {
+      "id": "body-583",
+      "name": "バイトウェーダー ベリー",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-583.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-584",
       "name": "エゾックロッグ レッド",
       "category": "shoes",
@@ -23795,6 +26003,30 @@
       "autoTags": [
         "street"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-584",
+      "name": "バイトツナギ シルバー",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-584.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -23842,6 +26074,30 @@
       "manualTags": []
     },
     {
+      "id": "body-585",
+      "name": "バイトツナギ ゴールド",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-585.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-586",
       "name": "シンカイレザーブーツ",
       "category": "shoes",
@@ -23880,6 +26136,30 @@
         "cool",
         "winter"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-586",
+      "name": "バイトツナギ プリズム",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-586.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -23924,6 +26204,30 @@
       "manualTags": []
     },
     {
+      "id": "body-587",
+      "name": "バイトツナギ ブロッカー",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-587.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-588",
       "name": "イロマキ750 レッド",
       "category": "shoes",
@@ -23965,6 +26269,30 @@
       "manualTags": []
     },
     {
+      "id": "body-588",
+      "name": "アゲアゲ・10・プラーXXL",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-588.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-589",
       "name": "ウミウシボルト95",
       "category": "shoes",
@@ -24002,6 +26330,30 @@
       "autoTags": [
         "sporty"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-589",
+      "name": "デベロッパーズワークウエア",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-589.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24047,6 +26399,30 @@
       "manualTags": []
     },
     {
+      "id": "body-590",
+      "name": "ジムパーソンアーマー",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-590.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-591",
       "name": "エギング5 ハニオレ",
       "category": "shoes",
@@ -24088,6 +26464,30 @@
       "manualTags": []
     },
     {
+      "id": "body-591",
+      "name": "アカシックコート",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-591.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-592",
       "name": "キャンバスHi モロヘイヤ",
       "category": "shoes",
@@ -24126,6 +26526,30 @@
       "autoTags": [
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-592",
+      "name": "エネルギッシュジャケット",
+      "category": "body",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/body/body-592.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24252,6 +26676,30 @@
       "manualTags": []
     },
     {
+      "id": "body-595",
+      "name": "スタジャンフカマシ",
+      "category": "body",
+      "brand": {
+        "brandId": "ホタックス",
+        "brandName": "ホタックス"
+      },
+      "imagePath": "/gears/body/body-595.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-596",
       "name": "アローズサンダル アオキ",
       "category": "shoes",
@@ -24292,6 +26740,30 @@
         "street",
         "summer"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-596",
+      "name": "ケタコゾネスプロテクター",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-596.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24378,6 +26850,30 @@
       "manualTags": []
     },
     {
+      "id": "body-598",
+      "name": "サバイバルスーツ",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-598.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-599",
       "name": "ジョーズモカシン",
       "category": "shoes",
@@ -24416,6 +26912,30 @@
       "autoTags": [
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-599",
+      "name": "ヒーロースーツLv1",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-599.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24461,6 +26981,30 @@
       "manualTags": []
     },
     {
+      "id": "body-600",
+      "name": "ヒーロースーツLv2",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-600.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-601",
       "name": "イカボウズジェットブラック",
       "category": "shoes",
@@ -24498,6 +27042,30 @@
       "autoTags": [
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-601",
+      "name": "ヒーロースーツLv3",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-601.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24543,6 +27111,30 @@
       "manualTags": []
     },
     {
+      "id": "body-602",
+      "name": "ヒーロースーツST",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-602.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-603",
       "name": "エンペーサーAg",
       "category": "shoes",
@@ -24582,6 +27174,30 @@
         "sporty",
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-603",
+      "name": "サバイバルスーツ レプリカ",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-603.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24626,6 +27242,30 @@
       "manualTags": []
     },
     {
+      "id": "body-604",
+      "name": "でんせつのマント",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-604.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-605",
       "name": "ベリベリサン オレンジ",
       "category": "shoes",
@@ -24664,6 +27304,30 @@
         "sporty",
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-605",
+      "name": "コマンダーマント レプリカ",
+      "category": "body",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/body/body-605.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24708,6 +27372,30 @@
       "manualTags": []
     },
     {
+      "id": "body-606",
+      "name": "スミコボシシャツ",
+      "category": "body",
+      "brand": {
+        "brandId": "タタキケンサキ",
+        "brandName": "タタキケンサキ"
+      },
+      "imagePath": "/gears/body/body-606.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-607",
       "name": "ザ・ベース ルーキー",
       "category": "shoes",
@@ -24746,6 +27434,30 @@
         "formal",
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-607",
+      "name": "オーシャンリゾートアロハ",
+      "category": "body",
+      "brand": {
+        "brandId": "クラーゲス",
+        "brandName": "クラーゲス"
+      },
+      "imagePath": "/gears/body/body-607.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24790,6 +27502,30 @@
       "manualTags": []
     },
     {
+      "id": "body-608",
+      "name": "ジャコスカウト ハマチ",
+      "category": "body",
+      "brand": {
+        "brandId": "エゾッコリー",
+        "brandName": "エゾッコリー"
+      },
+      "imagePath": "/gears/body/body-608.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
       "id": "shoes-609",
       "name": "シーホースHi ゴールド",
       "category": "shoes",
@@ -24828,6 +27564,30 @@
         "sporty",
         "casual"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-609",
+      "name": "ショートニットカサネ",
+      "category": "body",
+      "brand": {
+        "brandId": "タタキケンサキ",
+        "brandName": "タタキケンサキ"
+      },
+      "imagePath": "/gears/body/body-609.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -24872,6 +27632,30 @@
         "sporty",
         "cool"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-610",
+      "name": "CFHパーカー",
+      "category": "body",
+      "brand": {
+        "brandId": "シチリン",
+        "brandName": "シチリン"
+      },
+      "imagePath": "/gears/body/body-610.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -25608,6 +28392,30 @@
       "autoTags": [
         "sporty"
       ],
+      "manualTags": []
+    },
+    {
+      "id": "body-628",
+      "name": "コントレイルボーダー",
+      "category": "body",
+      "brand": {
+        "brandId": "ホタックス",
+        "brandName": "ホタックス"
+      },
+      "imagePath": "/gears/body/body-628.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
       "manualTags": []
     },
     {
@@ -32263,6 +35071,750 @@
         "color:white",
         "color:black"
       ],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-792",
+      "name": "マンダノナガグツ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "amiibo",
+        "brandName": "amiibo"
+      },
+      "imagePath": "/gears/shoes/shoes-792.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-793",
+      "name": "ワールドMCブーツ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "amiibo",
+        "brandName": "amiibo"
+      },
+      "imagePath": "/gears/shoes/shoes-793.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-794",
+      "name": "ワールドDJブーティー",
+      "category": "shoes",
+      "brand": {
+        "brandId": "amiibo",
+        "brandName": "amiibo"
+      },
+      "imagePath": "/gears/shoes/shoes-794.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-795",
+      "name": "チギリノヒモ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/shoes/shoes-795.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-796",
+      "name": "バンカラコロン",
+      "category": "shoes",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/shoes/shoes-796.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-797",
+      "name": "ノックアウトシューズ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "クマサン商会",
+        "brandName": "クマサン商会"
+      },
+      "imagePath": "/gears/shoes/shoes-797.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-798",
+      "name": "ノーリーチャッカ ヒメイト",
+      "category": "shoes",
+      "brand": {
+        "brandId": "エゾッコ",
+        "brandName": "エゾッコ"
+      },
+      "imagePath": "/gears/shoes/shoes-798.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-799",
+      "name": "エギング4 ヒメキン",
+      "category": "shoes",
+      "brand": {
+        "brandId": "エンペリー",
+        "brandName": "エンペリー"
+      },
+      "imagePath": "/gears/shoes/shoes-799.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-800",
+      "name": "ロッキンクラウン",
+      "category": "shoes",
+      "brand": {
+        "brandId": "ロッケンベルグ",
+        "brandName": "ロッケンベルグ"
+      },
+      "imagePath": "/gears/shoes/shoes-800.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-801",
+      "name": "アカツキアローズ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "ヤコ",
+        "brandName": "ヤコ"
+      },
+      "imagePath": "/gears/shoes/shoes-801.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-802",
+      "name": "ノーリーチャッカ イイダチ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "エゾッコ",
+        "brandName": "エゾッコ"
+      },
+      "imagePath": "/gears/shoes/shoes-802.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-803",
+      "name": "エギング4 イイマリ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "エンペリー",
+        "brandName": "エンペリー"
+      },
+      "imagePath": "/gears/shoes/shoes-803.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-804",
+      "name": "パワーストリップ トルーパー",
+      "category": "shoes",
+      "brand": {
+        "brandId": "ヤコ",
+        "brandName": "ヤコ"
+      },
+      "imagePath": "/gears/shoes/shoes-804.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-805",
+      "name": "ミッドナイトスリッポン",
+      "category": "shoes",
+      "brand": {
+        "brandId": "クラーゲス",
+        "brandName": "クラーゲス"
+      },
+      "imagePath": "/gears/shoes/shoes-805.png",
+      "dominantColor": "#f8f8f8",
+      "palette": [
+        {
+          "color": "#f8f8f8",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-806",
+      "name": "サンモンヨウダックブーツ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "バラズシ",
+        "brandName": "バラズシ"
+      },
+      "imagePath": "/gears/shoes/shoes-806.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-807",
+      "name": "サンモンヨウキャンバスHi",
+      "category": "shoes",
+      "brand": {
+        "brandId": "クラーゲス",
+        "brandName": "クラーゲス"
+      },
+      "imagePath": "/gears/shoes/shoes-807.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-808",
+      "name": "サンモンヨウシャワサン",
+      "category": "shoes",
+      "brand": {
+        "brandId": "エゾッコリー",
+        "brandName": "エゾッコリー"
+      },
+      "imagePath": "/gears/shoes/shoes-808.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-809",
+      "name": "シーホースビットローファー",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アナアキ",
+        "brandName": "アナアキ"
+      },
+      "imagePath": "/gears/shoes/shoes-809.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-810",
+      "name": "ケタコゾネスブーツ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-810.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-812",
+      "name": "サバイバルフット",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-812.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-813",
+      "name": "ヒーローブーツLv1",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-813.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-814",
+      "name": "ヒーローブーツLv2",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-814.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-815",
+      "name": "ヒーローブーツLv3",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-815.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-816",
+      "name": "ヒーローブーツST",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-816.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-817",
+      "name": "サバイバルフット レプリカ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-817.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-818",
+      "name": "でんせつのゾーリ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-818.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-819",
+      "name": "コマンダーゾーリ レプリカ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アタリメイド",
+        "brandName": "アタリメイド"
+      },
+      "imagePath": "/gears/shoes/shoes-819.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-820",
+      "name": "イカニラミサボ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "クラーゲス",
+        "brandName": "クラーゲス"
+      },
+      "imagePath": "/gears/shoes/shoes-820.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-821",
+      "name": "ホネナラベサボ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "クラーゲス",
+        "brandName": "クラーゲス"
+      },
+      "imagePath": "/gears/shoes/shoes-821.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-823",
+      "name": "クラゲイターMIZ",
+      "category": "shoes",
+      "brand": {
+        "brandId": "シグレニ",
+        "brandName": "シグレニ"
+      },
+      "imagePath": "/gears/shoes/shoes-823.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
+      "autoTags": [],
+      "manualTags": []
+    },
+    {
+      "id": "shoes-824",
+      "name": "LT90-3",
+      "category": "shoes",
+      "brand": {
+        "brandId": "アイロニック",
+        "brandName": "アイロニック"
+      },
+      "imagePath": "/gears/shoes/shoes-824.png",
+      "dominantColor": "#080808",
+      "palette": [
+        {
+          "color": "#080808",
+          "ratio": 0.8
+        },
+        {
+          "color": "#FFFFFF",
+          "ratio": 0.2
+        }
+      ],
+      "tags": [],
       "autoTags": [],
       "manualTags": []
     }

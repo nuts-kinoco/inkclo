@@ -16,7 +16,7 @@ export function GearCard({ gear, onClick, selected }: GearCardProps) {
       onClick={() => onClick?.(gear)}
       className={`
         relative flex flex-col items-center p-3 rounded-xl border-2 transition-all cursor-pointer group
-        ${selected ? 'border-blue-500 bg-blue-50' : 'border-gray-100 bg-white hover:border-gray-300'}
+        ${selected ? 'border-blue-500 bg-blue-50 dark:bg-blue-900/30' : 'border-gray-100 bg-white dark:bg-slate-800 dark:border-slate-700 hover:border-gray-300 dark:hover:border-slate-600'}
       `}
     >
       <button
@@ -38,12 +38,12 @@ export function GearCard({ gear, onClick, selected }: GearCardProps) {
             className="object-contain w-full h-full"
           />
         ) : (
-          <div className="w-full h-full bg-gray-200 rounded-lg" />
+          <div className="w-full h-full bg-gray-200 dark:bg-slate-700 rounded-lg" />
         )}
       </div>
       <div className="text-center w-full">
-        <p className="text-xs text-gray-500 truncate">{gear.brand.brandName}</p>
-        <p className="text-sm font-bold text-gray-800 line-clamp-2 leading-tight">
+        <p className="text-xs text-gray-500 dark:text-slate-400 truncate">{gear.brand.brandName}</p>
+        <p className="text-sm font-bold text-gray-800 dark:text-slate-200 line-clamp-2 leading-tight">
           {gear.name}
         </p>
       </div>
@@ -53,7 +53,7 @@ export function GearCard({ gear, onClick, selected }: GearCardProps) {
         {gear.palette.map((p, i) => (
           <div
             key={i}
-            className="w-3 h-3 rounded-full border border-gray-200"
+            className="w-3 h-3 rounded-full border border-gray-200 dark:border-slate-600"
             style={{ backgroundColor: p.color }}
             title={`${Math.round(p.ratio * 100)}%`}
           />
