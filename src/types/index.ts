@@ -25,6 +25,7 @@ export interface Coordinate {
   headId?: string;
   bodyId?: string;
   shoesId?: string;
+  name?: string;
 }
 
 export interface CoordinatePreset {
