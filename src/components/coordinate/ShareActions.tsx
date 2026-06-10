@@ -36,11 +36,7 @@ export function ShareActions({ coordinate, previewRef }: ShareActionsProps) {
     try {
       const dataUrl = await toPng(previewRef.current, { 
         cacheBust: true, 
-        backgroundColor: '#ffffff',
-        style: {
-          padding: '24px',
-          borderRadius: '16px'
-        }
+        backgroundColor: '#ffffff'
       });
       const link = document.createElement('a');
       link.download = 'inclo-coordinate.png';

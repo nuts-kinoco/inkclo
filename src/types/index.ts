@@ -16,6 +16,8 @@ export interface Gear {
   imagePath: string;
   dominantColor: string;
   palette: ColorProfile[];
+  autoTags?: string[];
+  manualTags?: string[];
   tags?: string[];
 }
 
@@ -39,4 +41,25 @@ export interface CoordinatePayload {
   b?: string;
   s?: string;
   t?: string; // title (optional)
+}
+
+export interface RecommendationGroup {
+  id: string;
+  title: string;
+  description: string;
+  icon?: string;
+  priority?: number;
+  type: string;
+  items: Gear[];
+}
+
+export interface RecommendationContext {
+  baseColor: string;
+  targetCategory: GearCategory;
+  allGears: Gear[];
+  coordinate: Record<string, string | null>;
+}
+
+export interface RecommendationStrategy {
+  generate: (context: RecommendationContext) => RecommendationGroup | null;
 }

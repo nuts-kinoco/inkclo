@@ -1,0 +1,104 @@
+{
+  "brands": [
+    {
+      "id": "バトロイカ",
+      "name": "バトロイカ",
+      "imagePath": "/brands/バトロイカ.png"
+    },
+    {
+      "id": "アイロニック",
+      "name": "アイロニック",
+      "imagePath": "/brands/アイロニック.png"
+    },
+    {
+      "id": "クラーゲス",
+      "name": "クラーゲス",
+      "imagePath": "/brands/クラーゲス.png"
+    },
+    {
+      "id": "ロッケンベルグ",
+      "name": "ロッケンベルグ",
+      "imagePath": "/brands/ロッケンベルグ.png"
+    },
+    {
+      "id": "エゾッコ",
+      "name": "エゾッコ",
+      "imagePath": "/brands/エゾッコ.png"
+    },
+    {
+      "id": "フォーリマ",
+      "name": "フォーリマ",
+      "imagePath": "/brands/フォーリマ.png"
+    },
+    {
+      "id": "ホッコリー",
+      "name": "ホッコリー",
+      "imagePath": "/brands/ホッコリー.png"
+    },
+    {
+      "id": "ホタックス",
+      "name": "ホタックス",
+      "imagePath": "/brands/ホタックス.png"
+    },
+    {
+      "id": "ジモン",
+      "name": "ジモン",
+      "imagePath": "/brands/ジモン.png"
+    },
+    {
+      "id": "シグレニ",
+      "name": "シグレニ",
+      "imagePath": "/brands/シグレニ.png"
+    },
+    {
+      "id": "アロメ",
+      "name": "アロメ",
+      "imagePath": "/brands/アロメ.png"
+    },
+    {
+      "id": "ヤコ",
+      "name": "ヤコ",
+      "imagePath": "/brands/ヤコ.png"
+    },
+    {
+      "id": "アナアキ",
+      "name": "アナアキ",
+      "imagePath": "/brands/アナアキ.png"
+    },
+    {
+      "id": "エンペリー",
+      "name": "エンペリー",
+      "imagePath": "/brands/エンペリー.png"
+    },
+    {
+      "id": "タタキケンサキ",
+      "name": "タタキケンサキ",
+      "imagePath": "/brands/タタキケンサキ.png"
+    },
+    {
+      "id": "エゾッコリー",
+      "name": "エゾッコリー",
+      "imagePath": "/brands/エゾッコリー.png"
+    },
+    {
+      "id": "バラズシ",
+      "name": "バラズシ",
+      "imagePath": "/brands/バラズシ.png"
+    },
+    {
+      "id": "シチリン",
+      "name": "シチリン",
+      "imagePath": "/brands/シチリン.png"
+    },
+    {
+      "id": "クマサン商会",
+      "name": "クマサン商会",
+      "imagePath": "/brands/クマサン商会.png"
+    },
+    {
+      "id": "アタリメイド",
+      "name": "アタリメイド",
+      "imagePath": "/brands/アタリメイド.png"
+    }
+  ]
+}

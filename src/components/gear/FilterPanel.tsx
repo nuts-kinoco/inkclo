@@ -1,5 +1,5 @@
 import { Search } from 'lucide-react';
-import gearsData from '@/lib/data/gears.json';
+import gearsData from '@/lib/data/gears';
 
 // Predefined basic colors for filtering (acts as tags)
 const COLOR_TAGS = [

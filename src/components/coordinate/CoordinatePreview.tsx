@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 import { Coordinate, GearCategory } from '@/types';
-import gearsData from '@/lib/data/gears.json';
+import gearsData from '@/lib/data/gears';
 
 interface CoordinatePreviewProps {
   coordinate: Coordinate;

@@ -7,7 +7,7 @@ import { FilterPanel, FilterState } from '@/components/gear/FilterPanel';
 import { CoordinatePreview } from '@/components/coordinate/CoordinatePreview';
 import { ShareActions } from '@/components/coordinate/ShareActions';
 import { GearDetailModal } from '@/components/gear/GearDetailModal';
-import gearsData from '@/lib/data/gears.json';
+import gearsData from '@/lib/data/gears';
 import { GearCategory, Gear } from '@/types';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 import { deltaE } from '@/lib/colorUtils';

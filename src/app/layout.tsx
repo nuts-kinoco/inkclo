@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,20 +29,37 @@ export default function RootLayout({
   return (
     <html lang="ja" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 text-gray-900 min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 font-medium min-h-screen flex flex-col transition-colors duration-300`}
       >
-        <header className="fixed top-0 left-0 right-0 h-[60px] bg-white border-b border-gray-200 z-50 flex items-center px-6">
-          <Link href="/" className="font-black text-2xl tracking-tighter hover:opacity-80 transition-opacity">
-            INKCLO
-          </Link>
-          <nav className="flex gap-4 ml-8">
-            <a href="/create" className="text-sm font-bold text-gray-600 hover:text-black">Builder</a>
-            <a href="/favorites" className="text-sm font-bold text-gray-600 hover:text-black">Favorites</a>
-          </nav>
-        </header>
-        <main className="flex-1 flex flex-col relative mt-[60px]">
-          {children}
-        </main>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <header className="fixed top-0 left-0 right-0 h-[60px] bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 z-50 flex items-center px-6 transition-colors duration-300">
+            <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+              <Image src="/logo.png" alt="INKCLO Logo" width={32} height={32} className="rounded" />
+              <span className="font-black text-2xl tracking-tighter">INKCLO</span>
+            </Link>
+            <nav className="flex gap-4 ml-8">
+              <a href="/create" className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white">Builder</a>
+              <a href="/favorites" className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white">Favorites</a>
+            </nav>
+            <div className="ml-auto">
+              <ThemeToggle />
+            </div>
+          </header>
+          <main className="flex-1 flex flex-col relative mt-[60px]">
+            {children}
+          </main>
+          <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400 bg-gray-50 dark:bg-gray-950 border-t border-gray-200 dark:border-gray-800 transition-colors duration-300">
+            Powered by{' '}
+            <a 
+              href="https://x.com/natsukino_co" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="font-bold hover:text-black dark:hover:text-white transition-colors"
+            >
+              なつきのこ (@natsukino_co)
+            </a>
+          </footer>
+        </ThemeProvider>
       </body>
     </html>
   );
