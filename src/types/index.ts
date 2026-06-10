@@ -59,6 +59,7 @@ export interface RecommendationContext {
   targetCategory: GearCategory;
   allGears: Gear[];
   coordinate: Record<string, string | null>;
+  shuffleSalt?: number;
 }
 
 export interface RecommendationStrategy {

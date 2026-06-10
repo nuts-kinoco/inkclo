@@ -11,16 +11,18 @@ import { useState } from 'react';
 
 interface CoordinateAssistantProps {
   activeCategoryTab: GearCategory;
-  onShuffle?: () => void;
 }
 
-export function CoordinateAssistant({ activeCategoryTab, onShuffle }: CoordinateAssistantProps) {
+export function CoordinateAssistant({ activeCategoryTab }: CoordinateAssistantProps) {
   const { coordinate, setGear } = useBuilderStore();
   const allGears = gearsData.gears as Gear[];
   const [page, setPage] = useState(0);
+  const [shuffleSalt, setShuffleSalt] = useState(0);
 
+  // 装備中ギアやカテゴリタブが変わった際は、シャッフルとページを初期状態にリセット
   React.useEffect(() => {
     setPage(0);
+    setShuffleSalt(0);
   }, [coordinate, activeCategoryTab]);
 
   const { targetCategory, groups } = useMemo(() => {
@@ -53,14 +55,15 @@ export function CoordinateAssistant({ activeCategoryTab, onShuffle }: Coordinate
         headId: coordinate.headId || null,
         bodyId: coordinate.bodyId || null,
         shoesId: coordinate.shoesId || null
-      }
+      },
+      shuffleSalt
     });
 
     return {
       targetCategory: target,
       groups: generatedGroups
     };
-  }, [coordinate, activeCategoryTab, allGears]);
+  }, [coordinate, activeCategoryTab, allGears, shuffleSalt]);
 
   if (!groups || groups.length === 0) return null;
 
@@ -74,6 +77,10 @@ export function CoordinateAssistant({ activeCategoryTab, onShuffle }: Coordinate
   const totalPages = Math.ceil(groups.length / ITEMS_PER_PAGE);
   const visibleGroups = groups.slice(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE);
 
+  const handleShuffleClick = () => {
+    setShuffleSalt(prev => prev + 1);
+  };
+
   return (
     <div className="w-full mt-6 mb-6 bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-blue-100 dark:border-slate-700 overflow-hidden flex flex-col relative">
       <div className="absolute top-0 left-0 w-1 h-full bg-blue-500" />
@@ -84,15 +91,13 @@ export function CoordinateAssistant({ activeCategoryTab, onShuffle }: Coordinate
         <span className="ml-auto text-xs font-bold text-gray-400 bg-gray-100 px-2 py-1 rounded-md dark:bg-slate-700 dark:text-gray-300">
           Target: {targetCategory === 'head' ? 'アタマ' : targetCategory === 'body' ? 'フク' : 'クツ'}
         </span>
-        {onShuffle && (
-          <button
-            onClick={onShuffle}
-            className="flex items-center gap-1 ml-2 px-3 py-1.5 bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800 rounded-lg text-xs font-bold transition-colors"
-          >
-            <Dices size={14} />
-            シャッフル
-          </button>
-        )}
+        <button
+          onClick={handleShuffleClick}
+          className="flex items-center gap-1 ml-2 px-3 py-1.5 bg-blue-100 text-blue-700 dark:bg-blue-900/50 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800 rounded-lg text-xs font-bold transition-colors"
+        >
+          <Dices size={14} />
+          シャッフル
+        </button>
         {totalPages > 1 && (
           <div className="flex items-center gap-1 ml-2">
             <button 

@@ -16,7 +16,21 @@ function getCandidates(hexColors: string[], context: RecommendationContext): Gea
 
   // Sort by distance and take top 40 as candidates
   scored.sort((a, b) => a.dist - b.dist);
-  return scored.slice(0, 40).map(x => x.gear);
+
+  let candidates;
+  if (context.shuffleSalt && context.shuffleSalt > 0) {
+    // 距離が比較的近い上位60件のプールから、ランダムに40件を抽出して多様性を生み出す
+    const pool = scored.slice(0, 60);
+    candidates = pool
+      .map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value)
+      .slice(0, 40);
+  } else {
+    candidates = scored.slice(0, 40);
+  }
+
+  return candidates.map(x => x.gear);
 }
 
 export const MonotoneStrategy: RecommendationStrategy = {

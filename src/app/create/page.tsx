@@ -100,51 +100,6 @@ export default function CreatePage() {
     return result;
   }, [allFilteredGears, activeCategory, filter.customColor, filter.sortBy]);
 
-  const handleShuffle = () => {
-    // 現在のフィルター条件に合うギア
-    let heads = allFilteredGears.filter(g => g.category === 'head');
-    let bodies = allFilteredGears.filter(g => g.category === 'body');
-    let shoes = allFilteredGears.filter(g => g.category === 'shoes');
-
-    // 検索テキスト等で他のカテゴリが0件になる場合、ブランド/カラーフィルター以外の「検索文字列」を無視してフォールバック
-    const getFallbackGears = (cat: GearCategory) => {
-      let temp = gears.filter(g => g.category === cat);
-      if (filter.brands.length > 0) {
-        temp = temp.filter(g => filter.brands.includes(g.brand.brandId));
-      }
-      if (filter.customColor) {
-        const customHex = filter.customColor;
-        temp = temp.filter(g => {
-          if (!g.palette || g.palette.length === 0) return false;
-          const minDist = Math.min(...g.palette.map(p => deltaE(customHex, p.color)));
-          return minDist < 40;
-        });
-      }
-      return temp;
-    };
-
-    if (heads.length === 0) heads = getFallbackGears('head');
-    if (bodies.length === 0) bodies = getFallbackGears('body');
-    if (shoes.length === 0) shoes = getFallbackGears('shoes');
-
-    // それでも0件の場合は、カテゴリ全件からランダムに選択（最終セーフティ）
-    const finalHeads = heads.length > 0 ? heads : gears.filter(g => g.category === 'head');
-    const finalBodies = bodies.length > 0 ? bodies : gears.filter(g => g.category === 'body');
-    const finalShoes = shoes.length > 0 ? shoes : gears.filter(g => g.category === 'shoes');
-
-    if (finalHeads.length > 0) {
-      const h = finalHeads[Math.floor(Math.random() * finalHeads.length)];
-      setGear('head', h.id);
-    }
-    if (finalBodies.length > 0) {
-      const b = finalBodies[Math.floor(Math.random() * finalBodies.length)];
-      setGear('body', b.id);
-    }
-    if (finalShoes.length > 0) {
-      const s = finalShoes[Math.floor(Math.random() * finalShoes.length)];
-      setGear('shoes', s.id);
-    }
-  };
 
   return (
     <div className="min-h-screen flex flex-col md:flex-row pb-[200px] md:pb-0">
@@ -187,7 +142,7 @@ export default function CreatePage() {
           ))}
         </div>
         
-        <CoordinateAssistant activeCategoryTab={activeCategory} onShuffle={handleShuffle} />
+        <CoordinateAssistant activeCategoryTab={activeCategory} />
 
         <FilterPanel 
           filter={filter}
