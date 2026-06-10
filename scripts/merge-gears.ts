@@ -38,7 +38,7 @@ async function fetchLanguageData() {
   return res.data;
 }
 
-// 画像をダウンロードし、ドミナントカラーを計算する
+// 画像をダウンロードし、透過背景を無視してドミナントカラーとパレットを計算する
 async function downloadAndProcessImage(internalId: string, category: string, gearId: string): Promise<{ ok: boolean, dominantColor: string, palette: any[] }> {
   const url = `https://raw.githubusercontent.com/Leanny/splat3/main/images/gear/${internalId}.png`;
   const catDir = path.join(OUT_DIR, category);
@@ -59,19 +59,68 @@ async function downloadAndProcessImage(internalId: string, category: string, gea
     // sharp を使って保存
     await sharp(buffer).png().toFile(localFile);
 
-    // ドミナントカラーの簡易抽出
-    const { dominant } = await sharp(buffer).stats();
-    const hex = '#' + [dominant.r, dominant.g, dominant.b].map(x => {
-      const hexVal = Math.round(x).toString(16);
-      return hexVal.length === 1 ? '0' + hexVal : hexVal;
-    }).join('');
+    // 透過背景を無視したバケッティングによるカラー抽出
+    const { data } = await sharp(buffer)
+      .raw()
+      .toBuffer({ resolveWithObject: true });
 
-    const palette = [
-      { color: hex, ratio: 0.8 },
-      { color: '#FFFFFF', ratio: 0.2 }
-    ];
+    const colorBuckets: Record<string, { rSum: number, gSum: number, bSum: number, count: number }> = {};
 
-    return { ok: true, dominantColor: hex, palette };
+    for (let i = 0; i < data.length; i += 4) {
+      const r = data[i];
+      const g = data[i + 1];
+      const b = data[i + 2];
+      const a = data[i + 3];
+
+      if (a > 150) {
+        const qR = Math.round(r / 24) * 24;
+        const qG = Math.round(g / 24) * 24;
+        const qB = Math.round(b / 24) * 24;
+        const key = `${qR},${qG},${qB}`;
+
+        if (!colorBuckets[key]) {
+          colorBuckets[key] = { rSum: 0, gSum: 0, bSum: 0, count: 0 };
+        }
+        colorBuckets[key].rSum += r;
+        colorBuckets[key].gSum += g;
+        colorBuckets[key].bSum += b;
+        colorBuckets[key].count++;
+      }
+    }
+
+    const rgbToHexStr = (r: number, g: number, b: number) => {
+      return '#' + [r, g, b].map(x => {
+        const h = x.toString(16);
+        return h.length === 1 ? '0' + h : h;
+      }).join('').toUpperCase();
+    };
+
+    const sortedBuckets = Object.values(colorBuckets)
+      .map(b => {
+        const avgR = Math.round(b.rSum / b.count);
+        const avgG = Math.round(b.gSum / b.count);
+        const avgB = Math.round(b.bSum / b.count);
+        return { hex: rgbToHexStr(avgR, avgG, avgB), count: b.count };
+      })
+      .sort((a, b) => b.count - a.count);
+
+    const palette: { color: string, ratio: number }[] = [];
+    const totalValidPixels = sortedBuckets.reduce((sum, b) => sum + b.count, 0);
+
+    for (const bucket of sortedBuckets) {
+      if (palette.length >= 5) break;
+
+      const isTooClose = palette.some(p => deltaE(bucket.hex, p.color) < 25);
+      if (!isTooClose) {
+        palette.push({
+          color: bucket.hex,
+          ratio: parseFloat((bucket.count / totalValidPixels).toFixed(2))
+        });
+      }
+    }
+
+    const dominantColor = palette[0]?.color || '#FFFFFF';
+    return { ok: true, dominantColor, palette };
   } catch (error) {
     return { ok: false, dominantColor: '#FFFFFF', palette: [] };
   }
