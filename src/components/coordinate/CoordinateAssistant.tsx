@@ -18,6 +18,10 @@ export function CoordinateAssistant({ activeCategoryTab }: CoordinateAssistantPr
   const allGears = gearsData.gears as Gear[];
   const [page, setPage] = useState(0);
 
+  React.useEffect(() => {
+    setPage(0);
+  }, [coordinate, activeCategoryTab]);
+
   const { targetCategory, groups } = useMemo(() => {
     // Determine target category
     let target: GearCategory = activeCategoryTab;

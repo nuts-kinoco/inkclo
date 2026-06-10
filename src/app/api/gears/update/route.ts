@@ -32,7 +32,7 @@ export async function POST(req: Request) {
 
     for (const update of updates) {
       if (gearsMap.has(update.id)) {
-        const gear = gearsMap.get(update.id);
+        const gear: any = gearsMap.get(update.id);
         gear.manualTags = update.manualTags;
         updatedCount++;
       }
