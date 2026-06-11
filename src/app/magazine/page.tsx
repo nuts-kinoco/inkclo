@@ -1,8 +1,22 @@
 import Link from 'next/link';
+import { Inter, Noto_Sans_JP } from "next/font/google";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const notoSansJP = Noto_Sans_JP({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-noto-sans",
+  display: "swap",
+});
 
 export default function MagazinePage() {
   return (
-    <div className="min-h-screen bg-stone-50 dark:bg-gray-950 pb-20 text-slate-800 dark:text-slate-200 pt-6 transition-colors duration-300">
+    <div className={`${inter.variable} ${notoSansJP.variable} font-sans min-h-screen bg-stone-50 dark:bg-gray-950 pb-20 text-slate-800 dark:text-slate-200 pt-6 transition-colors duration-300`} style={{ fontFamily: 'var(--font-inter), var(--font-noto-sans), sans-serif' }}>
       {/* Header Space */}
       <div className="max-w-4xl mx-auto px-4">
 
@@ -32,10 +46,10 @@ export default function MagazinePage() {
               />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
-              <span className="text-pink-500 dark:text-pink-400 font-black tracking-widest text-sm mb-2">SNAP 01</span>
-              <h2 className="text-2xl md:text-3xl font-black mb-4 text-slate-900 dark:text-white">スライドで刻む、最前線の切り込み隊長</h2>
-              <div className="w-12 h-1 bg-pink-300 dark:bg-pink-400 mb-6"></div>
-              <div className="space-y-4 text-stone-600 dark:text-stone-300 leading-relaxed text-sm md:text-base font-sans">
+              <span className="text-pink-500 dark:text-pink-400 font-medium tracking-[0.2em] text-xs mb-2">SNAP 01</span>
+              <h2 className="text-2xl md:text-3xl font-light tracking-tight mb-4 text-slate-900 dark:text-white">スライドで刻む、最前線の切り込み隊長</h2>
+              <div className="w-12 h-0.5 bg-pink-300 dark:bg-pink-400 mb-6"></div>
+              <div className="space-y-4 text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-light">
                 <p>
                   <strong>Weapon & Gear Synergy</strong><br />
                   <em className="text-pink-600 dark:text-pink-300">「クアッドホッパー × ストリートスポーティ」</em>
@@ -65,10 +79,10 @@ export default function MagazinePage() {
               />
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center">
-              <span className="text-blue-500 dark:text-blue-400 font-black tracking-widest text-sm mb-2">SNAP 02</span>
-              <h2 className="text-2xl md:text-3xl font-black mb-4 text-slate-900 dark:text-white">プールサイドに輝く笑顔</h2>
-              <div className="w-12 h-1 bg-blue-300 dark:bg-blue-400 mb-6"></div>
-              <div className="space-y-4 text-stone-600 dark:text-stone-300 leading-relaxed text-sm md:text-base font-sans">
+              <span className="text-blue-500 dark:text-blue-400 font-medium tracking-[0.2em] text-xs mb-2">SNAP 02</span>
+              <h2 className="text-2xl md:text-3xl font-light tracking-tight mb-4 text-slate-900 dark:text-white">プールサイドに輝く笑顔</h2>
+              <div className="w-12 h-0.5 bg-blue-300 dark:bg-blue-400 mb-6"></div>
+              <div className="space-y-4 text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-light">
                 <p>
                   <strong>Style & Environment Synergy</strong><br />
                   <em className="text-blue-600 dark:text-blue-300">「マヒマヒリゾート＆スパ × サマーリラックス」</em>
