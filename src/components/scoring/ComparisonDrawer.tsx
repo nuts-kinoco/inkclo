@@ -27,8 +27,13 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
   const currentBody = allGears.find(g => g.id === coordinate.bodyId);
   const currentShoes = allGears.find(g => g.id === coordinate.shoesId);
 
+  const currentScore = useMemo(() => {
+    if (!currentHead || !currentBody || !currentShoes) return null;
+    return scoreCoordinate(currentHead, currentBody, currentShoes, seasonOverride);
+  }, [currentHead, currentBody, currentShoes, seasonOverride]);
+
   const candidates: ComparisonCandidate[] = useMemo(() => {
-    if (!isReady || !comparisonCategory || !currentHead || !currentBody || !currentShoes) return [];
+    if (!isReady || !comparisonCategory || !currentHead || !currentBody || !currentShoes || !currentScore) return [];
 
     const currentGearId = coordinate[`${comparisonCategory}Id`];
     const categoryGears = allGears.filter(g => g.category === comparisonCategory && g.id !== currentGearId);
@@ -50,22 +55,25 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
     evaluated.sort((a, b) => b.score.totalScore - a.score.totalScore);
     const topCandidates = evaluated.slice(0, 4);
     
-    if (topCandidates.length > 0) {
+    // 候補の最高得点が現在の得点より高ければ、候補にBESTをつける
+    if (topCandidates.length > 0 && topCandidates[0].score.totalScore > currentScore.totalScore) {
       topCandidates[0].isBest = true;
     }
 
     return topCandidates;
-  }, [isReady, comparisonCategory, currentHead, currentBody, currentShoes, allGears, seasonOverride, coordinate]);
+  }, [isReady, comparisonCategory, currentHead, currentBody, currentShoes, allGears, seasonOverride, coordinate, currentScore]);
 
-  if (!isComparisonOpen || !isReady || !currentHead || !currentBody || !currentShoes) return null;
-
-  const currentScore = scoreCoordinate(currentHead, currentBody, currentShoes, seasonOverride);
+  if (!isComparisonOpen || !isReady || !currentHead || !currentBody || !currentShoes || !currentScore) return null;
 
   const renderCandidate = (c: ComparisonCandidate | null, isCurrent: boolean) => {
     const gear = isCurrent ? (comparisonCategory === 'head' ? currentHead : comparisonCategory === 'body' ? currentBody : currentShoes) : c?.gear;
     const score = isCurrent ? currentScore : c?.score;
 
     if (!gear || !score) return null;
+
+    // 現在のギアが最高得点かどうか判定
+    const isBestCurrent = isCurrent && (candidates.length === 0 || score.totalScore >= candidates[0].score.totalScore);
+    const isBest = isCurrent ? isBestCurrent : c?.isBest;
 
     return (
       <button 
@@ -74,14 +82,19 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
         disabled={isCurrent}
         className={`flex-shrink-0 w-36 bg-white rounded-xl border-2 p-3 flex flex-col gap-2 text-left relative transition-all ${
           isCurrent 
-            ? 'border-gray-900 bg-gray-50 cursor-default opacity-80' 
-            : c?.isBest 
+            ? (isBest ? 'border-amber-400 bg-amber-50/30 cursor-default' : 'border-gray-900 bg-gray-50 cursor-default opacity-80')
+            : isBest 
               ? 'border-amber-400 cursor-pointer hover:bg-amber-50 hover:-translate-y-1 hover:shadow-md' 
               : 'border-gray-200 cursor-pointer hover:border-gray-300 hover:bg-gray-50 hover:-translate-y-1 hover:shadow-md'
         }`}
       >
-        {c?.isBest && <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm whitespace-nowrap">★ BEST</div>}
-        {isCurrent && <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm whitespace-nowrap">現在</div>}
+        {!isCurrent && isBest && <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm whitespace-nowrap">★ BEST</div>}
+        {isCurrent && (
+          <div className={`absolute -top-3 left-1/2 -translate-x-1/2 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm whitespace-nowrap flex items-center ${isBest ? 'bg-amber-400' : 'bg-gray-900'}`}>
+            <span>現在</span>
+            {isBest && <span className="text-white border-l border-white/40 pl-1.5 ml-1.5">★ BEST</span>}
+          </div>
+        )}
         
         <div className="relative w-full">
           {/* eslint-disable-next-line @next/next/no-img-element */}
