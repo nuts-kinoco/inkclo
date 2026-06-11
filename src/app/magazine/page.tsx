@@ -97,6 +97,7 @@ export default function MagazinePage() {
                 </p>
               </div>
             </div>
+          </div>
         </section>
 
         {/* Feature Section: Snap 3 (INKLO_01) */}
