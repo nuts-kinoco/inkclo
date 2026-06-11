@@ -1,4 +1,3 @@
-import { Suspense } from 'react';
 import { CoordinatePreview } from '@/components/coordinate/CoordinatePreview';
 
 // Page requires searchParams which is an async API in Next.js 15

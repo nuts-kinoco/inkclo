@@ -40,6 +40,8 @@ export default function RootLayout({
             <nav className="flex gap-4 ml-8">
               <a href="/create" className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white">Builder</a>
               <a href="/favorites" className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white">Favorites</a>
+              {/* Temporarily added admin link for user convenience */}
+              <a href="/admin/tags" className="text-xs font-bold text-gray-300 dark:text-gray-700 hover:text-gray-400 dark:hover:text-gray-500 self-center ml-2">タグ管理(Admin)</a>
             </nav>
             <div className="ml-auto">
               <ThemeToggle />

@@ -56,7 +56,7 @@ export function FilterPanel({ filter, onChange }: FilterPanelProps) {
         
         <select
           value={filter.sortBy}
-          onChange={(e) => onChange({ ...filter, sortBy: e.target.value as any })}
+          onChange={(e) => onChange({ ...filter, sortBy: e.target.value as 'nameAsc' | 'nameDesc' })}
           className="border border-gray-300 rounded-lg px-4 py-2 text-sm focus:ring-2 focus:ring-blue-500 outline-none bg-white"
         >
           <option value="nameAsc">名前順 (A-Z)</option>

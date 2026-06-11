@@ -10,6 +10,14 @@ interface BuilderState {
   selectedGearForDetail: Gear | null;
   openGearDetail: (gear: Gear) => void;
   closeGearDetail: () => void;
+  
+  // Scoring state
+  seasonOverride: 'spring' | 'summer' | 'autumn' | 'winter' | null;
+  setSeasonOverride: (season: 'spring' | 'summer' | 'autumn' | 'winter' | null) => void;
+  isComparisonOpen: boolean;
+  setComparisonOpen: (open: boolean) => void;
+  comparisonCategory: GearCategory | null;
+  setComparisonCategory: (category: GearCategory | null) => void;
 }
 
 export const useBuilderStore = create<BuilderState>((set) => ({
@@ -32,4 +40,11 @@ export const useBuilderStore = create<BuilderState>((set) => ({
   selectedGearForDetail: null,
   openGearDetail: (gear) => set({ selectedGearForDetail: gear }),
   closeGearDetail: () => set({ selectedGearForDetail: null }),
+
+  seasonOverride: null,
+  setSeasonOverride: (season) => set({ seasonOverride: season }),
+  isComparisonOpen: false,
+  setComparisonOpen: (open) => set({ isComparisonOpen: open }),
+  comparisonCategory: null,
+  setComparisonCategory: (category) => set({ comparisonCategory: category }),
 }));

@@ -63,3 +63,48 @@ export interface RecommendationContext {
 export interface RecommendationStrategy {
   generate: (context: RecommendationContext) => RecommendationGroup | null;
 }
+
+// ─── Scoring ───
+export type Rank = 'X' | 'S+' | 'S' | 'A+' | 'A' | 'A-' | 'B+' | 'B' | 'B-' | 'C+' | 'C' | 'C-';
+
+export interface ScoreReason {
+  text: string;
+  sentiment: 'positive' | 'negative' | 'neutral';
+  impact: number;
+}
+
+export interface ScoreAxis {
+  value: number;
+  rank: Rank;
+  label: string;
+  icon: string;
+  reasons: ScoreReason[];
+}
+
+export interface CoordinateScore {
+  totalScore: number;
+  totalRank: Rank;
+  axes: {
+    color: ScoreAxis;
+    style: ScoreAxis;
+    season: ScoreAxis;
+    balance: ScoreAxis;
+  };
+  weights: ScoreWeights;
+  season: Season;
+}
+
+export interface ScoreWeights {
+  color: number;
+  style: number;
+  season: number;
+  balance: number;
+}
+
+export type Season = 'spring' | 'summer' | 'autumn' | 'winter';
+
+export interface ComparisonCandidate {
+  gear: Gear;
+  score: CoordinateScore;
+  isBest?: boolean;
+}

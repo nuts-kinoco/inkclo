@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useMemo } from 'react';
+import { useState, useRef, useMemo, useEffect } from 'react';
 import { useBuilderStore } from '@/store/builderStore';
 import { GearCard } from '@/components/gear/GearCard';
 import { FilterPanel, FilterState } from '@/components/gear/FilterPanel';
@@ -12,12 +12,17 @@ import gearsData from '@/lib/data/gears';
 import { GearCategory, Gear } from '@/types';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 import { deltaE } from '@/lib/colorUtils';
+import { ScorePanel } from '@/components/scoring/ScorePanel';
+import { ComparisonDrawer } from '@/components/scoring/ComparisonDrawer';
+import { SeasonSelector } from '@/components/scoring/SeasonSelector';
+import { scoreCoordinate } from '@/lib/scoring/engine';
 
 export default function CreatePage() {
-  const { coordinate, setGear, removeGear } = useBuilderStore();
+  const { coordinate, setGear, removeGear, seasonOverride, setComparisonOpen, setComparisonCategory } = useBuilderStore();
   const gears = gearsData.gears as Gear[];
   
   const previewRef = useRef<HTMLDivElement>(null);
+  const prevGearCountRef = useRef(0);
 
   // Category Tabs
   const [activeCategory, setActiveCategory] = useState<GearCategory>('head');
@@ -34,6 +39,31 @@ export default function CreatePage() {
 
   // Mobile sticky bar state
   const [isMobilePreviewOpen, setIsMobilePreviewOpen] = useState(false);
+
+  // Scoring
+  const currentHead = useMemo(() => gears.find(g => g.id === coordinate.headId), [coordinate.headId, gears]);
+  const currentBody = useMemo(() => gears.find(g => g.id === coordinate.bodyId), [coordinate.bodyId, gears]);
+  const currentShoes = useMemo(() => gears.find(g => g.id === coordinate.shoesId), [coordinate.shoesId, gears]);
+
+  const currentScore = useMemo(() => {
+    if (currentHead && currentBody && currentShoes) {
+      return scoreCoordinate(currentHead, currentBody, currentShoes, seasonOverride);
+    }
+    return null;
+  }, [currentHead, currentBody, currentShoes, seasonOverride]);
+
+  // Q2: Auto-open comparison
+  useEffect(() => {
+    const selectedCount = [coordinate.headId, coordinate.bodyId, coordinate.shoesId].filter(Boolean).length;
+    
+    if (selectedCount === 2 && prevGearCountRef.current < 2) {
+      const unselectedCategory = !coordinate.headId ? 'head' : !coordinate.bodyId ? 'body' : 'shoes';
+      setComparisonCategory(unselectedCategory);
+      setComparisonOpen(true);
+    }
+    
+    prevGearCountRef.current = selectedCount;
+  }, [coordinate, setComparisonOpen, setComparisonCategory]);
 
   // Filtered & Sorted Gears
   const filteredGears = useMemo(() => {
@@ -101,6 +131,9 @@ export default function CreatePage() {
           coordinate={coordinate}
           onRemoveGear={removeGear}
         />
+        <div className="w-full mt-4">
+          <ScorePanel score={currentScore} />
+        </div>
         <ShareActions 
           coordinate={coordinate} 
           previewRef={previewRef} 
@@ -131,6 +164,8 @@ export default function CreatePage() {
           ))}
         </div>
         
+        <SeasonSelector />
+
         <FilterPanel 
           filter={filter}
           onChange={setFilter}
@@ -180,6 +215,9 @@ export default function CreatePage() {
             coordinate={coordinate}
             onRemoveGear={removeGear}
           />
+          <div className="w-full mt-4">
+            <ScorePanel score={currentScore} />
+          </div>
           <ShareActions 
             coordinate={coordinate} 
             previewRef={previewRef} 
@@ -187,6 +225,7 @@ export default function CreatePage() {
         </div>
       </div>
 
+      <ComparisonDrawer allGears={gears} />
       <GearDetailModal />
     </div>
   );

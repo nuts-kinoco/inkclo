@@ -2,7 +2,7 @@ import rawGearsData from './gears.json';
 import { Gear } from '@/types';
 
 // Process raw gears to ensure tags are derived correctly
-export const gears: Gear[] = (rawGearsData.gears as any[]).map(gear => {
+export const gears: Gear[] = (rawGearsData.gears as Gear[]).map(gear => {
   const autoTags = gear.autoTags || [];
   const manualTags = gear.manualTags || [];
   
@@ -17,4 +17,5 @@ export const gears: Gear[] = (rawGearsData.gears as any[]).map(gear => {
   };
 });
 
-export default { gears };
+const defaultGears = { gears };
+export default defaultGears;

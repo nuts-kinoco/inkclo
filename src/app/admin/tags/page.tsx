@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import gearsData from '@/lib/data/gears';
 import { Gear } from '@/types';
-import { Search, Save, Check, ArrowRight, ArrowLeft, Layers } from 'lucide-react';
+import { Search, ArrowRight, ArrowLeft, Layers } from 'lucide-react';
 
 const TAG_CANDIDATES = [
   { id: 'sporty', label: 'sporty', key: '1' },
@@ -212,7 +212,7 @@ export default function AdminTagsPage() {
             <label className="text-xs font-bold text-gray-500 mb-1 block">Status</label>
             <select 
               value={tagStatusFilter} 
-              onChange={e => setTagStatusFilter(e.target.value as any)}
+              onChange={e => setTagStatusFilter(e.target.value as 'all' | 'tagged' | 'untagged')}
               className="w-full p-1.5 border border-gray-300 rounded-md text-sm"
             >
               <option value="all">All</option>

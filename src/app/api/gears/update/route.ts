@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { Gear } from '@/types';
 import fs from 'fs';
 import path from 'path';
 
@@ -28,11 +29,11 @@ export async function POST(req: Request) {
 
     // Update the gears
     let updatedCount = 0;
-    const gearsMap = new Map(currentData.gears.map((g: any) => [g.id, g]));
+    const gearsMap = new Map(currentData.gears.map((g: Gear) => [g.id, g]));
 
     for (const update of updates) {
       if (gearsMap.has(update.id)) {
-        const gear: any = gearsMap.get(update.id);
+        const gear = gearsMap.get(update.id) as Gear;
         gear.manualTags = update.manualTags;
         updatedCount++;
       }
