@@ -1,17 +1,6 @@
 {
   "weapons": [
     {
-      "id": "weapon-000",
-      "name": "ブラスター",
-      "weaponClass": "blaster",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-000.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-001",
       "name": "Rブラスターエリート",
       "weaponClass": "blaster",
@@ -108,17 +97,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-004",
-      "name": "Rブラスターエリート",
-      "weaponClass": "blaster",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-004.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-005",
       "name": "クラッシュブラスター",
       "weaponClass": "blaster",
@@ -178,38 +156,6 @@
         {
           "color": "#BABCB6",
           "ratio": 0.1
-        }
-      ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-007",
-      "name": "クラッシュブラスター",
-      "weaponClass": "blaster",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-007.png",
-      "dominantColor": "#7A7770",
-      "palette": [
-        {
-          "color": "#7A7770",
-          "ratio": 0.33
-        },
-        {
-          "color": "#642A2D",
-          "ratio": 0.26
-        },
-        {
-          "color": "#B2B0A6",
-          "ratio": 0.19
-        },
-        {
-          "color": "#34302E",
-          "ratio": 0.19
-        },
-        {
-          "color": "#2C81B1",
-          "ratio": 0.03
         }
       ],
       "styleTags": []
@@ -279,38 +225,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-010",
-      "name": "ラピッドブラスター",
-      "weaponClass": "blaster",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-010.png",
-      "dominantColor": "#951B3B",
-      "palette": [
-        {
-          "color": "#951B3B",
-          "ratio": 0.36
-        },
-        {
-          "color": "#706B63",
-          "ratio": 0.29
-        },
-        {
-          "color": "#272222",
-          "ratio": 0.14
-        },
-        {
-          "color": "#F1951E",
-          "ratio": 0.11
-        },
-        {
-          "color": "#BAB5A2",
-          "ratio": 0.1
-        }
-      ],
-      "styleTags": []
-    },
-    {
       "id": "weapon-011",
       "name": "ロングブラスター",
       "weaponClass": "blaster",
@@ -372,17 +286,6 @@
           "ratio": 0.06
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-013",
-      "name": "ロングブラスター",
-      "weaponClass": "blaster",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-013.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -479,17 +382,6 @@
           "ratio": 0.01
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-017",
-      "name": "ホットブラスター",
-      "weaponClass": "blaster",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-017.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -618,17 +510,6 @@
           "ratio": 0.01
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-022",
-      "name": "ノヴァブラスター",
-      "weaponClass": "blaster",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-022.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -824,17 +705,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-029",
-      "name": "パブロ",
-      "weaponClass": "brush",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-029.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-030",
       "name": "ホクサイ",
       "weaponClass": "brush",
@@ -931,17 +801,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-033",
-      "name": "ホクサイ",
-      "weaponClass": "brush",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-033.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-034",
       "name": "オーダーブラシ レプリカ",
       "weaponClass": "brush",
@@ -971,28 +830,6 @@
           "ratio": 0.12
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-035",
-      "name": "フデ",
-      "weaponClass": "brush",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-035.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-036",
-      "name": "チャージャー",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-036.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -1060,17 +897,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-039",
-      "name": "ソイチューバー",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-039.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-040",
       "name": "14式竹筒銃・甲",
       "weaponClass": "charger",
@@ -1132,17 +958,6 @@
           "ratio": 0.02
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-042",
-      "name": "14式竹筒銃・甲",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-042.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -1210,17 +1025,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-045",
-      "name": "4Kスコープ",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-045.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-046",
       "name": "リッター4K",
       "weaponClass": "charger",
@@ -1253,17 +1057,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-047",
-      "name": "リッター4Kamiibo",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-047.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-048",
       "name": "リッター4Kカスタム",
       "weaponClass": "charger",
@@ -1293,17 +1086,6 @@
           "ratio": 0.12
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-049",
-      "name": "リッター4K",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-049.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -1403,17 +1185,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-053",
-      "name": "スプラスコープ",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-053.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-054",
       "name": "スプラチャージャー",
       "weaponClass": "charger",
@@ -1507,17 +1278,6 @@
           "ratio": 0.06
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-057",
-      "name": "スプラチャージャー",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-057.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -1681,28 +1441,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-063",
-      "name": "スクイックリンα",
-      "weaponClass": "charger",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-063.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-064",
-      "name": "-",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-064.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-065",
       "name": "デュアルスイーパー",
       "weaponClass": "dualies",
@@ -1799,17 +1537,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-068",
-      "name": "デュアルスイーパー",
-      "weaponClass": "dualies",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-068.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-069",
       "name": "ケルビン525",
       "weaponClass": "dualies",
@@ -1871,17 +1598,6 @@
           "ratio": 0.03
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-071",
-      "name": "ケルビン525",
-      "weaponClass": "dualies",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-071.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -2045,17 +1761,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-077",
-      "name": "スプラマニューバー",
-      "weaponClass": "dualies",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-077.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-078",
       "name": "オーダーマニューバー レプリカ",
       "weaponClass": "dualies",
@@ -2085,17 +1790,6 @@
           "ratio": 0.12
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-079",
-      "name": "マニューバー",
-      "weaponClass": "dualies",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-079.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -2195,17 +1889,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-083",
-      "name": "スパッタリー",
-      "weaponClass": "dualies",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-083.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-084",
       "name": "クアッドホッパーブラック",
       "weaponClass": "dualies",
@@ -2267,17 +1950,6 @@
           "ratio": 0.14
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-086",
-      "name": "クアッドホッパーブラック",
-      "weaponClass": "dualies",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-086.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -2377,17 +2049,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-090",
-      "name": "カーボンローラー",
-      "weaponClass": "roller",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-090.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-091",
       "name": "ダイナモローラー",
       "weaponClass": "roller",
@@ -2484,17 +2145,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-094",
-      "name": "ダイナモローラー",
-      "weaponClass": "roller",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-094.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-095",
       "name": "ヴァリアブルローラー",
       "weaponClass": "roller",
@@ -2556,17 +2206,6 @@
           "ratio": 0.04
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-097",
-      "name": "ヴァリアブルローラー",
-      "weaponClass": "roller",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-097.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -2634,17 +2273,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-100",
-      "name": "スプラローラー",
-      "weaponClass": "roller",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-100.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-101",
       "name": "オーダーローラー レプリカ",
       "weaponClass": "roller",
@@ -2674,17 +2302,6 @@
           "ratio": 0.13
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-102",
-      "name": "ローラー",
-      "weaponClass": "roller",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-102.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -3079,17 +2696,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-116",
-      "name": "ワイパー",
-      "weaponClass": "splatana",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-116.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-117",
       "name": "スパイガジェット",
       "weaponClass": "shooter",
@@ -3183,17 +2789,6 @@
           "ratio": 0.05
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-120",
-      "name": "スパイガジェット",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-120.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -3325,17 +2920,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-125",
-      "name": "パラシェルター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-125.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-126",
       "name": "オーダーシェルター レプリカ",
       "weaponClass": "shooter",
@@ -3365,17 +2949,6 @@
           "ratio": 0.06
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-127",
-      "name": "シェルター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-127.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -3475,17 +3048,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-131",
-      "name": "キャンピングシェルター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-131.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-132",
       "name": "プロモデラーMG",
       "weaponClass": "shooter",
@@ -3579,17 +3141,6 @@
           "ratio": 0.03
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-135",
-      "name": "プロモデラーMG",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-135.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -3689,39 +3240,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-139",
-      "name": "プライムシューター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-139.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-140",
-      "name": "シューター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-140.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-141",
-      "name": "オクタシューター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-141.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-142",
       "name": "わかばシューター",
       "weaponClass": "shooter",
@@ -3783,17 +3301,6 @@
           "ratio": 0.05
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-144",
-      "name": "わかばシューター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-144.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -3861,17 +3368,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-147",
-      "name": "ボトルガイザー",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-147.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-148",
       "name": ".52ガロン",
       "weaponClass": "shooter",
@@ -3933,17 +3429,6 @@
           "ratio": 0.11
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-150",
-      "name": ".52ガロン",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-150.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -4043,17 +3528,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-154",
-      "name": ".96ガロン",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-154.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-155",
       "name": "ジェットスイーパー",
       "weaponClass": "shooter",
@@ -4150,17 +3624,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-158",
-      "name": "ジェットスイーパー",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-158.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-159",
       "name": "スプラシューター",
       "weaponClass": "shooter",
@@ -4193,28 +3656,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-160",
-      "name": "スプラシューターamiibo(1)",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-160.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-161",
-      "name": "スプラシューターamiibo(2)",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-161.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-162",
       "name": "スプラシューターコラボ",
       "weaponClass": "shooter",
@@ -4244,17 +3685,6 @@
           "ratio": 0.05
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-163",
-      "name": "スプラシューターコラボamiibo(1)",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-163.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -4319,17 +3749,6 @@
           "ratio": 0.03
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-166",
-      "name": "スプラシューター",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-166.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -4493,17 +3912,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-172",
-      "name": "シャープマーカー",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-172.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-173",
       "name": "スペースシューター",
       "weaponClass": "shooter",
@@ -4628,17 +4036,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-177",
-      "name": "N-ZAP85",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-177.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-178",
       "name": "ボールドマーカー",
       "weaponClass": "shooter",
@@ -4700,17 +4097,6 @@
           "ratio": 0.03
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-180",
-      "name": "ボールドマーカー",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-180.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -4810,17 +4196,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-184",
-      "name": "H3リールガン",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-184.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-185",
       "name": "L3リールガン",
       "weaponClass": "shooter",
@@ -4917,17 +4292,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-188",
-      "name": "L3リールガン",
-      "weaponClass": "shooter",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-188.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-189",
       "name": "オーバーフロッシャー",
       "weaponClass": "slosher",
@@ -4989,17 +4353,6 @@
           "ratio": 0.07
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-191",
-      "name": "オーバーフロッシャー",
-      "weaponClass": "slosher",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-191.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -5096,17 +4449,6 @@
           "ratio": 0.02
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-195",
-      "name": "ヒッセン",
-      "weaponClass": "slosher",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-195.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -5270,28 +4612,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-201",
-      "name": "スクリュースロッシャー",
-      "weaponClass": "slosher",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-201.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-202",
-      "name": "スロッシャー",
-      "weaponClass": "slosher",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-202.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-203",
       "name": "バケットスロッシャー",
       "weaponClass": "slosher",
@@ -5353,17 +4673,6 @@
           "ratio": 0.04
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-205",
-      "name": "バケットスロッシャー",
-      "weaponClass": "slosher",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-205.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -5463,17 +4772,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-209",
-      "name": "エクスプロッシャー",
-      "weaponClass": "slosher",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-209.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-210",
       "name": "クーゲルシュライバー",
       "weaponClass": "splatling",
@@ -5531,17 +4829,6 @@
           "ratio": 0.13
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-212",
-      "name": "クーゲルシュライバー",
-      "weaponClass": "splatling",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-212.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -5705,17 +4992,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-218",
-      "name": "ハイドラント",
-      "weaponClass": "splatling",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-218.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-219",
       "name": "スプラスピナー",
       "weaponClass": "splatling",
@@ -5812,28 +5088,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-222",
-      "name": "スプラスピナー",
-      "weaponClass": "splatling",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-222.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-223",
-      "name": "スピナー",
-      "weaponClass": "splatling",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-223.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-224",
       "name": "ノーチラス47",
       "weaponClass": "splatling",
@@ -5891,17 +5145,6 @@
           "ratio": 0.07
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-226",
-      "name": "ノーチラス47",
-      "weaponClass": "splatling",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-226.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -5966,17 +5209,6 @@
           "ratio": 0.14
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-229",
-      "name": "バレルスピナー",
-      "weaponClass": "splatling",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-229.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {
@@ -6233,17 +5465,6 @@
           "ratio": 0.14
         }
       ],
-      "styleTags": []
-    },
-    {
-      "id": "weapon-238",
-      "name": "ストリンガー",
-      "weaponClass": "stringer",
-      "subWeapon": "",
-      "specialWeapon": "",
-      "imagePath": "/weapons/weapon-238.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
       "styleTags": []
     },
     {

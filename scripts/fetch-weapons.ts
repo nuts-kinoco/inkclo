@@ -25,43 +25,36 @@ async function fetchLanguageData() {
 }
 
 async function downloadImage(internalId: string, weaponId: string): Promise<boolean> {
-  // Leanny stores weapon icons as Wst_WeaponName.png
-  const imageName = `Wst_${internalId}.png`;
-  const url = `https://raw.githubusercontent.com/Leanny/splat3/main/images/weapon_flat/${imageName}`;
   if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
   const localFile = path.join(OUT_DIR, `${weaponId}.png`);
 
-  if (fs.existsSync(localFile)) return true;
+  if (fs.existsSync(localFile) && fs.statSync(localFile).size > 1000) return true;
 
-  try {
-    const res = await axios({
-      url,
-      method: 'GET',
-      responseType: 'arraybuffer',
-      timeout: 15000,
-      headers: { 'User-Agent': 'Inkclo-App' },
-    });
-    // Add 10% padding to weapon images to avoid edge cut-offs during K-means resizing, 
-    // and resize to standard 256x256
-    await sharp(res.data).resize(256, 256, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(localFile);
-    return true;
-  } catch (error) {
-    // Try the non-flat directory if flat fails
+  const possiblePaths = [
+    `images/weapon_flat/Path_Wst_${internalId}.png`,
+    `images/weapon_flat/Wst_${internalId}.png`,
+    `images/weapon/Wst_${internalId}.png`
+  ];
+
+  for (const p of possiblePaths) {
+    const url = `https://raw.githubusercontent.com/Leanny/splat3/main/${p}`;
     try {
-        const url2 = `https://raw.githubusercontent.com/Leanny/splat3/main/images/weapon/${imageName}`;
-        const res2 = await axios({
-            url: url2,
-            method: 'GET',
-            responseType: 'arraybuffer',
-            timeout: 15000,
-            headers: { 'User-Agent': 'Inkclo-App' },
-        });
-        await sharp(res2.data).resize(256, 256, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(localFile);
-        return true;
-    } catch (e) {
-        return false;
+      const res = await axios({
+        url,
+        method: 'GET',
+        responseType: 'arraybuffer',
+        timeout: 15000,
+        headers: { 'User-Agent': 'Inkclo-App' },
+      });
+      // Add 10% padding to weapon images to avoid edge cut-offs during K-means resizing, 
+      // and resize to standard 256x256
+      await sharp(res.data).resize(256, 256, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(localFile);
+      return true;
+    } catch (error) {
+      // Continue to next path
     }
   }
+  return false;
 }
 
 function getWeaponClass(internalId: string): string {
@@ -102,6 +95,9 @@ async function run() {
     
     // Skip salmon run specific, duplicated, or irrelevant weapons
     if (internalId.includes('_Coop') || internalId.includes('Hero') || internalId.includes('Octa') || internalId.includes('Mission') || internalId.includes('Rival')) continue;
+    
+    // Skip singleplayer/dummy weapons that have no sub or special weapon
+    if (!item.SubWeapon || item.SubWeapon === 'None' || !item.SpecialWeapon || item.SpecialWeapon === 'None') continue;
     
     const nameKey = item.Id.toString(); // Wait, in Splatoon 3 data, Name may be referenced differently. We can use the Label.
     
