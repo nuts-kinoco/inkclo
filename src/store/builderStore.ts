@@ -2,6 +2,9 @@ import { create } from 'zustand';
 import { Coordinate, GearCategory, Gear } from '@/types';
 
 interface BuilderState {
+  gears: Gear[];
+  isGearsLoaded: boolean;
+  loadGears: () => Promise<void>;
   coordinate: Coordinate;
   setGear: (category: GearCategory, gearId: string) => void;
   removeGear: (category: GearCategory) => void;
@@ -24,7 +27,19 @@ interface BuilderState {
   setWeaponId: (weaponId: string | null) => void;
 }
 
-export const useBuilderStore = create<BuilderState>((set) => ({
+export const useBuilderStore = create<BuilderState>((set, get) => ({
+  gears: [],
+  isGearsLoaded: false,
+  loadGears: async () => {
+    if (get().isGearsLoaded) return;
+    try {
+      const res = await fetch('/api/gears');
+      const data = await res.json();
+      set({ gears: data.gears, isGearsLoaded: true });
+    } catch (e) {
+      console.error('Failed to load gears', e);
+    }
+  },
   coordinate: {},
   setGear: (category, gearId) =>
     set((state) => ({

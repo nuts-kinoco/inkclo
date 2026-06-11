@@ -7,16 +7,19 @@ import { CoordinatePreview } from '@/components/coordinate/CoordinatePreview';
 import { ShareActions } from '@/components/coordinate/ShareActions';
 import { useState, useMemo, createRef } from 'react';
 import { scoreCoordinate } from '@/lib/scoring/engine';
-import gearsData from '@/lib/data/gears';
 import { Gear } from '@/types';
+import { useEffect } from 'react';
 
 export default function FavoritesPage() {
   const { coordinates, removeCoordinate } = useFavoritesStore();
-  const { setCoordinate } = useBuilderStore();
+  const { setCoordinate, gears, loadGears, isGearsLoaded } = useBuilderStore();
   const router = useRouter();
   
+  useEffect(() => {
+    loadGears();
+  }, [loadGears]);
+
   const [sortBy, setSortBy] = useState<'date' | 'score'>('date');
-  const gears = gearsData.gears as Gear[];
 
   const evaluatedFavorites = useMemo(() => {
     return coordinates.map(coord => {
@@ -55,6 +58,14 @@ export default function FavoritesPage() {
     });
     router.push('/create');
   };
+
+  if (!isGearsLoaded) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-slate-900">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-6 md:p-10 max-w-7xl mx-auto w-full">

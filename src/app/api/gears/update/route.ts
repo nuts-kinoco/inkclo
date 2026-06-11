@@ -33,14 +33,16 @@ export async function POST(req: Request) {
 
     for (const update of updates) {
       if (gearsMap.has(update.id)) {
-        const gear = gearsMap.get(update.id) as Gear;
-        gear.manualTags = update.manualTags;
+        const gear = gearsMap.get(update.id) as Gear & { isReviewed?: boolean, isHidden?: boolean };
+        if (update.manualTags !== undefined) gear.manualTags = update.manualTags;
+        if (update.isHidden !== undefined) gear.isHidden = update.isHidden;
+        gear.isReviewed = true;
         updatedCount++;
       }
     }
 
-    // Write back to gears.json
-    const tmpPath = dataPath + '.tmp'; fs.writeFileSync(tmpPath, JSON.stringify(currentData, null, 2)); fs.renameSync(tmpPath, dataPath);
+    // Write back to gears.json directly to prevent Turbopack HMR from crashing
+    fs.writeFileSync(dataPath, JSON.stringify(currentData, null, 2));
 
     return NextResponse.json({ success: true, updatedCount });
   } catch (error) {

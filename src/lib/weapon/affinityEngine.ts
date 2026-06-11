@@ -2,7 +2,7 @@ import { Weapon } from '@/types/weapon';
 import { Coordinate, Gear } from '@/types';
 import { deltaE } from '../colorUtils';
 import { getWeaponStyles } from './classStyleMap';
-import gearsData from '../data/gears';
+import { useBuilderStore } from '@/store/builderStore';
 
 export interface WeaponAffinityScore {
   total: number;       // 0 - 100
@@ -12,7 +12,7 @@ export interface WeaponAffinityScore {
 }
 
 export function calculateWeaponAffinity(weapon: Weapon, coordinate: Coordinate): WeaponAffinityScore {
-  const allGears = gearsData.gears as Gear[];
+  const allGears = useBuilderStore.getState().gears;
   const gears = [
     allGears.find((g: Gear) => g.id === coordinate.headId),
     allGears.find((g: Gear) => g.id === coordinate.bodyId),

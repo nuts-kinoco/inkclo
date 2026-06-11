@@ -1,5 +1,5 @@
 import { Search } from 'lucide-react';
-import gearsData from '@/lib/data/gears';
+import { useBuilderStore } from '@/store/builderStore';
 
 // Predefined basic colors for filtering (acts as tags)
 const COLOR_TAGS = [
@@ -42,8 +42,9 @@ interface FilterPanelProps {
 }
 
 export function FilterPanel({ filter, onChange }: FilterPanelProps) {
+  const gears = useBuilderStore(s => s.gears);
   const brandsMap = new Map<string, string>();
-  gearsData.gears.forEach(g => brandsMap.set(g.brand.brandId, g.brand.brandName));
+  gears.forEach(g => brandsMap.set(g.brand.brandId, g.brand.brandName));
   const brands = Array.from(brandsMap.entries()).sort((a, b) => a[1].localeCompare(b[1]));
 
   const toggleTag = (tagId: string) => {

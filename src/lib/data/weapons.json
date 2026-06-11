@@ -2653,17 +2653,6 @@
       "styleTags": []
     },
     {
-      "id": "weapon-114",
-      "name": "ジムワイパー",
-      "weaponClass": "splatana",
-      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
-      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
-      "imagePath": "/weapons/weapon-114.png",
-      "dominantColor": "#FFFFFF",
-      "palette": [],
-      "styleTags": []
-    },
-    {
       "id": "weapon-115",
       "name": "オーダーワイパー レプリカ",
       "weaponClass": "splatana",

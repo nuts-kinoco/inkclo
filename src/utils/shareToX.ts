@@ -1,8 +1,8 @@
 import { Coordinate, Gear, CoordinateScore } from '@/types';
-import gearsData from '@/lib/data/gears';
+import { useBuilderStore } from '@/store/builderStore';
 
 export function buildTweetText(coordinate: Coordinate, score: CoordinateScore | null): string {
-  const gears = gearsData.gears as Gear[];
+  const gears = useBuilderStore.getState().gears;
   
   const head = gears.find(g => g.id === coordinate.headId);
   const body = gears.find(g => g.id === coordinate.bodyId);

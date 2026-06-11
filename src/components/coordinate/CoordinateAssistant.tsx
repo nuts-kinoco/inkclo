@@ -2,8 +2,7 @@
 
 import React, { useMemo } from 'react';
 import { useBuilderStore } from '@/store/builderStore';
-import { GearCategory, Gear } from '@/types';
-import gearsData from '@/lib/data/gears';
+import { GearCategory } from '@/types';
 import { getWeightedAverageColor } from '@/lib/colorTheory';
 import { runRecommendationEngine } from '@/lib/recommendation/engine';
 import { Sparkles, Moon, Palette, ChevronLeft, ChevronRight, Dices } from 'lucide-react';
@@ -14,8 +13,7 @@ interface CoordinateAssistantProps {
 }
 
 export function CoordinateAssistant({ activeCategoryTab }: CoordinateAssistantProps) {
-  const { coordinate, setGear } = useBuilderStore();
-  const allGears = gearsData.gears as Gear[];
+  const { coordinate, setGear, gears: allGears } = useBuilderStore();
   const [page, setPage] = useState(0);
   const [shuffleSalt, setShuffleSalt] = useState(0);
 

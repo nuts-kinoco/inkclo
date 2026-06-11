@@ -19,6 +19,8 @@ export interface Gear {
   autoTags?: string[];
   manualTags?: string[];
   tags?: string[];
+  isHidden?: boolean;
+  isReviewed?: boolean;
 }
 
 export interface Coordinate {

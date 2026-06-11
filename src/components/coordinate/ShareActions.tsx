@@ -55,23 +55,12 @@ export function ShareActions({ coordinate, currentScore, previewRef, hideSaveBut
       
       if (!blob) throw new Error('Failed to create blob');
 
-      // Check if Web Share API is available and can share files (typically mobile)
-      if (navigator.share && navigator.canShare && navigator.canShare({ files: [new File([blob], 'inkclo.png', { type: 'image/png' })] })) {
-        const file = new File([blob], 'inkclo-coordinate.png', { type: 'image/png' });
-        await navigator.share({
-          title: 'My Splatoon3 Coordinate',
-          text: buildTweetText(coordinate, currentScore || null),
-          files: [file]
-        });
-      } else {
-        // Fallback for PC or unsupported browsers
-        const dataUrl = URL.createObjectURL(blob);
-        const link = document.createElement('a');
-        link.download = 'inkclo-coordinate.png';
-        link.href = dataUrl;
-        link.click();
-        URL.revokeObjectURL(dataUrl);
-      }
+      const dataUrl = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.download = 'inkclo-coordinate.png';
+      link.href = dataUrl;
+      link.click();
+      URL.revokeObjectURL(dataUrl);
     } catch (err) {
       console.error('Failed to export PNG', err);
       // Fallback to data URL if blob fails

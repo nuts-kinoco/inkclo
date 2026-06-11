@@ -9,18 +9,19 @@ import { ShareActions } from '@/components/coordinate/ShareActions';
 import { CoordinateAssistant } from '@/components/coordinate/CoordinateAssistant';
 import { GearDetailModal } from '@/components/gear/GearDetailModal';
 import { WeaponPanel } from '@/components/weapon/WeaponPanel';
-import gearsData from '@/lib/data/gears';
 import { GearCategory, Gear } from '@/types';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 import { deltaE } from '@/lib/colorUtils';
 import { ScorePanel } from '@/components/scoring/ScorePanel';
 import { ComparisonDrawer } from '@/components/scoring/ComparisonDrawer';
-import { SeasonSelector } from '@/components/scoring/SeasonSelector';
 import { scoreCoordinate } from '@/lib/scoring/engine';
 
 export default function CreatePage() {
-  const { coordinate, setGear, removeGear, seasonOverride, setComparisonOpen, setComparisonCategory } = useBuilderStore();
-  const gears = gearsData.gears as Gear[];
+  const { coordinate, setGear, removeGear, seasonOverride, setComparisonOpen, setComparisonCategory, gears, loadGears, isGearsLoaded } = useBuilderStore();
+  
+  useEffect(() => {
+    loadGears();
+  }, [loadGears]);
   
   const previewRef = useRef<HTMLDivElement>(null);
   const mobilePreviewRef = useRef<HTMLDivElement>(null);
@@ -71,7 +72,7 @@ export default function CreatePage() {
 
   // Filtered Gears (all categories)
   const allFilteredGears = useMemo(() => {
-    let result = gears;
+    let result = gears.filter(g => !g.isHidden);
 
     if (filter.searchQuery) {
       result = result.filter(g => g.name.toLowerCase().includes(filter.searchQuery.toLowerCase()));
@@ -136,6 +137,13 @@ export default function CreatePage() {
     return result;
   }, [allFilteredGears, activeCategory, filter.customColor, filter.sortBy]);
 
+  if (!isGearsLoaded) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-slate-900">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col md:flex-row pb-[200px] md:pb-0">
@@ -191,8 +199,6 @@ export default function CreatePage() {
         <div className="mb-6">
           <WeaponPanel />
         </div>
-
-        <SeasonSelector />
 
         <FilterPanel 
           filter={filter}
