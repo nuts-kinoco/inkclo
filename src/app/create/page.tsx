@@ -8,6 +8,7 @@ import { CoordinatePreview } from '@/components/coordinate/CoordinatePreview';
 import { ShareActions } from '@/components/coordinate/ShareActions';
 import { CoordinateAssistant } from '@/components/coordinate/CoordinateAssistant';
 import { GearDetailModal } from '@/components/gear/GearDetailModal';
+import { WeaponPanel } from '@/components/weapon/WeaponPanel';
 import gearsData from '@/lib/data/gears';
 import { GearCategory, Gear } from '@/types';
 import { ChevronUp, ChevronDown } from 'lucide-react';
@@ -22,6 +23,7 @@ export default function CreatePage() {
   const gears = gearsData.gears as Gear[];
   
   const previewRef = useRef<HTMLDivElement>(null);
+  const mobilePreviewRef = useRef<HTMLDivElement>(null);
   const prevGearCountRef = useRef(0);
 
   // Category Tabs
@@ -105,6 +107,10 @@ export default function CreatePage() {
       result = result.filter(g => getMinDistance(g) < 40);
     }
 
+    // NEW: If a weapon is selected, we could sort/filter by weapon affinity here,
+    // but the recommendationEngine should handle that. For now, let's keep it simple
+    // and rely on the WeaponPanel to show weapon data.
+
     return result;
   }, [filter, gears]);
 
@@ -137,16 +143,21 @@ export default function CreatePage() {
       {/* Desktop Sidebar: Preview */}
       <div className="hidden md:flex w-[360px] bg-white dark:bg-slate-900 p-5 border-r border-gray-200 dark:border-slate-800 flex-col items-center shadow-sm z-10 shrink-0 sticky top-[61px] h-[calc(100vh-61px)] overflow-y-auto">
         <h2 className="text-xl font-black tracking-tight mb-4 w-full text-left dark:text-slate-200">Your Coordinate</h2>
-        <CoordinatePreview
-          ref={previewRef}
-          coordinate={coordinate}
-          onRemoveGear={removeGear}
-        />
-        <div className="w-full mt-4">
-          <ScorePanel score={currentScore} />
+        
+        {/* Export Container */}
+        <div ref={previewRef} className="w-full flex flex-col items-center bg-white dark:bg-slate-900 pb-2">
+          <CoordinatePreview
+            coordinate={coordinate}
+            onRemoveGear={removeGear}
+          />
+          <div className="w-full mt-4">
+            <ScorePanel score={currentScore} />
+          </div>
         </div>
+
         <ShareActions 
           coordinate={coordinate} 
+          currentScore={currentScore}
           previewRef={previewRef} 
         />
       </div>
@@ -176,6 +187,11 @@ export default function CreatePage() {
         </div>
         
         <CoordinateAssistant activeCategoryTab={activeCategory} />
+        
+        <div className="mb-6">
+          <WeaponPanel />
+        </div>
+
         <SeasonSelector />
 
         <FilterPanel 
@@ -245,16 +261,20 @@ export default function CreatePage() {
 
         {/* Expanded Content */}
         <div className="p-6 pt-0 max-h-[60vh] overflow-y-auto">
-          <CoordinatePreview
-            coordinate={coordinate}
-            onRemoveGear={removeGear}
-          />
-          <div className="w-full mt-4">
-            <ScorePanel score={currentScore} />
+          {/* Export Container Mobile */}
+          <div ref={mobilePreviewRef} className="w-full flex flex-col items-center bg-white dark:bg-slate-900 pb-2">
+            <CoordinatePreview
+              coordinate={coordinate}
+              onRemoveGear={removeGear}
+            />
+            <div className="w-full mt-4">
+              <ScorePanel score={currentScore} />
+            </div>
           </div>
           <ShareActions 
             coordinate={coordinate} 
-            previewRef={previewRef} 
+            currentScore={currentScore}
+            previewRef={mobilePreviewRef} 
           />
         </div>
       </div>

@@ -18,6 +18,10 @@ interface BuilderState {
   setComparisonOpen: (open: boolean) => void;
   comparisonCategory: GearCategory | null;
   setComparisonCategory: (category: GearCategory | null) => void;
+
+  // Weapon state
+  weaponId: string | null;
+  setWeaponId: (weaponId: string | null) => void;
 }
 
 export const useBuilderStore = create<BuilderState>((set) => ({
@@ -47,4 +51,7 @@ export const useBuilderStore = create<BuilderState>((set) => ({
   setComparisonOpen: (open) => set({ isComparisonOpen: open }),
   comparisonCategory: null,
   setComparisonCategory: (category) => set({ comparisonCategory: category }),
+
+  weaponId: null,
+  setWeaponId: (id) => set({ weaponId: id }),
 }));

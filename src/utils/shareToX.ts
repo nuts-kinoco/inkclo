@@ -1,7 +1,7 @@
-import { Coordinate, Gear } from '@/types';
+import { Coordinate, Gear, CoordinateScore } from '@/types';
 import gearsData from '@/lib/data/gears';
 
-export function buildTweetText(coordinate: Coordinate): string {
+export function buildTweetText(coordinate: Coordinate, score: CoordinateScore | null): string {
   const gears = gearsData.gears as Gear[];
   
   const head = gears.find(g => g.id === coordinate.headId);
@@ -13,13 +13,9 @@ export function buildTweetText(coordinate: Coordinate): string {
   const shoesName = shoes ? shoes.name : '未選択';
 
   const titlePart = coordinate.name ? `【${coordinate.name}】\n` : '';
+  const scorePart = score ? `ランク【${score.totalRank}】(${score.totalScore}点) のコーディネート！\n` : 'My Splatoon3 Coordinate\n';
 
-  const text = `${titlePart}My Splatoon3 Coordinate
-アタマ: ${headName}
-フク: ${bodyName}
-クツ: ${shoesName}
-
-#INKCLO #Splatoon3 #スプラトゥーン3`;
+  const text = `${titlePart}${scorePart}アタマ: ${headName}\nフク: ${bodyName}\nクツ: ${shoesName}\n\n#INKCLO #Splatoon3 #スプラトゥーン3`;
 
   return text;
 }

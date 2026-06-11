@@ -33,7 +33,16 @@ export default function AdminTagsPage() {
   // Initialize gears
   useEffect(() => {
     setGears(gearsData.gears as Gear[]);
+    const savedIndex = localStorage.getItem('inkclo_admin_tag_index');
+    if (savedIndex) {
+      setCurrentIndex(parseInt(savedIndex, 10));
+    }
   }, []);
+
+  // Save index to local storage
+  useEffect(() => {
+    localStorage.setItem('inkclo_admin_tag_index', currentIndex.toString());
+  }, [currentIndex]);
 
   const filteredGears = useMemo(() => {
     return gears.filter(g => {
@@ -147,15 +156,33 @@ export default function AdminTagsPage() {
 
   // Reset index when filters change
   useEffect(() => {
-    setCurrentIndex(0);
+    // Only reset if it's an actual filter change, not initial load
+    // Actually, to avoid resetting on load when localStorage is used, let's keep it simple:
+    // User can manually reset or we don't reset index. Let's comment this out so it doesn't overwrite localStorage.
+    // setCurrentIndex(0);
   }, [searchQuery, brandFilter, categoryFilter, tagStatusFilter]);
 
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
   return (
-    <div className="flex h-screen bg-gray-50 text-gray-900 font-sans">
+    <div className="flex h-screen bg-gray-50 text-gray-900 font-sans overflow-hidden">
+      
+      {/* Mobile Header & Menu Toggle */}
+      <div className="md:hidden absolute top-0 left-0 right-0 h-14 bg-white border-b border-gray-200 flex items-center justify-between px-4 z-20">
+        <h1 className="font-black text-lg">Admin Tagger</h1>
+        <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="p-2 bg-gray-100 rounded-md">
+          <Layers size={20} />
+        </button>
+      </div>
+
       {/* Sidebar */}
-      <div className="w-80 bg-white border-r border-gray-200 flex flex-col h-full shrink-0">
+      <div className={`
+        ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'} 
+        md:translate-x-0 transition-transform duration-300
+        absolute md:relative z-30 w-80 bg-white border-r border-gray-200 flex flex-col h-full shrink-0 pt-14 md:pt-0
+      `}>
         <div className="p-4 border-b border-gray-200">
-          <h1 className="font-black text-xl mb-4">Admin Tagger</h1>
+          <h1 className="font-black text-xl mb-4 hidden md:block">Admin Tagger</h1>
           <div className="text-sm font-bold text-gray-500 mb-2">
             Progress: {filteredGears.length > 0 ? currentIndex + 1 : 0} / {filteredGears.length}
           </div>
@@ -167,7 +194,7 @@ export default function AdminTagsPage() {
           </div>
         </div>
 
-        <div className="p-4 flex-1 overflow-y-auto flex flex-col gap-4">
+        <div className="p-4 flex-1 overflow-y-auto flex flex-col gap-4 pb-24 md:pb-4">
           <div>
             <label className="text-xs font-bold text-gray-500 mb-1 block">Search</label>
             <div className="relative">
@@ -243,12 +270,20 @@ export default function AdminTagsPage() {
         </div>
       </div>
 
+      {/* Overlay for mobile sidebar */}
+      {isSidebarOpen && (
+        <div 
+          className="md:hidden fixed inset-0 bg-black/50 z-20"
+          onClick={() => setIsSidebarOpen(false)}
+        />
+      )}
+
       {/* Main Area */}
-      <div className="flex-1 flex flex-col h-full bg-gray-50 p-8 items-center justify-center relative overflow-hidden">
+      <div className="flex-1 flex flex-col h-full bg-gray-50 p-4 md:p-8 items-center justify-start md:justify-center relative overflow-y-auto pt-20 md:pt-8">
         {currentGear ? (
-          <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden flex flex-col md:flex-row">
+          <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl border border-gray-100 flex flex-col md:flex-row pb-24 md:pb-0">
             
-            <div className="flex-1 p-10 flex flex-col items-center justify-center border-r border-gray-100 bg-gray-50/50">
+            <div className="flex-1 p-6 md:p-10 flex flex-col items-center justify-center border-b md:border-b-0 md:border-r border-gray-100 bg-gray-50/50">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={currentGear.imagePath} alt={currentGear.name} className="w-64 h-64 object-contain drop-shadow-xl" />
               <h2 className="text-3xl font-black mt-6 text-center">{currentGear.name}</h2>
@@ -269,7 +304,7 @@ export default function AdminTagsPage() {
               </div>
             </div>
 
-            <div className="w-80 p-8 flex flex-col">
+            <div className="w-full md:w-80 p-6 md:p-8 flex flex-col">
               <h3 className="font-bold text-lg mb-4 text-gray-800">Manual Tags</h3>
               
               <div className="grid grid-cols-2 gap-3 mb-auto">
@@ -292,11 +327,12 @@ export default function AdminTagsPage() {
                 })}
               </div>
 
-              <div className="mt-8 flex gap-3">
+              {/* Mobile sticky save bar */}
+              <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-200 md:static md:bg-transparent md:border-0 md:p-0 md:mt-8 flex gap-3 z-10 shadow-[0_-4px_20px_rgba(0,0,0,0.1)] md:shadow-none">
                 <button 
                   onClick={goPrev}
                   disabled={currentIndex === 0}
-                  className="px-4 py-3 bg-gray-100 text-gray-700 rounded-xl font-bold hover:bg-gray-200 disabled:opacity-50 flex items-center justify-center"
+                  className="px-4 py-3 bg-gray-100 text-gray-700 rounded-xl font-bold hover:bg-gray-200 disabled:opacity-50 flex items-center justify-center shrink-0"
                   title="Backspace"
                 >
                   <ArrowLeft size={20} />

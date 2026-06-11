@@ -1,0 +1,6346 @@
+{
+  "weapons": [
+    {
+      "id": "weapon-000",
+      "name": "ブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-000.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-001",
+      "name": "Rブラスターエリート",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-001.png",
+      "dominantColor": "#921F3B",
+      "palette": [
+        {
+          "color": "#921F3B",
+          "ratio": 0.38
+        },
+        {
+          "color": "#726D64",
+          "ratio": 0.23
+        },
+        {
+          "color": "#B8B4A2",
+          "ratio": 0.16
+        },
+        {
+          "color": "#292323",
+          "ratio": 0.15
+        },
+        {
+          "color": "#F1931C",
+          "ratio": 0.08
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-002",
+      "name": "Rブラスターエリートデコ",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-002.png",
+      "dominantColor": "#4949A4",
+      "palette": [
+        {
+          "color": "#4949A4",
+          "ratio": 0.31
+        },
+        {
+          "color": "#A39F91",
+          "ratio": 0.29
+        },
+        {
+          "color": "#433E37",
+          "ratio": 0.26
+        },
+        {
+          "color": "#CCAD24",
+          "ratio": 0.08
+        },
+        {
+          "color": "#FB9218",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-003",
+      "name": "RブラスターエリートWNTR",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-003.png",
+      "dominantColor": "#565452",
+      "palette": [
+        {
+          "color": "#565452",
+          "ratio": 0.41
+        },
+        {
+          "color": "#877E6E",
+          "ratio": 0.27
+        },
+        {
+          "color": "#262422",
+          "ratio": 0.17
+        },
+        {
+          "color": "#893F27",
+          "ratio": 0.09
+        },
+        {
+          "color": "#BCAC9A",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-004",
+      "name": "Rブラスターエリート",
+      "weaponClass": "blaster",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-004.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-005",
+      "name": "クラッシュブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-005.png",
+      "dominantColor": "#71706D",
+      "palette": [
+        {
+          "color": "#71706D",
+          "ratio": 0.3
+        },
+        {
+          "color": "#37383A",
+          "ratio": 0.23
+        },
+        {
+          "color": "#1B1B30",
+          "ratio": 0.2
+        },
+        {
+          "color": "#ACADA7",
+          "ratio": 0.16
+        },
+        {
+          "color": "#32335B",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-006",
+      "name": "クラッシュブラスターネオ",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-006.png",
+      "dominantColor": "#242442",
+      "palette": [
+        {
+          "color": "#242442",
+          "ratio": 0.29
+        },
+        {
+          "color": "#5D5D5E",
+          "ratio": 0.21
+        },
+        {
+          "color": "#2C2E30",
+          "ratio": 0.2
+        },
+        {
+          "color": "#878682",
+          "ratio": 0.2
+        },
+        {
+          "color": "#BABCB6",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-007",
+      "name": "クラッシュブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-007.png",
+      "dominantColor": "#7A7770",
+      "palette": [
+        {
+          "color": "#7A7770",
+          "ratio": 0.33
+        },
+        {
+          "color": "#642A2D",
+          "ratio": 0.26
+        },
+        {
+          "color": "#B2B0A6",
+          "ratio": 0.19
+        },
+        {
+          "color": "#34302E",
+          "ratio": 0.19
+        },
+        {
+          "color": "#2C81B1",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-008",
+      "name": "ラピッドブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-008.png",
+      "dominantColor": "#898377",
+      "palette": [
+        {
+          "color": "#898377",
+          "ratio": 0.36
+        },
+        {
+          "color": "#7E1532",
+          "ratio": 0.24
+        },
+        {
+          "color": "#2F2A2A",
+          "ratio": 0.17
+        },
+        {
+          "color": "#BF274D",
+          "ratio": 0.12
+        },
+        {
+          "color": "#F0951D",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-009",
+      "name": "ラピッドブラスターデコ",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-009.png",
+      "dominantColor": "#9A9585",
+      "palette": [
+        {
+          "color": "#9A9585",
+          "ratio": 0.27
+        },
+        {
+          "color": "#403B33",
+          "ratio": 0.24
+        },
+        {
+          "color": "#4E4DB8",
+          "ratio": 0.21
+        },
+        {
+          "color": "#E3A01F",
+          "ratio": 0.17
+        },
+        {
+          "color": "#45437D",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-010",
+      "name": "ラピッドブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-010.png",
+      "dominantColor": "#951B3B",
+      "palette": [
+        {
+          "color": "#951B3B",
+          "ratio": 0.36
+        },
+        {
+          "color": "#706B63",
+          "ratio": 0.29
+        },
+        {
+          "color": "#272222",
+          "ratio": 0.14
+        },
+        {
+          "color": "#F1951E",
+          "ratio": 0.11
+        },
+        {
+          "color": "#BAB5A2",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-011",
+      "name": "ロングブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-011.png",
+      "dominantColor": "#4A4AA9",
+      "palette": [
+        {
+          "color": "#4A4AA9",
+          "ratio": 0.3
+        },
+        {
+          "color": "#999484",
+          "ratio": 0.28
+        },
+        {
+          "color": "#3E3A35",
+          "ratio": 0.26
+        },
+        {
+          "color": "#D6B325",
+          "ratio": 0.09
+        },
+        {
+          "color": "#F78D18",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-012",
+      "name": "ロングブラスターカスタム",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-012.png",
+      "dominantColor": "#3B3634",
+      "palette": [
+        {
+          "color": "#3B3634",
+          "ratio": 0.53
+        },
+        {
+          "color": "#A4A095",
+          "ratio": 0.23
+        },
+        {
+          "color": "#D44B35",
+          "ratio": 0.1
+        },
+        {
+          "color": "#47507D",
+          "ratio": 0.08
+        },
+        {
+          "color": "#DACE33",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-013",
+      "name": "ロングブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-013.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-014",
+      "name": "ホットブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-014.png",
+      "dominantColor": "#201E20",
+      "palette": [
+        {
+          "color": "#201E20",
+          "ratio": 0.38
+        },
+        {
+          "color": "#5B534F",
+          "ratio": 0.23
+        },
+        {
+          "color": "#9A968C",
+          "ratio": 0.19
+        },
+        {
+          "color": "#9F4B38",
+          "ratio": 0.1
+        },
+        {
+          "color": "#EA4D2D",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-015",
+      "name": "ホットブラスターカスタム",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpPogo.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-015.png",
+      "dominantColor": "#3C3736",
+      "palette": [
+        {
+          "color": "#3C3736",
+          "ratio": 0.55
+        },
+        {
+          "color": "#A6A399",
+          "ratio": 0.22
+        },
+        {
+          "color": "#D84C36",
+          "ratio": 0.09
+        },
+        {
+          "color": "#444E7D",
+          "ratio": 0.08
+        },
+        {
+          "color": "#DED233",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-016",
+      "name": "ホットブラスター艶",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-016.png",
+      "dominantColor": "#29282B",
+      "palette": [
+        {
+          "color": "#29282B",
+          "ratio": 0.68
+        },
+        {
+          "color": "#7284BD",
+          "ratio": 0.17
+        },
+        {
+          "color": "#92979D",
+          "ratio": 0.12
+        },
+        {
+          "color": "#3FC79C",
+          "ratio": 0.02
+        },
+        {
+          "color": "#CB4822",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-017",
+      "name": "ホットブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-017.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-018",
+      "name": "S-BLAST92",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-018.png",
+      "dominantColor": "#6A6865",
+      "palette": [
+        {
+          "color": "#6A6865",
+          "ratio": 0.39
+        },
+        {
+          "color": "#242122",
+          "ratio": 0.32
+        },
+        {
+          "color": "#ACA9A1",
+          "ratio": 0.16
+        },
+        {
+          "color": "#7D3E36",
+          "ratio": 0.09
+        },
+        {
+          "color": "#CA3926",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-019",
+      "name": "S-BLAST91",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-019.png",
+      "dominantColor": "#9B948F",
+      "palette": [
+        {
+          "color": "#9B948F",
+          "ratio": 0.38
+        },
+        {
+          "color": "#706A66",
+          "ratio": 0.29
+        },
+        {
+          "color": "#784DBC",
+          "ratio": 0.18
+        },
+        {
+          "color": "#29222E",
+          "ratio": 0.11
+        },
+        {
+          "color": "#B8A2DB",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-020",
+      "name": "ノヴァブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-020.png",
+      "dominantColor": "#95938E",
+      "palette": [
+        {
+          "color": "#95938E",
+          "ratio": 0.39
+        },
+        {
+          "color": "#B2AFA7",
+          "ratio": 0.28
+        },
+        {
+          "color": "#DCD9D0",
+          "ratio": 0.16
+        },
+        {
+          "color": "#75726C",
+          "ratio": 0.11
+        },
+        {
+          "color": "#504E49",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-021",
+      "name": "ノヴァブラスターネオ",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-021.png",
+      "dominantColor": "#494744",
+      "palette": [
+        {
+          "color": "#494744",
+          "ratio": 0.58
+        },
+        {
+          "color": "#8D897F",
+          "ratio": 0.28
+        },
+        {
+          "color": "#CECCC5",
+          "ratio": 0.11
+        },
+        {
+          "color": "#2687BD",
+          "ratio": 0.02
+        },
+        {
+          "color": "#4F94BC",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-022",
+      "name": "ノヴァブラスター",
+      "weaponClass": "blaster",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-022.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-023",
+      "name": "オーダーブラスター レプリカ",
+      "weaponClass": "blaster",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-023.png",
+      "dominantColor": "#B19E8B",
+      "palette": [
+        {
+          "color": "#B19E8B",
+          "ratio": 0.34
+        },
+        {
+          "color": "#F8E3C4",
+          "ratio": 0.19
+        },
+        {
+          "color": "#D7BCA0",
+          "ratio": 0.19
+        },
+        {
+          "color": "#7D786F",
+          "ratio": 0.17
+        },
+        {
+          "color": "#4B4A48",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-024",
+      "name": "フィンセント",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-024.png",
+      "dominantColor": "#B7B3A9",
+      "palette": [
+        {
+          "color": "#B7B3A9",
+          "ratio": 0.4
+        },
+        {
+          "color": "#858178",
+          "ratio": 0.26
+        },
+        {
+          "color": "#E9E5DB",
+          "ratio": 0.17
+        },
+        {
+          "color": "#514F4B",
+          "ratio": 0.14
+        },
+        {
+          "color": "#583023",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-025",
+      "name": "フィンセント・ヒュー",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-025.png",
+      "dominantColor": "#503D28",
+      "palette": [
+        {
+          "color": "#503D28",
+          "ratio": 0.29
+        },
+        {
+          "color": "#7D6241",
+          "ratio": 0.27
+        },
+        {
+          "color": "#98958E",
+          "ratio": 0.26
+        },
+        {
+          "color": "#E6E0D5",
+          "ratio": 0.15
+        },
+        {
+          "color": "#ED6B4E",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-026",
+      "name": "フィンセントBRNZ",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-026.png",
+      "dominantColor": "#2E2620",
+      "palette": [
+        {
+          "color": "#2E2620",
+          "ratio": 0.39
+        },
+        {
+          "color": "#A49C92",
+          "ratio": 0.25
+        },
+        {
+          "color": "#5E5642",
+          "ratio": 0.22
+        },
+        {
+          "color": "#583621",
+          "ratio": 0.11
+        },
+        {
+          "color": "#BC5A29",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-027",
+      "name": "パブロ",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-027.png",
+      "dominantColor": "#D4CFC4",
+      "palette": [
+        {
+          "color": "#D4CFC4",
+          "ratio": 0.41
+        },
+        {
+          "color": "#303546",
+          "ratio": 0.18
+        },
+        {
+          "color": "#724620",
+          "ratio": 0.15
+        },
+        {
+          "color": "#985C28",
+          "ratio": 0.13
+        },
+        {
+          "color": "#7A787B",
+          "ratio": 0.13
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-028",
+      "name": "パブロ・ヒュー",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-028.png",
+      "dominantColor": "#E4DED3",
+      "palette": [
+        {
+          "color": "#E4DED3",
+          "ratio": 0.41
+        },
+        {
+          "color": "#BF997B",
+          "ratio": 0.23
+        },
+        {
+          "color": "#97928F",
+          "ratio": 0.19
+        },
+        {
+          "color": "#3E3E4C",
+          "ratio": 0.16
+        },
+        {
+          "color": "#EC5939",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-029",
+      "name": "パブロ",
+      "weaponClass": "brush",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-029.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-030",
+      "name": "ホクサイ",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-030.png",
+      "dominantColor": "#B0A99C",
+      "palette": [
+        {
+          "color": "#B0A99C",
+          "ratio": 0.29
+        },
+        {
+          "color": "#3F1B0F",
+          "ratio": 0.23
+        },
+        {
+          "color": "#D9D1C2",
+          "ratio": 0.19
+        },
+        {
+          "color": "#221310",
+          "ratio": 0.18
+        },
+        {
+          "color": "#723F2C",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-031",
+      "name": "ホクサイ・ヒュー",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-031.png",
+      "dominantColor": "#B8AFA0",
+      "palette": [
+        {
+          "color": "#B8AFA0",
+          "ratio": 0.33
+        },
+        {
+          "color": "#4F381E",
+          "ratio": 0.26
+        },
+        {
+          "color": "#E6DED2",
+          "ratio": 0.2
+        },
+        {
+          "color": "#7A6F5B",
+          "ratio": 0.12
+        },
+        {
+          "color": "#9E6437",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-032",
+      "name": "ホクサイ彗",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-032.png",
+      "dominantColor": "#1E1722",
+      "palette": [
+        {
+          "color": "#1E1722",
+          "ratio": 0.56
+        },
+        {
+          "color": "#BFC6B8",
+          "ratio": 0.24
+        },
+        {
+          "color": "#416366",
+          "ratio": 0.16
+        },
+        {
+          "color": "#621F1B",
+          "ratio": 0.02
+        },
+        {
+          "color": "#DB4416",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-033",
+      "name": "ホクサイ",
+      "weaponClass": "brush",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-033.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-034",
+      "name": "オーダーブラシ レプリカ",
+      "weaponClass": "brush",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-034.png",
+      "dominantColor": "#D5BEA6",
+      "palette": [
+        {
+          "color": "#D5BEA6",
+          "ratio": 0.4
+        },
+        {
+          "color": "#C4BFB5",
+          "ratio": 0.17
+        },
+        {
+          "color": "#FCF9EC",
+          "ratio": 0.16
+        },
+        {
+          "color": "#AA9D90",
+          "ratio": 0.15
+        },
+        {
+          "color": "#F4DDC0",
+          "ratio": 0.12
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-035",
+      "name": "フデ",
+      "weaponClass": "brush",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-035.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-036",
+      "name": "チャージャー",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-036.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-037",
+      "name": "ソイチューバー",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-037.png",
+      "dominantColor": "#A19D9A",
+      "palette": [
+        {
+          "color": "#A19D9A",
+          "ratio": 0.53
+        },
+        {
+          "color": "#373633",
+          "ratio": 0.24
+        },
+        {
+          "color": "#962F1E",
+          "ratio": 0.1
+        },
+        {
+          "color": "#D83428",
+          "ratio": 0.1
+        },
+        {
+          "color": "#C25B31",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-038",
+      "name": "ソイチューバーカスタム",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-038.png",
+      "dominantColor": "#A5A299",
+      "palette": [
+        {
+          "color": "#A5A299",
+          "ratio": 0.49
+        },
+        {
+          "color": "#383633",
+          "ratio": 0.25
+        },
+        {
+          "color": "#3E7CB1",
+          "ratio": 0.13
+        },
+        {
+          "color": "#D0C52D",
+          "ratio": 0.08
+        },
+        {
+          "color": "#B1522C",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-039",
+      "name": "ソイチューバー",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-039.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-040",
+      "name": "14式竹筒銃・甲",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-040.png",
+      "dominantColor": "#41672D",
+      "palette": [
+        {
+          "color": "#41672D",
+          "ratio": 0.58
+        },
+        {
+          "color": "#363632",
+          "ratio": 0.23
+        },
+        {
+          "color": "#88886C",
+          "ratio": 0.16
+        },
+        {
+          "color": "#8E1F54",
+          "ratio": 0.01
+        },
+        {
+          "color": "#DE2084",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-041",
+      "name": "14式竹筒銃・乙",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-041.png",
+      "dominantColor": "#526652",
+      "palette": [
+        {
+          "color": "#526652",
+          "ratio": 0.48
+        },
+        {
+          "color": "#59839A",
+          "ratio": 0.19
+        },
+        {
+          "color": "#3D3D3A",
+          "ratio": 0.19
+        },
+        {
+          "color": "#C1C3B9",
+          "ratio": 0.12
+        },
+        {
+          "color": "#C62172",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-042",
+      "name": "14式竹筒銃・甲",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-042.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-043",
+      "name": "4Kスコープ",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-043.png",
+      "dominantColor": "#2A2C2C",
+      "palette": [
+        {
+          "color": "#2A2C2C",
+          "ratio": 0.42
+        },
+        {
+          "color": "#565A5A",
+          "ratio": 0.25
+        },
+        {
+          "color": "#8C9596",
+          "ratio": 0.16
+        },
+        {
+          "color": "#1E53BD",
+          "ratio": 0.12
+        },
+        {
+          "color": "#304E82",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-044",
+      "name": "4Kスコープカスタム",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-044.png",
+      "dominantColor": "#575854",
+      "palette": [
+        {
+          "color": "#575854",
+          "ratio": 0.6
+        },
+        {
+          "color": "#525A8A",
+          "ratio": 0.11
+        },
+        {
+          "color": "#9D3526",
+          "ratio": 0.1
+        },
+        {
+          "color": "#E5DB30",
+          "ratio": 0.1
+        },
+        {
+          "color": "#9D9A4F",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-045",
+      "name": "4Kスコープ",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-045.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-046",
+      "name": "リッター4K",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-046.png",
+      "dominantColor": "#3A3E3E",
+      "palette": [
+        {
+          "color": "#3A3E3E",
+          "ratio": 0.5
+        },
+        {
+          "color": "#7F8788",
+          "ratio": 0.29
+        },
+        {
+          "color": "#1D4FB9",
+          "ratio": 0.16
+        },
+        {
+          "color": "#25365B",
+          "ratio": 0.04
+        },
+        {
+          "color": "#4B73B7",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-047",
+      "name": "リッター4Kamiibo",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-047.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-048",
+      "name": "リッター4Kカスタム",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-048.png",
+      "dominantColor": "#7F8273",
+      "palette": [
+        {
+          "color": "#7F8273",
+          "ratio": 0.31
+        },
+        {
+          "color": "#4B4A4A",
+          "ratio": 0.3
+        },
+        {
+          "color": "#D5CC36",
+          "ratio": 0.16
+        },
+        {
+          "color": "#4F5788",
+          "ratio": 0.11
+        },
+        {
+          "color": "#9C3426",
+          "ratio": 0.12
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-049",
+      "name": "リッター4K",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-049.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-050",
+      "name": "スプラスコープ",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-050.png",
+      "dominantColor": "#302563",
+      "palette": [
+        {
+          "color": "#302563",
+          "ratio": 0.31
+        },
+        {
+          "color": "#8E8E8C",
+          "ratio": 0.26
+        },
+        {
+          "color": "#272524",
+          "ratio": 0.24
+        },
+        {
+          "color": "#876C1D",
+          "ratio": 0.14
+        },
+        {
+          "color": "#CAA32C",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-051",
+      "name": "スプラスコープコラボ",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-051.png",
+      "dominantColor": "#42436A",
+      "palette": [
+        {
+          "color": "#42436A",
+          "ratio": 0.52
+        },
+        {
+          "color": "#C5372A",
+          "ratio": 0.23
+        },
+        {
+          "color": "#A7ACBA",
+          "ratio": 0.11
+        },
+        {
+          "color": "#764952",
+          "ratio": 0.09
+        },
+        {
+          "color": "#1E1D1D",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-052",
+      "name": "スプラスコープFRST",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-052.png",
+      "dominantColor": "#887E6E",
+      "palette": [
+        {
+          "color": "#887E6E",
+          "ratio": 0.42
+        },
+        {
+          "color": "#2B2926",
+          "ratio": 0.39
+        },
+        {
+          "color": "#654429",
+          "ratio": 0.09
+        },
+        {
+          "color": "#BB5727",
+          "ratio": 0.06
+        },
+        {
+          "color": "#616926",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-053",
+      "name": "スプラスコープ",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-053.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-054",
+      "name": "スプラチャージャー",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-054.png",
+      "dominantColor": "#2F2461",
+      "palette": [
+        {
+          "color": "#2F2461",
+          "ratio": 0.38
+        },
+        {
+          "color": "#959493",
+          "ratio": 0.26
+        },
+        {
+          "color": "#8E721D",
+          "ratio": 0.2
+        },
+        {
+          "color": "#332C29",
+          "ratio": 0.1
+        },
+        {
+          "color": "#D5AF2F",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-055",
+      "name": "スプラチャージャーコラボ",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-055.png",
+      "dominantColor": "#3D3E66",
+      "palette": [
+        {
+          "color": "#3D3E66",
+          "ratio": 0.49
+        },
+        {
+          "color": "#CA392B",
+          "ratio": 0.18
+        },
+        {
+          "color": "#696D87",
+          "ratio": 0.13
+        },
+        {
+          "color": "#5B373C",
+          "ratio": 0.11
+        },
+        {
+          "color": "#BDBFC8",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-056",
+      "name": "スプラチャージャーFRST",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-056.png",
+      "dominantColor": "#726958",
+      "palette": [
+        {
+          "color": "#726958",
+          "ratio": 0.52
+        },
+        {
+          "color": "#241F1C",
+          "ratio": 0.24
+        },
+        {
+          "color": "#C1AC9E",
+          "ratio": 0.1
+        },
+        {
+          "color": "#AA4F23",
+          "ratio": 0.08
+        },
+        {
+          "color": "#636826",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-057",
+      "name": "スプラチャージャー",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-057.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-058",
+      "name": "オーダーチャージャー レプリカ",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-058.png",
+      "dominantColor": "#B5A28E",
+      "palette": [
+        {
+          "color": "#B5A28E",
+          "ratio": 0.57
+        },
+        {
+          "color": "#69655E",
+          "ratio": 0.15
+        },
+        {
+          "color": "#464645",
+          "ratio": 0.12
+        },
+        {
+          "color": "#827C71",
+          "ratio": 0.09
+        },
+        {
+          "color": "#E0C8AA",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-059",
+      "name": "R-PEN/5H",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-059.png",
+      "dominantColor": "#C78D6A",
+      "palette": [
+        {
+          "color": "#C78D6A",
+          "ratio": 0.34
+        },
+        {
+          "color": "#255298",
+          "ratio": 0.29
+        },
+        {
+          "color": "#96877F",
+          "ratio": 0.17
+        },
+        {
+          "color": "#596072",
+          "ratio": 0.12
+        },
+        {
+          "color": "#3B78D1",
+          "ratio": 0.08
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-060",
+      "name": "R-PEN/5B",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-060.png",
+      "dominantColor": "#C18564",
+      "palette": [
+        {
+          "color": "#C18564",
+          "ratio": 0.3
+        },
+        {
+          "color": "#693032",
+          "ratio": 0.3
+        },
+        {
+          "color": "#918C88",
+          "ratio": 0.23
+        },
+        {
+          "color": "#E9E5E3",
+          "ratio": 0.14
+        },
+        {
+          "color": "#EF5837",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-061",
+      "name": "スクイックリンα",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-061.png",
+      "dominantColor": "#666868",
+      "palette": [
+        {
+          "color": "#666868",
+          "ratio": 0.44
+        },
+        {
+          "color": "#5A7D98",
+          "ratio": 0.29
+        },
+        {
+          "color": "#ACAEA8",
+          "ratio": 0.21
+        },
+        {
+          "color": "#99822F",
+          "ratio": 0.04
+        },
+        {
+          "color": "#9F5A14",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-062",
+      "name": "スクイックリンβ",
+      "weaponClass": "charger",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-062.png",
+      "dominantColor": "#868F82",
+      "palette": [
+        {
+          "color": "#868F82",
+          "ratio": 0.47
+        },
+        {
+          "color": "#726057",
+          "ratio": 0.16
+        },
+        {
+          "color": "#CDBFB0",
+          "ratio": 0.14
+        },
+        {
+          "color": "#D62B19",
+          "ratio": 0.12
+        },
+        {
+          "color": "#E48E32",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-063",
+      "name": "スクイックリンα",
+      "weaponClass": "charger",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-063.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-064",
+      "name": "-",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-064.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-065",
+      "name": "デュアルスイーパー",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-065.png",
+      "dominantColor": "#9E280F",
+      "palette": [
+        {
+          "color": "#9E280F",
+          "ratio": 0.36
+        },
+        {
+          "color": "#2F2D29",
+          "ratio": 0.31
+        },
+        {
+          "color": "#843120",
+          "ratio": 0.18
+        },
+        {
+          "color": "#57281E",
+          "ratio": 0.1
+        },
+        {
+          "color": "#D0B0A1",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-066",
+      "name": "デュアルスイーパーカスタム",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-066.png",
+      "dominantColor": "#A73017",
+      "palette": [
+        {
+          "color": "#A73017",
+          "ratio": 0.32
+        },
+        {
+          "color": "#39373D",
+          "ratio": 0.27
+        },
+        {
+          "color": "#763225",
+          "ratio": 0.17
+        },
+        {
+          "color": "#E1D433",
+          "ratio": 0.14
+        },
+        {
+          "color": "#AD9D84",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-067",
+      "name": "デュアルスイーパー蹄",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-067.png",
+      "dominantColor": "#373836",
+      "palette": [
+        {
+          "color": "#373836",
+          "ratio": 0.38
+        },
+        {
+          "color": "#687FA2",
+          "ratio": 0.21
+        },
+        {
+          "color": "#C5E1D0",
+          "ratio": 0.15
+        },
+        {
+          "color": "#87796B",
+          "ratio": 0.14
+        },
+        {
+          "color": "#0C0B0C",
+          "ratio": 0.12
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-068",
+      "name": "デュアルスイーパー",
+      "weaponClass": "dualies",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-068.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-069",
+      "name": "ケルビン525",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-069.png",
+      "dominantColor": "#2C3AA2",
+      "palette": [
+        {
+          "color": "#2C3AA2",
+          "ratio": 0.5
+        },
+        {
+          "color": "#747379",
+          "ratio": 0.17
+        },
+        {
+          "color": "#671D18",
+          "ratio": 0.14
+        },
+        {
+          "color": "#41383E",
+          "ratio": 0.1
+        },
+        {
+          "color": "#ABA69F",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-070",
+      "name": "ケルビン525デコ",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-070.png",
+      "dominantColor": "#9A8F7D",
+      "palette": [
+        {
+          "color": "#9A8F7D",
+          "ratio": 0.26
+        },
+        {
+          "color": "#413B2F",
+          "ratio": 0.26
+        },
+        {
+          "color": "#FBD51C",
+          "ratio": 0.25
+        },
+        {
+          "color": "#D0A52C",
+          "ratio": 0.2
+        },
+        {
+          "color": "#4044A1",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-071",
+      "name": "ケルビン525",
+      "weaponClass": "dualies",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-071.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-072",
+      "name": "ガエンFF",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-072.png",
+      "dominantColor": "#363430",
+      "palette": [
+        {
+          "color": "#363430",
+          "ratio": 0.37
+        },
+        {
+          "color": "#87867C",
+          "ratio": 0.24
+        },
+        {
+          "color": "#BC3F33",
+          "ratio": 0.22
+        },
+        {
+          "color": "#B49035",
+          "ratio": 0.12
+        },
+        {
+          "color": "#F8D84C",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-073",
+      "name": "ガエンFFカスタム",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-073.png",
+      "dominantColor": "#363531",
+      "palette": [
+        {
+          "color": "#363531",
+          "ratio": 0.32
+        },
+        {
+          "color": "#B68B37",
+          "ratio": 0.23
+        },
+        {
+          "color": "#87877C",
+          "ratio": 0.22
+        },
+        {
+          "color": "#F2D747",
+          "ratio": 0.18
+        },
+        {
+          "color": "#424E85",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-074",
+      "name": "スプラマニューバー",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-074.png",
+      "dominantColor": "#2B2923",
+      "palette": [
+        {
+          "color": "#2B2923",
+          "ratio": 0.45
+        },
+        {
+          "color": "#B8B5AC",
+          "ratio": 0.27
+        },
+        {
+          "color": "#315724",
+          "ratio": 0.23
+        },
+        {
+          "color": "#5E244E",
+          "ratio": 0.03
+        },
+        {
+          "color": "#99327E",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-075",
+      "name": "スプラマニューバーコラボ",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpPogo.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-075.png",
+      "dominantColor": "#34343C",
+      "palette": [
+        {
+          "color": "#34343C",
+          "ratio": 0.33
+        },
+        {
+          "color": "#67645F",
+          "ratio": 0.28
+        },
+        {
+          "color": "#897C3C",
+          "ratio": 0.19
+        },
+        {
+          "color": "#9C9A93",
+          "ratio": 0.14
+        },
+        {
+          "color": "#1E1310",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-076",
+      "name": "スプラマニューバー耀",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-076.png",
+      "dominantColor": "#959C99",
+      "palette": [
+        {
+          "color": "#959C99",
+          "ratio": 0.47
+        },
+        {
+          "color": "#BB6863",
+          "ratio": 0.2
+        },
+        {
+          "color": "#CB5951",
+          "ratio": 0.15
+        },
+        {
+          "color": "#202320",
+          "ratio": 0.13
+        },
+        {
+          "color": "#57C49B",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-077",
+      "name": "スプラマニューバー",
+      "weaponClass": "dualies",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-077.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-078",
+      "name": "オーダーマニューバー レプリカ",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-078.png",
+      "dominantColor": "#B9A490",
+      "palette": [
+        {
+          "color": "#B9A490",
+          "ratio": 0.39
+        },
+        {
+          "color": "#8F8B81",
+          "ratio": 0.22
+        },
+        {
+          "color": "#6E6A64",
+          "ratio": 0.14
+        },
+        {
+          "color": "#494847",
+          "ratio": 0.13
+        },
+        {
+          "color": "#F3E3C7",
+          "ratio": 0.12
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-079",
+      "name": "マニューバー",
+      "weaponClass": "dualies",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-079.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-080",
+      "name": "スパッタリー",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-080.png",
+      "dominantColor": "#721C3C",
+      "palette": [
+        {
+          "color": "#721C3C",
+          "ratio": 0.45
+        },
+        {
+          "color": "#1C1919",
+          "ratio": 0.27
+        },
+        {
+          "color": "#7F6E72",
+          "ratio": 0.12
+        },
+        {
+          "color": "#D0D5D5",
+          "ratio": 0.1
+        },
+        {
+          "color": "#4088D3",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-081",
+      "name": "スパッタリー・ヒュー",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-081.png",
+      "dominantColor": "#2C226A",
+      "palette": [
+        {
+          "color": "#2C226A",
+          "ratio": 0.37
+        },
+        {
+          "color": "#252423",
+          "ratio": 0.26
+        },
+        {
+          "color": "#D0D0CE",
+          "ratio": 0.2
+        },
+        {
+          "color": "#717B94",
+          "ratio": 0.16
+        },
+        {
+          "color": "#ED6D51",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-082",
+      "name": "スパッタリーOWL",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-082.png",
+      "dominantColor": "#574C43",
+      "palette": [
+        {
+          "color": "#574C43",
+          "ratio": 0.34
+        },
+        {
+          "color": "#252320",
+          "ratio": 0.29
+        },
+        {
+          "color": "#8F765B",
+          "ratio": 0.19
+        },
+        {
+          "color": "#CDC7B2",
+          "ratio": 0.12
+        },
+        {
+          "color": "#D86432",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-083",
+      "name": "スパッタリー",
+      "weaponClass": "dualies",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-083.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-084",
+      "name": "クアッドホッパーブラック",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-084.png",
+      "dominantColor": "#252523",
+      "palette": [
+        {
+          "color": "#252523",
+          "ratio": 0.33
+        },
+        {
+          "color": "#72706C",
+          "ratio": 0.31
+        },
+        {
+          "color": "#D1CEC4",
+          "ratio": 0.25
+        },
+        {
+          "color": "#3A8C23",
+          "ratio": 0.05
+        },
+        {
+          "color": "#5F1D80",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-085",
+      "name": "クアッドホッパーホワイト",
+      "weaponClass": "dualies",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-085.png",
+      "dominantColor": "#2A2724",
+      "palette": [
+        {
+          "color": "#2A2724",
+          "ratio": 0.24
+        },
+        {
+          "color": "#ADA69D",
+          "ratio": 0.23
+        },
+        {
+          "color": "#756E69",
+          "ratio": 0.2
+        },
+        {
+          "color": "#E6E2D5",
+          "ratio": 0.19
+        },
+        {
+          "color": "#A2294C",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-086",
+      "name": "クアッドホッパーブラック",
+      "weaponClass": "dualies",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-086.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-087",
+      "name": "カーボンローラー",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-087.png",
+      "dominantColor": "#706E68",
+      "palette": [
+        {
+          "color": "#706E68",
+          "ratio": 0.44
+        },
+        {
+          "color": "#B9B5AB",
+          "ratio": 0.24
+        },
+        {
+          "color": "#272626",
+          "ratio": 0.16
+        },
+        {
+          "color": "#524840",
+          "ratio": 0.1
+        },
+        {
+          "color": "#CD8F32",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-088",
+      "name": "カーボンローラーデコ",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-088.png",
+      "dominantColor": "#969288",
+      "palette": [
+        {
+          "color": "#969288",
+          "ratio": 0.62
+        },
+        {
+          "color": "#3C3733",
+          "ratio": 0.26
+        },
+        {
+          "color": "#70611C",
+          "ratio": 0.05
+        },
+        {
+          "color": "#CBB51F",
+          "ratio": 0.04
+        },
+        {
+          "color": "#A93F49",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-089",
+      "name": "カーボンローラーANGL",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-089.png",
+      "dominantColor": "#56524C",
+      "palette": [
+        {
+          "color": "#56524C",
+          "ratio": 0.48
+        },
+        {
+          "color": "#302D29",
+          "ratio": 0.22
+        },
+        {
+          "color": "#827B73",
+          "ratio": 0.19
+        },
+        {
+          "color": "#0F0E0E",
+          "ratio": 0.08
+        },
+        {
+          "color": "#A45124",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-090",
+      "name": "カーボンローラー",
+      "weaponClass": "roller",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-090.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-091",
+      "name": "ダイナモローラー",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-091.png",
+      "dominantColor": "#504F4D",
+      "palette": [
+        {
+          "color": "#504F4D",
+          "ratio": 0.3
+        },
+        {
+          "color": "#2E2D2C",
+          "ratio": 0.24
+        },
+        {
+          "color": "#898782",
+          "ratio": 0.23
+        },
+        {
+          "color": "#B2AFA6",
+          "ratio": 0.12
+        },
+        {
+          "color": "#E6E3D8",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-092",
+      "name": "ダイナモローラーテスラ",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-092.png",
+      "dominantColor": "#C8C2B4",
+      "palette": [
+        {
+          "color": "#C8C2B4",
+          "ratio": 0.36
+        },
+        {
+          "color": "#8C6F37",
+          "ratio": 0.23
+        },
+        {
+          "color": "#624E29",
+          "ratio": 0.22
+        },
+        {
+          "color": "#3E3B31",
+          "ratio": 0.13
+        },
+        {
+          "color": "#C0B548",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-093",
+      "name": "ダイナモローラー冥",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-093.png",
+      "dominantColor": "#C7C2B6",
+      "palette": [
+        {
+          "color": "#C7C2B6",
+          "ratio": 0.37
+        },
+        {
+          "color": "#221F33",
+          "ratio": 0.29
+        },
+        {
+          "color": "#0F0D10",
+          "ratio": 0.18
+        },
+        {
+          "color": "#6F5A55",
+          "ratio": 0.13
+        },
+        {
+          "color": "#1CB0A4",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-094",
+      "name": "ダイナモローラー",
+      "weaponClass": "roller",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-094.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-095",
+      "name": "ヴァリアブルローラー",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-095.png",
+      "dominantColor": "#5E5C59",
+      "palette": [
+        {
+          "color": "#5E5C59",
+          "ratio": 0.29
+        },
+        {
+          "color": "#7B7975",
+          "ratio": 0.22
+        },
+        {
+          "color": "#9E9B93",
+          "ratio": 0.18
+        },
+        {
+          "color": "#320C11",
+          "ratio": 0.17
+        },
+        {
+          "color": "#C4C1B6",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-096",
+      "name": "ヴァリアブルローラーフォイル",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-096.png",
+      "dominantColor": "#6C6A66",
+      "palette": [
+        {
+          "color": "#6C6A66",
+          "ratio": 0.47
+        },
+        {
+          "color": "#8E8C86",
+          "ratio": 0.33
+        },
+        {
+          "color": "#252A41",
+          "ratio": 0.09
+        },
+        {
+          "color": "#2E302E",
+          "ratio": 0.07
+        },
+        {
+          "color": "#C5C5C3",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-097",
+      "name": "ヴァリアブルローラー",
+      "weaponClass": "roller",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-097.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-098",
+      "name": "スプラローラー",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-098.png",
+      "dominantColor": "#9E9B94",
+      "palette": [
+        {
+          "color": "#9E9B94",
+          "ratio": 0.44
+        },
+        {
+          "color": "#F2F0E8",
+          "ratio": 0.31
+        },
+        {
+          "color": "#36307B",
+          "ratio": 0.1
+        },
+        {
+          "color": "#343337",
+          "ratio": 0.08
+        },
+        {
+          "color": "#A2883B",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-099",
+      "name": "スプラローラーコラボ",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-099.png",
+      "dominantColor": "#E1D8CD",
+      "palette": [
+        {
+          "color": "#E1D8CD",
+          "ratio": 0.61
+        },
+        {
+          "color": "#BB624A",
+          "ratio": 0.15
+        },
+        {
+          "color": "#9395A0",
+          "ratio": 0.1
+        },
+        {
+          "color": "#4367A2",
+          "ratio": 0.08
+        },
+        {
+          "color": "#3D3330",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-100",
+      "name": "スプラローラー",
+      "weaponClass": "roller",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-100.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-101",
+      "name": "オーダーローラー レプリカ",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-101.png",
+      "dominantColor": "#CFC9BD",
+      "palette": [
+        {
+          "color": "#CFC9BD",
+          "ratio": 0.33
+        },
+        {
+          "color": "#FEFEF7",
+          "ratio": 0.21
+        },
+        {
+          "color": "#F0E8D3",
+          "ratio": 0.19
+        },
+        {
+          "color": "#CEB59A",
+          "ratio": 0.14
+        },
+        {
+          "color": "#8A8378",
+          "ratio": 0.13
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-102",
+      "name": "ローラー",
+      "weaponClass": "roller",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-102.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-103",
+      "name": "ワイドローラー",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-103.png",
+      "dominantColor": "#79746D",
+      "palette": [
+        {
+          "color": "#79746D",
+          "ratio": 0.37
+        },
+        {
+          "color": "#A49F95",
+          "ratio": 0.25
+        },
+        {
+          "color": "#5F4EAA",
+          "ratio": 0.24
+        },
+        {
+          "color": "#6C78AA",
+          "ratio": 0.1
+        },
+        {
+          "color": "#A4C0F7",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-104",
+      "name": "ワイドローラーコラボ",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-104.png",
+      "dominantColor": "#8C857A",
+      "palette": [
+        {
+          "color": "#8C857A",
+          "ratio": 0.56
+        },
+        {
+          "color": "#959FD0",
+          "ratio": 0.14
+        },
+        {
+          "color": "#C8A12E",
+          "ratio": 0.12
+        },
+        {
+          "color": "#5150AF",
+          "ratio": 0.1
+        },
+        {
+          "color": "#4625AC",
+          "ratio": 0.08
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-105",
+      "name": "ワイドローラー惑",
+      "weaponClass": "roller",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpPogo.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-105.png",
+      "dominantColor": "#8A897F",
+      "palette": [
+        {
+          "color": "#8A897F",
+          "ratio": 0.6
+        },
+        {
+          "color": "#BC464A",
+          "ratio": 0.15
+        },
+        {
+          "color": "#101211",
+          "ratio": 0.13
+        },
+        {
+          "color": "#6461AB",
+          "ratio": 0.1
+        },
+        {
+          "color": "#34BF86",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-106",
+      "name": "デンタルワイパーミント",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-106.png",
+      "dominantColor": "#E0DED9",
+      "palette": [
+        {
+          "color": "#E0DED9",
+          "ratio": 0.41
+        },
+        {
+          "color": "#9FA1A0",
+          "ratio": 0.33
+        },
+        {
+          "color": "#749CC7",
+          "ratio": 0.15
+        },
+        {
+          "color": "#A1E0FC",
+          "ratio": 0.07
+        },
+        {
+          "color": "#444181",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-107",
+      "name": "デンタルワイパースミ",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-107.png",
+      "dominantColor": "#35333C",
+      "palette": [
+        {
+          "color": "#35333C",
+          "ratio": 0.41
+        },
+        {
+          "color": "#6F7578",
+          "ratio": 0.33
+        },
+        {
+          "color": "#88752C",
+          "ratio": 0.12
+        },
+        {
+          "color": "#CAAE44",
+          "ratio": 0.08
+        },
+        {
+          "color": "#D9DAD7",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-108",
+      "name": "ドライブワイパー",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-108.png",
+      "dominantColor": "#2D2D2C",
+      "palette": [
+        {
+          "color": "#2D2D2C",
+          "ratio": 0.36
+        },
+        {
+          "color": "#6D6C6A",
+          "ratio": 0.23
+        },
+        {
+          "color": "#918F8A",
+          "ratio": 0.17
+        },
+        {
+          "color": "#EFEADB",
+          "ratio": 0.14
+        },
+        {
+          "color": "#C0BDB2",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-109",
+      "name": "ドライブワイパーデコ",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-109.png",
+      "dominantColor": "#4A473F",
+      "palette": [
+        {
+          "color": "#4A473F",
+          "ratio": 0.31
+        },
+        {
+          "color": "#938B7D",
+          "ratio": 0.29
+        },
+        {
+          "color": "#E4DECE",
+          "ratio": 0.22
+        },
+        {
+          "color": "#AD9046",
+          "ratio": 0.13
+        },
+        {
+          "color": "#E4CA34",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-110",
+      "name": "ドライブワイパーRUST",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-110.png",
+      "dominantColor": "#604E3E",
+      "palette": [
+        {
+          "color": "#604E3E",
+          "ratio": 0.33
+        },
+        {
+          "color": "#2D221A",
+          "ratio": 0.24
+        },
+        {
+          "color": "#A79681",
+          "ratio": 0.2
+        },
+        {
+          "color": "#E8E1D0",
+          "ratio": 0.2
+        },
+        {
+          "color": "#B65626",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-111",
+      "name": "ジムワイパー",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-111.png",
+      "dominantColor": "#555554",
+      "palette": [
+        {
+          "color": "#555554",
+          "ratio": 0.39
+        },
+        {
+          "color": "#9D9C98",
+          "ratio": 0.17
+        },
+        {
+          "color": "#1E1E1E",
+          "ratio": 0.15
+        },
+        {
+          "color": "#DEDCD4",
+          "ratio": 0.15
+        },
+        {
+          "color": "#474C63",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-112",
+      "name": "ジムワイパー・ヒュー",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-112.png",
+      "dominantColor": "#A8A398",
+      "palette": [
+        {
+          "color": "#A8A398",
+          "ratio": 0.42
+        },
+        {
+          "color": "#49623B",
+          "ratio": 0.37
+        },
+        {
+          "color": "#F5F6F0",
+          "ratio": 0.19
+        },
+        {
+          "color": "#D78774",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-113",
+      "name": "ジムワイパー封",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-113.png",
+      "dominantColor": "#31302E",
+      "palette": [
+        {
+          "color": "#31302E",
+          "ratio": 0.47
+        },
+        {
+          "color": "#70717B",
+          "ratio": 0.33
+        },
+        {
+          "color": "#F3FA38",
+          "ratio": 0.11
+        },
+        {
+          "color": "#81B672",
+          "ratio": 0.07
+        },
+        {
+          "color": "#CC390B",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-114",
+      "name": "ジムワイパー",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-114.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-115",
+      "name": "オーダーワイパー レプリカ",
+      "weaponClass": "splatana",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-115.png",
+      "dominantColor": "#B5A18D",
+      "palette": [
+        {
+          "color": "#B5A18D",
+          "ratio": 0.47
+        },
+        {
+          "color": "#8E8579",
+          "ratio": 0.2
+        },
+        {
+          "color": "#D6BCA2",
+          "ratio": 0.15
+        },
+        {
+          "color": "#F6DDBF",
+          "ratio": 0.12
+        },
+        {
+          "color": "#4E4C49",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-116",
+      "name": "ワイパー",
+      "weaponClass": "splatana",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-116.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-117",
+      "name": "スパイガジェット",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-117.png",
+      "dominantColor": "#ACABA8",
+      "palette": [
+        {
+          "color": "#ACABA8",
+          "ratio": 0.34
+        },
+        {
+          "color": "#5F4F34",
+          "ratio": 0.25
+        },
+        {
+          "color": "#1F1F1F",
+          "ratio": 0.17
+        },
+        {
+          "color": "#3C3426",
+          "ratio": 0.16
+        },
+        {
+          "color": "#85837D",
+          "ratio": 0.08
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-118",
+      "name": "スパイガジェットソレーラ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-118.png",
+      "dominantColor": "#848483",
+      "palette": [
+        {
+          "color": "#848483",
+          "ratio": 0.32
+        },
+        {
+          "color": "#5D5D5D",
+          "ratio": 0.22
+        },
+        {
+          "color": "#B5B4AF",
+          "ratio": 0.21
+        },
+        {
+          "color": "#2F2E2B",
+          "ratio": 0.14
+        },
+        {
+          "color": "#604E31",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-119",
+      "name": "スパイガジェット繚",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-119.png",
+      "dominantColor": "#080706",
+      "palette": [
+        {
+          "color": "#080706",
+          "ratio": 0.39
+        },
+        {
+          "color": "#8A9EA0",
+          "ratio": 0.28
+        },
+        {
+          "color": "#3C4946",
+          "ratio": 0.22
+        },
+        {
+          "color": "#CC390B",
+          "ratio": 0.06
+        },
+        {
+          "color": "#1BD6A5",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-120",
+      "name": "スパイガジェット",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-120.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-121",
+      "name": "24式張替傘・甲",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-121.png",
+      "dominantColor": "#322A25",
+      "palette": [
+        {
+          "color": "#322A25",
+          "ratio": 0.43
+        },
+        {
+          "color": "#484039",
+          "ratio": 0.32
+        },
+        {
+          "color": "#A54E38",
+          "ratio": 0.13
+        },
+        {
+          "color": "#562F26",
+          "ratio": 0.11
+        },
+        {
+          "color": "#369D72",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-122",
+      "name": "24式張替傘・乙",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpPogo.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-122.png",
+      "dominantColor": "#3A362B",
+      "palette": [
+        {
+          "color": "#3A362B",
+          "ratio": 0.59
+        },
+        {
+          "color": "#8F713A",
+          "ratio": 0.12
+        },
+        {
+          "color": "#7394A9",
+          "ratio": 0.12
+        },
+        {
+          "color": "#326688",
+          "ratio": 0.08
+        },
+        {
+          "color": "#D1D8DD",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-123",
+      "name": "パラシェルター",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-123.png",
+      "dominantColor": "#353331",
+      "palette": [
+        {
+          "color": "#353331",
+          "ratio": 0.32
+        },
+        {
+          "color": "#62615F",
+          "ratio": 0.28
+        },
+        {
+          "color": "#87837E",
+          "ratio": 0.18
+        },
+        {
+          "color": "#B0A9A2",
+          "ratio": 0.11
+        },
+        {
+          "color": "#E1DAD0",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-124",
+      "name": "パラシェルターソレーラ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-124.png",
+      "dominantColor": "#E0DCD0",
+      "palette": [
+        {
+          "color": "#E0DCD0",
+          "ratio": 0.45
+        },
+        {
+          "color": "#8C8A82",
+          "ratio": 0.27
+        },
+        {
+          "color": "#4B4945",
+          "ratio": 0.19
+        },
+        {
+          "color": "#A5892D",
+          "ratio": 0.05
+        },
+        {
+          "color": "#D8B926",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-125",
+      "name": "パラシェルター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-125.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-126",
+      "name": "オーダーシェルター レプリカ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-126.png",
+      "dominantColor": "#605D57",
+      "palette": [
+        {
+          "color": "#605D57",
+          "ratio": 0.48
+        },
+        {
+          "color": "#FEF7D7",
+          "ratio": 0.24
+        },
+        {
+          "color": "#F2DDBD",
+          "ratio": 0.12
+        },
+        {
+          "color": "#8A8479",
+          "ratio": 0.1
+        },
+        {
+          "color": "#C9B49C",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-127",
+      "name": "シェルター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-127.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-128",
+      "name": "キャンピングシェルター",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-128.png",
+      "dominantColor": "#2A2E20",
+      "palette": [
+        {
+          "color": "#2A2E20",
+          "ratio": 0.37
+        },
+        {
+          "color": "#78766F",
+          "ratio": 0.3
+        },
+        {
+          "color": "#4D4B45",
+          "ratio": 0.18
+        },
+        {
+          "color": "#645844",
+          "ratio": 0.13
+        },
+        {
+          "color": "#7E2E2B",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-129",
+      "name": "キャンピングシェルターソレーラ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-129.png",
+      "dominantColor": "#242818",
+      "palette": [
+        {
+          "color": "#242818",
+          "ratio": 0.34
+        },
+        {
+          "color": "#585243",
+          "ratio": 0.28
+        },
+        {
+          "color": "#777464",
+          "ratio": 0.25
+        },
+        {
+          "color": "#BFCAD9",
+          "ratio": 0.07
+        },
+        {
+          "color": "#5982BD",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-130",
+      "name": "キャンピングシェルターCREM",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-130.png",
+      "dominantColor": "#8E897C",
+      "palette": [
+        {
+          "color": "#8E897C",
+          "ratio": 0.46
+        },
+        {
+          "color": "#D7CFB7",
+          "ratio": 0.3
+        },
+        {
+          "color": "#55514B",
+          "ratio": 0.16
+        },
+        {
+          "color": "#0F0A08",
+          "ratio": 0.04
+        },
+        {
+          "color": "#B85B2C",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-131",
+      "name": "キャンピングシェルター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-131.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-132",
+      "name": "プロモデラーMG",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-132.png",
+      "dominantColor": "#5A5854",
+      "palette": [
+        {
+          "color": "#5A5854",
+          "ratio": 0.33
+        },
+        {
+          "color": "#848179",
+          "ratio": 0.28
+        },
+        {
+          "color": "#393836",
+          "ratio": 0.27
+        },
+        {
+          "color": "#1A1A19",
+          "ratio": 0.08
+        },
+        {
+          "color": "#ECEBE6",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-133",
+      "name": "プロモデラーRG",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-133.png",
+      "dominantColor": "#80641D",
+      "palette": [
+        {
+          "color": "#80641D",
+          "ratio": 0.35
+        },
+        {
+          "color": "#574413",
+          "ratio": 0.34
+        },
+        {
+          "color": "#30270D",
+          "ratio": 0.21
+        },
+        {
+          "color": "#D1C351",
+          "ratio": 0.08
+        },
+        {
+          "color": "#B1B1A2",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-134",
+      "name": "プロモデラー彩",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-134.png",
+      "dominantColor": "#4F4A59",
+      "palette": [
+        {
+          "color": "#4F4A59",
+          "ratio": 0.5
+        },
+        {
+          "color": "#5D6DA0",
+          "ratio": 0.23
+        },
+        {
+          "color": "#0F0E10",
+          "ratio": 0.13
+        },
+        {
+          "color": "#8ECDB9",
+          "ratio": 0.11
+        },
+        {
+          "color": "#CB4E2E",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-135",
+      "name": "プロモデラーMG",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-135.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-136",
+      "name": "プライムシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-136.png",
+      "dominantColor": "#92918E",
+      "palette": [
+        {
+          "color": "#92918E",
+          "ratio": 0.43
+        },
+        {
+          "color": "#2E3958",
+          "ratio": 0.22
+        },
+        {
+          "color": "#364D80",
+          "ratio": 0.19
+        },
+        {
+          "color": "#88262C",
+          "ratio": 0.09
+        },
+        {
+          "color": "#D52C31",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-137",
+      "name": "プライムシューターコラボ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-137.png",
+      "dominantColor": "#363430",
+      "palette": [
+        {
+          "color": "#363430",
+          "ratio": 0.35
+        },
+        {
+          "color": "#7F7B71",
+          "ratio": 0.26
+        },
+        {
+          "color": "#BEB9AE",
+          "ratio": 0.22
+        },
+        {
+          "color": "#090708",
+          "ratio": 0.1
+        },
+        {
+          "color": "#DDAE35",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-138",
+      "name": "プライムシューターFRZN",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-138.png",
+      "dominantColor": "#7D7C6B",
+      "palette": [
+        {
+          "color": "#7D7C6B",
+          "ratio": 0.44
+        },
+        {
+          "color": "#464841",
+          "ratio": 0.31
+        },
+        {
+          "color": "#83413A",
+          "ratio": 0.13
+        },
+        {
+          "color": "#C7B69D",
+          "ratio": 0.08
+        },
+        {
+          "color": "#C45830",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-139",
+      "name": "プライムシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-139.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-140",
+      "name": "シューター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-140.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-141",
+      "name": "オクタシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-141.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-142",
+      "name": "わかばシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-142.png",
+      "dominantColor": "#7A7976",
+      "palette": [
+        {
+          "color": "#7A7976",
+          "ratio": 0.4
+        },
+        {
+          "color": "#A2A09D",
+          "ratio": 0.36
+        },
+        {
+          "color": "#DAD8D0",
+          "ratio": 0.17
+        },
+        {
+          "color": "#863F9B",
+          "ratio": 0.06
+        },
+        {
+          "color": "#906499",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-143",
+      "name": "もみじシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-143.png",
+      "dominantColor": "#BEBAB0",
+      "palette": [
+        {
+          "color": "#BEBAB0",
+          "ratio": 0.65
+        },
+        {
+          "color": "#82786E",
+          "ratio": 0.18
+        },
+        {
+          "color": "#8A469C",
+          "ratio": 0.06
+        },
+        {
+          "color": "#D55933",
+          "ratio": 0.06
+        },
+        {
+          "color": "#EFCA3B",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-144",
+      "name": "わかばシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-144.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-145",
+      "name": "ボトルガイザー",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-145.png",
+      "dominantColor": "#7C7972",
+      "palette": [
+        {
+          "color": "#7C7972",
+          "ratio": 0.34
+        },
+        {
+          "color": "#1A1B1A",
+          "ratio": 0.22
+        },
+        {
+          "color": "#D7DBCE",
+          "ratio": 0.15
+        },
+        {
+          "color": "#7D2B18",
+          "ratio": 0.15
+        },
+        {
+          "color": "#421A12",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-146",
+      "name": "ボトルガイザーフォイル",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-146.png",
+      "dominantColor": "#848274",
+      "palette": [
+        {
+          "color": "#848274",
+          "ratio": 0.34
+        },
+        {
+          "color": "#534D40",
+          "ratio": 0.19
+        },
+        {
+          "color": "#D9D2C1",
+          "ratio": 0.19
+        },
+        {
+          "color": "#133D11",
+          "ratio": 0.15
+        },
+        {
+          "color": "#0A150B",
+          "ratio": 0.13
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-147",
+      "name": "ボトルガイザー",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-147.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-148",
+      "name": ".52ガロン",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-148.png",
+      "dominantColor": "#383637",
+      "palette": [
+        {
+          "color": "#383637",
+          "ratio": 0.46
+        },
+        {
+          "color": "#8E8B85",
+          "ratio": 0.38
+        },
+        {
+          "color": "#940E54",
+          "ratio": 0.09
+        },
+        {
+          "color": "#58263D",
+          "ratio": 0.04
+        },
+        {
+          "color": "#E92388",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-149",
+      "name": ".52ガロンデコ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-149.png",
+      "dominantColor": "#433F3E",
+      "palette": [
+        {
+          "color": "#433F3E",
+          "ratio": 0.28
+        },
+        {
+          "color": "#B3B0A9",
+          "ratio": 0.26
+        },
+        {
+          "color": "#86777E",
+          "ratio": 0.18
+        },
+        {
+          "color": "#7D4165",
+          "ratio": 0.17
+        },
+        {
+          "color": "#C32371",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-150",
+      "name": ".52ガロン",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-150.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-151",
+      "name": ".96ガロン",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-151.png",
+      "dominantColor": "#31302F",
+      "palette": [
+        {
+          "color": "#31302F",
+          "ratio": 0.32
+        },
+        {
+          "color": "#78746F",
+          "ratio": 0.32
+        },
+        {
+          "color": "#B5B0A4",
+          "ratio": 0.27
+        },
+        {
+          "color": "#8E1853",
+          "ratio": 0.07
+        },
+        {
+          "color": "#E72386",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-152",
+      "name": ".96ガロンデコ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-152.png",
+      "dominantColor": "#B4AEA7",
+      "palette": [
+        {
+          "color": "#B4AEA7",
+          "ratio": 0.36
+        },
+        {
+          "color": "#484643",
+          "ratio": 0.29
+        },
+        {
+          "color": "#9E758A",
+          "ratio": 0.18
+        },
+        {
+          "color": "#733C63",
+          "ratio": 0.1
+        },
+        {
+          "color": "#BF2872",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-153",
+      "name": ".96ガロン爪",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-153.png",
+      "dominantColor": "#353636",
+      "palette": [
+        {
+          "color": "#353636",
+          "ratio": 0.44
+        },
+        {
+          "color": "#82817B",
+          "ratio": 0.34
+        },
+        {
+          "color": "#F4C24C",
+          "ratio": 0.11
+        },
+        {
+          "color": "#C87939",
+          "ratio": 0.1
+        },
+        {
+          "color": "#1BCFA2",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-154",
+      "name": ".96ガロン",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-154.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-155",
+      "name": "ジェットスイーパー",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-155.png",
+      "dominantColor": "#0D2324",
+      "palette": [
+        {
+          "color": "#0D2324",
+          "ratio": 0.48
+        },
+        {
+          "color": "#18494A",
+          "ratio": 0.22
+        },
+        {
+          "color": "#2A3331",
+          "ratio": 0.18
+        },
+        {
+          "color": "#5F6761",
+          "ratio": 0.08
+        },
+        {
+          "color": "#CBD4CD",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-156",
+      "name": "ジェットスイーパーカスタム",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-156.png",
+      "dominantColor": "#2D4946",
+      "palette": [
+        {
+          "color": "#2D4946",
+          "ratio": 0.49
+        },
+        {
+          "color": "#353844",
+          "ratio": 0.26
+        },
+        {
+          "color": "#EADF2F",
+          "ratio": 0.13
+        },
+        {
+          "color": "#8F8946",
+          "ratio": 0.08
+        },
+        {
+          "color": "#B2B7C7",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-157",
+      "name": "ジェットスイーパーCOBR",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpPogo.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-157.png",
+      "dominantColor": "#8E8161",
+      "palette": [
+        {
+          "color": "#8E8161",
+          "ratio": 0.3
+        },
+        {
+          "color": "#252320",
+          "ratio": 0.25
+        },
+        {
+          "color": "#BDAC86",
+          "ratio": 0.21
+        },
+        {
+          "color": "#5B5244",
+          "ratio": 0.19
+        },
+        {
+          "color": "#A64E24",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-158",
+      "name": "ジェットスイーパー",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-158.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-159",
+      "name": "スプラシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-159.png",
+      "dominantColor": "#9D7E25",
+      "palette": [
+        {
+          "color": "#9D7E25",
+          "ratio": 0.34
+        },
+        {
+          "color": "#66635C",
+          "ratio": 0.32
+        },
+        {
+          "color": "#2A2166",
+          "ratio": 0.17
+        },
+        {
+          "color": "#C4C0B4",
+          "ratio": 0.13
+        },
+        {
+          "color": "#473F9A",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-160",
+      "name": "スプラシューターamiibo(1)",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-160.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-161",
+      "name": "スプラシューターamiibo(2)",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-161.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-162",
+      "name": "スプラシューターコラボ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-162.png",
+      "dominantColor": "#E03573",
+      "palette": [
+        {
+          "color": "#E03573",
+          "ratio": 0.43
+        },
+        {
+          "color": "#392F71",
+          "ratio": 0.22
+        },
+        {
+          "color": "#AD8A26",
+          "ratio": 0.19
+        },
+        {
+          "color": "#A9A096",
+          "ratio": 0.11
+        },
+        {
+          "color": "#D07392",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-163",
+      "name": "スプラシューターコラボamiibo(1)",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-163.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-164",
+      "name": "スプラシューター煌",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-164.png",
+      "dominantColor": "#4B4A45",
+      "palette": [
+        {
+          "color": "#4B4A45",
+          "ratio": 0.45
+        },
+        {
+          "color": "#9AA2B0",
+          "ratio": 0.37
+        },
+        {
+          "color": "#BA6EB8",
+          "ratio": 0.09
+        },
+        {
+          "color": "#66BC9E",
+          "ratio": 0.07
+        },
+        {
+          "color": "#D44F2D",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-165",
+      "name": "ヒーローシューター レプリカ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-165.png",
+      "dominantColor": "#9B9322",
+      "palette": [
+        {
+          "color": "#9B9322",
+          "ratio": 0.33
+        },
+        {
+          "color": "#6D6A65",
+          "ratio": 0.27
+        },
+        {
+          "color": "#2A2927",
+          "ratio": 0.22
+        },
+        {
+          "color": "#948F57",
+          "ratio": 0.15
+        },
+        {
+          "color": "#5A79F0",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-166",
+      "name": "スプラシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-166.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-167",
+      "name": "オーダーシューター レプリカ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-167.png",
+      "dominantColor": "#AC9986",
+      "palette": [
+        {
+          "color": "#AC9986",
+          "ratio": 0.43
+        },
+        {
+          "color": "#CFB296",
+          "ratio": 0.21
+        },
+        {
+          "color": "#F4DFBF",
+          "ratio": 0.15
+        },
+        {
+          "color": "#82786C",
+          "ratio": 0.14
+        },
+        {
+          "color": "#4D4C4A",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-168",
+      "name": "オクタシューター レプリカ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-168.png",
+      "dominantColor": "#1E1B1A",
+      "palette": [
+        {
+          "color": "#1E1B1A",
+          "ratio": 0.41
+        },
+        {
+          "color": "#817D75",
+          "ratio": 0.28
+        },
+        {
+          "color": "#605B54",
+          "ratio": 0.14
+        },
+        {
+          "color": "#403D39",
+          "ratio": 0.11
+        },
+        {
+          "color": "#A8A49A",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-169",
+      "name": "シャープマーカー",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-169.png",
+      "dominantColor": "#25231F",
+      "palette": [
+        {
+          "color": "#25231F",
+          "ratio": 0.37
+        },
+        {
+          "color": "#585652",
+          "ratio": 0.25
+        },
+        {
+          "color": "#908D86",
+          "ratio": 0.14
+        },
+        {
+          "color": "#5B4D33",
+          "ratio": 0.14
+        },
+        {
+          "color": "#998357",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-170",
+      "name": "シャープマーカーネオ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-170.png",
+      "dominantColor": "#838683",
+      "palette": [
+        {
+          "color": "#838683",
+          "ratio": 0.39
+        },
+        {
+          "color": "#585651",
+          "ratio": 0.27
+        },
+        {
+          "color": "#2D2E2C",
+          "ratio": 0.21
+        },
+        {
+          "color": "#100F0F",
+          "ratio": 0.07
+        },
+        {
+          "color": "#D5D5D2",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-171",
+      "name": "シャープマーカーGECK",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-171.png",
+      "dominantColor": "#28231F",
+      "palette": [
+        {
+          "color": "#28231F",
+          "ratio": 0.44
+        },
+        {
+          "color": "#504942",
+          "ratio": 0.42
+        },
+        {
+          "color": "#9E9580",
+          "ratio": 0.11
+        },
+        {
+          "color": "#783B1E",
+          "ratio": 0.02
+        },
+        {
+          "color": "#CE5E26",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-172",
+      "name": "シャープマーカー",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-172.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-173",
+      "name": "スペースシューター",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-173.png",
+      "dominantColor": "#3F393D",
+      "palette": [
+        {
+          "color": "#3F393D",
+          "ratio": 0.44
+        },
+        {
+          "color": "#99958F",
+          "ratio": 0.23
+        },
+        {
+          "color": "#D0CDC1",
+          "ratio": 0.23
+        },
+        {
+          "color": "#E7E522",
+          "ratio": 0.06
+        },
+        {
+          "color": "#AEAD25",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-174",
+      "name": "スペースシューターコラボ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-174.png",
+      "dominantColor": "#443E40",
+      "palette": [
+        {
+          "color": "#443E40",
+          "ratio": 0.41
+        },
+        {
+          "color": "#CBC5BE",
+          "ratio": 0.26
+        },
+        {
+          "color": "#948B88",
+          "ratio": 0.17
+        },
+        {
+          "color": "#A7314D",
+          "ratio": 0.11
+        },
+        {
+          "color": "#DC2C54",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-175",
+      "name": "N-ZAP85",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-175.png",
+      "dominantColor": "#2B2A2A",
+      "palette": [
+        {
+          "color": "#2B2A2A",
+          "ratio": 0.38
+        },
+        {
+          "color": "#625E56",
+          "ratio": 0.32
+        },
+        {
+          "color": "#444341",
+          "ratio": 0.2
+        },
+        {
+          "color": "#837F73",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-176",
+      "name": "N-ZAP89",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-176.png",
+      "dominantColor": "#897E74",
+      "palette": [
+        {
+          "color": "#897E74",
+          "ratio": 0.29
+        },
+        {
+          "color": "#CA372A",
+          "ratio": 0.27
+        },
+        {
+          "color": "#F44230",
+          "ratio": 0.19
+        },
+        {
+          "color": "#DE5C22",
+          "ratio": 0.14
+        },
+        {
+          "color": "#DEB9A8",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-177",
+      "name": "N-ZAP85",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-177.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-178",
+      "name": "ボールドマーカー",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-178.png",
+      "dominantColor": "#58554D",
+      "palette": [
+        {
+          "color": "#58554D",
+          "ratio": 0.27
+        },
+        {
+          "color": "#3A352B",
+          "ratio": 0.23
+        },
+        {
+          "color": "#958056",
+          "ratio": 0.19
+        },
+        {
+          "color": "#1D1C1B",
+          "ratio": 0.17
+        },
+        {
+          "color": "#8B887E",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-179",
+      "name": "ボールドマーカーネオ",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-179.png",
+      "dominantColor": "#52514B",
+      "palette": [
+        {
+          "color": "#52514B",
+          "ratio": 0.35
+        },
+        {
+          "color": "#88847C",
+          "ratio": 0.34
+        },
+        {
+          "color": "#252624",
+          "ratio": 0.22
+        },
+        {
+          "color": "#CFCFCA",
+          "ratio": 0.06
+        },
+        {
+          "color": "#2F8ABD",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-180",
+      "name": "ボールドマーカー",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-180.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-181",
+      "name": "H3リールガン",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-181.png",
+      "dominantColor": "#272626",
+      "palette": [
+        {
+          "color": "#272626",
+          "ratio": 0.47
+        },
+        {
+          "color": "#3A2BA0",
+          "ratio": 0.17
+        },
+        {
+          "color": "#65646B",
+          "ratio": 0.15
+        },
+        {
+          "color": "#4E498C",
+          "ratio": 0.14
+        },
+        {
+          "color": "#9D9BAD",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-182",
+      "name": "H3リールガンD",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-182.png",
+      "dominantColor": "#828079",
+      "palette": [
+        {
+          "color": "#828079",
+          "ratio": 0.35
+        },
+        {
+          "color": "#C8C6BF",
+          "ratio": 0.22
+        },
+        {
+          "color": "#3B509C",
+          "ratio": 0.19
+        },
+        {
+          "color": "#38383A",
+          "ratio": 0.16
+        },
+        {
+          "color": "#757797",
+          "ratio": 0.08
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-183",
+      "name": "H3リールガンSNAK",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-183.png",
+      "dominantColor": "#2E2B28",
+      "palette": [
+        {
+          "color": "#2E2B28",
+          "ratio": 0.46
+        },
+        {
+          "color": "#8E857A",
+          "ratio": 0.16
+        },
+        {
+          "color": "#3C4E2A",
+          "ratio": 0.16
+        },
+        {
+          "color": "#4A702E",
+          "ratio": 0.13
+        },
+        {
+          "color": "#904523",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-184",
+      "name": "H3リールガン",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-184.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-185",
+      "name": "L3リールガン",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-185.png",
+      "dominantColor": "#222766",
+      "palette": [
+        {
+          "color": "#222766",
+          "ratio": 0.29
+        },
+        {
+          "color": "#161615",
+          "ratio": 0.25
+        },
+        {
+          "color": "#646F72",
+          "ratio": 0.18
+        },
+        {
+          "color": "#6A6A8B",
+          "ratio": 0.16
+        },
+        {
+          "color": "#31323B",
+          "ratio": 0.12
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-186",
+      "name": "L3リールガンD",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-186.png",
+      "dominantColor": "#5070AA",
+      "palette": [
+        {
+          "color": "#5070AA",
+          "ratio": 0.31
+        },
+        {
+          "color": "#A8A8A0",
+          "ratio": 0.25
+        },
+        {
+          "color": "#6C777F",
+          "ratio": 0.21
+        },
+        {
+          "color": "#2F3030",
+          "ratio": 0.14
+        },
+        {
+          "color": "#E3E2D9",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-187",
+      "name": "L3リールガン箔",
+      "weaponClass": "shooter",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-187.png",
+      "dominantColor": "#78696D",
+      "palette": [
+        {
+          "color": "#78696D",
+          "ratio": 0.34
+        },
+        {
+          "color": "#8CA494",
+          "ratio": 0.27
+        },
+        {
+          "color": "#37CA79",
+          "ratio": 0.21
+        },
+        {
+          "color": "#3F8C61",
+          "ratio": 0.1
+        },
+        {
+          "color": "#090B09",
+          "ratio": 0.08
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-188",
+      "name": "L3リールガン",
+      "weaponClass": "shooter",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-188.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-189",
+      "name": "オーバーフロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-189.png",
+      "dominantColor": "#232322",
+      "palette": [
+        {
+          "color": "#232322",
+          "ratio": 0.38
+        },
+        {
+          "color": "#C1BEB7",
+          "ratio": 0.17
+        },
+        {
+          "color": "#F3F1E7",
+          "ratio": 0.16
+        },
+        {
+          "color": "#9F9E9A",
+          "ratio": 0.16
+        },
+        {
+          "color": "#686765",
+          "ratio": 0.13
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-190",
+      "name": "オーバーフロッシャーデコ",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-190.png",
+      "dominantColor": "#D8D5C9",
+      "palette": [
+        {
+          "color": "#D8D5C9",
+          "ratio": 0.39
+        },
+        {
+          "color": "#323130",
+          "ratio": 0.22
+        },
+        {
+          "color": "#7D7A74",
+          "ratio": 0.2
+        },
+        {
+          "color": "#D2A72B",
+          "ratio": 0.12
+        },
+        {
+          "color": "#8C7432",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-191",
+      "name": "オーバーフロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-191.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-192",
+      "name": "ヒッセン",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-192.png",
+      "dominantColor": "#242B5A",
+      "palette": [
+        {
+          "color": "#242B5A",
+          "ratio": 0.47
+        },
+        {
+          "color": "#2C3576",
+          "ratio": 0.32
+        },
+        {
+          "color": "#ECE939",
+          "ratio": 0.12
+        },
+        {
+          "color": "#9B9925",
+          "ratio": 0.05
+        },
+        {
+          "color": "#52514F",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-193",
+      "name": "ヒッセン・ヒュー",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-193.png",
+      "dominantColor": "#2D3674",
+      "palette": [
+        {
+          "color": "#2D3674",
+          "ratio": 0.65
+        },
+        {
+          "color": "#569DC0",
+          "ratio": 0.15
+        },
+        {
+          "color": "#A18C84",
+          "ratio": 0.1
+        },
+        {
+          "color": "#404654",
+          "ratio": 0.05
+        },
+        {
+          "color": "#E9E6E5",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-194",
+      "name": "ヒッセンASH",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-194.png",
+      "dominantColor": "#2E2D27",
+      "palette": [
+        {
+          "color": "#2E2D27",
+          "ratio": 0.3
+        },
+        {
+          "color": "#7B776B",
+          "ratio": 0.27
+        },
+        {
+          "color": "#484841",
+          "ratio": 0.23
+        },
+        {
+          "color": "#715037",
+          "ratio": 0.18
+        },
+        {
+          "color": "#D8C1B2",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-195",
+      "name": "ヒッセン",
+      "weaponClass": "slosher",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-195.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-196",
+      "name": "モップリン",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-196.png",
+      "dominantColor": "#615F58",
+      "palette": [
+        {
+          "color": "#615F58",
+          "ratio": 0.43
+        },
+        {
+          "color": "#413F3A",
+          "ratio": 0.22
+        },
+        {
+          "color": "#897C12",
+          "ratio": 0.22
+        },
+        {
+          "color": "#DEC710",
+          "ratio": 0.09
+        },
+        {
+          "color": "#9D998F",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-197",
+      "name": "モップリンD",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-197.png",
+      "dominantColor": "#554936",
+      "palette": [
+        {
+          "color": "#554936",
+          "ratio": 0.37
+        },
+        {
+          "color": "#201E1C",
+          "ratio": 0.29
+        },
+        {
+          "color": "#A79611",
+          "ratio": 0.26
+        },
+        {
+          "color": "#CECCCE",
+          "ratio": 0.05
+        },
+        {
+          "color": "#7C7D7B",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-198",
+      "name": "モップリン角",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-198.png",
+      "dominantColor": "#393633",
+      "palette": [
+        {
+          "color": "#393633",
+          "ratio": 0.52
+        },
+        {
+          "color": "#787D74",
+          "ratio": 0.25
+        },
+        {
+          "color": "#8A2747",
+          "ratio": 0.1
+        },
+        {
+          "color": "#582035",
+          "ratio": 0.1
+        },
+        {
+          "color": "#F14C78",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-199",
+      "name": "スクリュースロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-199.png",
+      "dominantColor": "#3E3D3A",
+      "palette": [
+        {
+          "color": "#3E3D3A",
+          "ratio": 0.4
+        },
+        {
+          "color": "#8D8578",
+          "ratio": 0.32
+        },
+        {
+          "color": "#61615F",
+          "ratio": 0.21
+        },
+        {
+          "color": "#FBF9EC",
+          "ratio": 0.04
+        },
+        {
+          "color": "#BAB8AE",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-200",
+      "name": "スクリュースロッシャーネオ",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-200.png",
+      "dominantColor": "#53514D",
+      "palette": [
+        {
+          "color": "#53514D",
+          "ratio": 0.47
+        },
+        {
+          "color": "#7F7C73",
+          "ratio": 0.27
+        },
+        {
+          "color": "#2A2826",
+          "ratio": 0.19
+        },
+        {
+          "color": "#ECEDEB",
+          "ratio": 0.05
+        },
+        {
+          "color": "#318BBE",
+          "ratio": 0.02
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-201",
+      "name": "スクリュースロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-201.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-202",
+      "name": "スロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-202.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-203",
+      "name": "バケットスロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-203.png",
+      "dominantColor": "#2E2C28",
+      "palette": [
+        {
+          "color": "#2E2C28",
+          "ratio": 0.45
+        },
+        {
+          "color": "#7E688F",
+          "ratio": 0.18
+        },
+        {
+          "color": "#6B6259",
+          "ratio": 0.15
+        },
+        {
+          "color": "#D6A5D2",
+          "ratio": 0.12
+        },
+        {
+          "color": "#E2D8D5",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-204",
+      "name": "バケットスロッシャーデコ",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-204.png",
+      "dominantColor": "#2F2D2A",
+      "palette": [
+        {
+          "color": "#2F2D2A",
+          "ratio": 0.58
+        },
+        {
+          "color": "#635D4D",
+          "ratio": 0.17
+        },
+        {
+          "color": "#62689F",
+          "ratio": 0.12
+        },
+        {
+          "color": "#C4C0BD",
+          "ratio": 0.09
+        },
+        {
+          "color": "#C8B028",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-205",
+      "name": "バケットスロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-205.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-206",
+      "name": "オーダースロッシャー レプリカ",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-206.png",
+      "dominantColor": "#87837A",
+      "palette": [
+        {
+          "color": "#87837A",
+          "ratio": 0.34
+        },
+        {
+          "color": "#70675E",
+          "ratio": 0.21
+        },
+        {
+          "color": "#EBD1B2",
+          "ratio": 0.2
+        },
+        {
+          "color": "#A08872",
+          "ratio": 0.13
+        },
+        {
+          "color": "#494643",
+          "ratio": 0.12
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-207",
+      "name": "エクスプロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-207.png",
+      "dominantColor": "#3C3921",
+      "palette": [
+        {
+          "color": "#3C3921",
+          "ratio": 0.35
+        },
+        {
+          "color": "#292820",
+          "ratio": 0.28
+        },
+        {
+          "color": "#6C6B64",
+          "ratio": 0.2
+        },
+        {
+          "color": "#767242",
+          "ratio": 0.14
+        },
+        {
+          "color": "#B74A23",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-208",
+      "name": "エクスプロッシャーカスタム",
+      "weaponClass": "slosher",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpPogo.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-208.png",
+      "dominantColor": "#6C6250",
+      "palette": [
+        {
+          "color": "#6C6250",
+          "ratio": 0.42
+        },
+        {
+          "color": "#3A332A",
+          "ratio": 0.3
+        },
+        {
+          "color": "#AC8E63",
+          "ratio": 0.18
+        },
+        {
+          "color": "#D0C530",
+          "ratio": 0.05
+        },
+        {
+          "color": "#474E77",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-209",
+      "name": "エクスプロッシャー",
+      "weaponClass": "slosher",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-209.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-210",
+      "name": "クーゲルシュライバー",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-210.png",
+      "dominantColor": "#757470",
+      "palette": [
+        {
+          "color": "#757470",
+          "ratio": 0.32
+        },
+        {
+          "color": "#43423F",
+          "ratio": 0.2
+        },
+        {
+          "color": "#ABA9A2",
+          "ratio": 0.18
+        },
+        {
+          "color": "#191817",
+          "ratio": 0.16
+        },
+        {
+          "color": "#DFDDD3",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-211",
+      "name": "クーゲルシュライバー・ヒュー",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-211.png",
+      "dominantColor": "#A79D93",
+      "palette": [
+        {
+          "color": "#A79D93",
+          "ratio": 0.34
+        },
+        {
+          "color": "#7A7874",
+          "ratio": 0.35
+        },
+        {
+          "color": "#45433F",
+          "ratio": 0.18
+        },
+        {
+          "color": "#E7E2D9",
+          "ratio": 0.13
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-212",
+      "name": "クーゲルシュライバー",
+      "weaponClass": "splatling",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-212.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-213",
+      "name": "イグザミナー",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-213.png",
+      "dominantColor": "#615E5C",
+      "palette": [
+        {
+          "color": "#615E5C",
+          "ratio": 0.3
+        },
+        {
+          "color": "#807C76",
+          "ratio": 0.27
+        },
+        {
+          "color": "#B0ADA2",
+          "ratio": 0.17
+        },
+        {
+          "color": "#302A28",
+          "ratio": 0.13
+        },
+        {
+          "color": "#A73632",
+          "ratio": 0.13
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-214",
+      "name": "イグザミナー・ヒュー",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-214.png",
+      "dominantColor": "#858079",
+      "palette": [
+        {
+          "color": "#858079",
+          "ratio": 0.31
+        },
+        {
+          "color": "#57514C",
+          "ratio": 0.28
+        },
+        {
+          "color": "#33302E",
+          "ratio": 0.2
+        },
+        {
+          "color": "#AE3B34",
+          "ratio": 0.12
+        },
+        {
+          "color": "#DAD6D2",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-215",
+      "name": "ハイドラント",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-215.png",
+      "dominantColor": "#4B4543",
+      "palette": [
+        {
+          "color": "#4B4543",
+          "ratio": 0.35
+        },
+        {
+          "color": "#622420",
+          "ratio": 0.2
+        },
+        {
+          "color": "#C0BAB7",
+          "ratio": 0.2
+        },
+        {
+          "color": "#AE3C35",
+          "ratio": 0.17
+        },
+        {
+          "color": "#8C7322",
+          "ratio": 0.08
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-216",
+      "name": "ハイドラントカスタム",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpChimney.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-216.png",
+      "dominantColor": "#4D4C55",
+      "palette": [
+        {
+          "color": "#4D4C55",
+          "ratio": 0.31
+        },
+        {
+          "color": "#9F9E97",
+          "ratio": 0.24
+        },
+        {
+          "color": "#6B3423",
+          "ratio": 0.2
+        },
+        {
+          "color": "#AD3930",
+          "ratio": 0.15
+        },
+        {
+          "color": "#E0DC44",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-217",
+      "name": "ハイドラント圧",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-217.png",
+      "dominantColor": "#343231",
+      "palette": [
+        {
+          "color": "#343231",
+          "ratio": 0.49
+        },
+        {
+          "color": "#5E7292",
+          "ratio": 0.16
+        },
+        {
+          "color": "#92AF9F",
+          "ratio": 0.13
+        },
+        {
+          "color": "#D35336",
+          "ratio": 0.12
+        },
+        {
+          "color": "#84544D",
+          "ratio": 0.1
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-218",
+      "name": "ハイドラント",
+      "weaponClass": "splatling",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-218.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-219",
+      "name": "スプラスピナー",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-219.png",
+      "dominantColor": "#AD9030",
+      "palette": [
+        {
+          "color": "#AD9030",
+          "ratio": 0.29
+        },
+        {
+          "color": "#B9B7B1",
+          "ratio": 0.25
+        },
+        {
+          "color": "#252423",
+          "ratio": 0.19
+        },
+        {
+          "color": "#2B265F",
+          "ratio": 0.16
+        },
+        {
+          "color": "#4F4FB0",
+          "ratio": 0.11
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-220",
+      "name": "スプラスピナーコラボ",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-220.png",
+      "dominantColor": "#A6A7A2",
+      "palette": [
+        {
+          "color": "#A6A7A2",
+          "ratio": 0.31
+        },
+        {
+          "color": "#1B2931",
+          "ratio": 0.28
+        },
+        {
+          "color": "#E3E1DA",
+          "ratio": 0.21
+        },
+        {
+          "color": "#446273",
+          "ratio": 0.13
+        },
+        {
+          "color": "#3861AD",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-221",
+      "name": "スプラスピナーPYTN",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-221.png",
+      "dominantColor": "#55554A",
+      "palette": [
+        {
+          "color": "#55554A",
+          "ratio": 0.38
+        },
+        {
+          "color": "#8B805F",
+          "ratio": 0.23
+        },
+        {
+          "color": "#1E1B18",
+          "ratio": 0.19
+        },
+        {
+          "color": "#D2BA8F",
+          "ratio": 0.11
+        },
+        {
+          "color": "#B4572B",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-222",
+      "name": "スプラスピナー",
+      "weaponClass": "splatling",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-222.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-223",
+      "name": "スピナー",
+      "weaponClass": "splatling",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-223.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-224",
+      "name": "ノーチラス47",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-224.png",
+      "dominantColor": "#2E2E2E",
+      "palette": [
+        {
+          "color": "#2E2E2E",
+          "ratio": 0.35
+        },
+        {
+          "color": "#747372",
+          "ratio": 0.31
+        },
+        {
+          "color": "#4D4C4B",
+          "ratio": 0.2
+        },
+        {
+          "color": "#A09E98",
+          "ratio": 0.11
+        },
+        {
+          "color": "#E7E5DE",
+          "ratio": 0.03
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-225",
+      "name": "ノーチラス79",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpPogo.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-225.png",
+      "dominantColor": "#3E3B36",
+      "palette": [
+        {
+          "color": "#3E3B36",
+          "ratio": 0.72
+        },
+        {
+          "color": "#706C64",
+          "ratio": 0.11
+        },
+        {
+          "color": "#786D38",
+          "ratio": 0.1
+        },
+        {
+          "color": "#BCAD4D",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-226",
+      "name": "ノーチラス47",
+      "weaponClass": "splatling",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-226.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-227",
+      "name": "バレルスピナー",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-227.png",
+      "dominantColor": "#332E2D",
+      "palette": [
+        {
+          "color": "#332E2D",
+          "ratio": 0.3
+        },
+        {
+          "color": "#666360",
+          "ratio": 0.21
+        },
+        {
+          "color": "#8C8A86",
+          "ratio": 0.2
+        },
+        {
+          "color": "#A0295E",
+          "ratio": 0.16
+        },
+        {
+          "color": "#BAB8B4",
+          "ratio": 0.13
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-228",
+      "name": "バレルスピナーデコ",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpCastle.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-228.png",
+      "dominantColor": "#3B3734",
+      "palette": [
+        {
+          "color": "#3B3734",
+          "ratio": 0.27
+        },
+        {
+          "color": "#807977",
+          "ratio": 0.26
+        },
+        {
+          "color": "#B6B1B0",
+          "ratio": 0.17
+        },
+        {
+          "color": "#784C69",
+          "ratio": 0.16
+        },
+        {
+          "color": "#AF2C68",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-229",
+      "name": "バレルスピナー",
+      "weaponClass": "splatling",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-229.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-230",
+      "name": "オーダースピナー レプリカ",
+      "weaponClass": "splatling",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-230.png",
+      "dominantColor": "#4C4B49",
+      "palette": [
+        {
+          "color": "#4C4B49",
+          "ratio": 0.32
+        },
+        {
+          "color": "#8A8277",
+          "ratio": 0.26
+        },
+        {
+          "color": "#6D6861",
+          "ratio": 0.26
+        },
+        {
+          "color": "#B6A491",
+          "ratio": 0.09
+        },
+        {
+          "color": "#EEDDC4",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-231",
+      "name": "フルイドV",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-231.png",
+      "dominantColor": "#273F36",
+      "palette": [
+        {
+          "color": "#273F36",
+          "ratio": 0.47
+        },
+        {
+          "color": "#385044",
+          "ratio": 0.21
+        },
+        {
+          "color": "#576456",
+          "ratio": 0.15
+        },
+        {
+          "color": "#3F3C32",
+          "ratio": 0.08
+        },
+        {
+          "color": "#728378",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-232",
+      "name": "フルイドVカスタム",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-232.png",
+      "dominantColor": "#2E4036",
+      "palette": [
+        {
+          "color": "#2E4036",
+          "ratio": 0.62
+        },
+        {
+          "color": "#616F62",
+          "ratio": 0.22
+        },
+        {
+          "color": "#525A89",
+          "ratio": 0.06
+        },
+        {
+          "color": "#E5DB2F",
+          "ratio": 0.05
+        },
+        {
+          "color": "#7F7B38",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-233",
+      "name": "トライストリンガー",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-233.png",
+      "dominantColor": "#4B4A48",
+      "palette": [
+        {
+          "color": "#4B4A48",
+          "ratio": 0.32
+        },
+        {
+          "color": "#323130",
+          "ratio": 0.26
+        },
+        {
+          "color": "#1E1E1D",
+          "ratio": 0.2
+        },
+        {
+          "color": "#696865",
+          "ratio": 0.17
+        },
+        {
+          "color": "#614D3C",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-234",
+      "name": "トライストリンガーコラボ",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpFirework.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-234.png",
+      "dominantColor": "#62605A",
+      "palette": [
+        {
+          "color": "#62605A",
+          "ratio": 0.57
+        },
+        {
+          "color": "#5882BD",
+          "ratio": 0.14
+        },
+        {
+          "color": "#BAC9DE",
+          "ratio": 0.13
+        },
+        {
+          "color": "#555431",
+          "ratio": 0.11
+        },
+        {
+          "color": "#C6A972",
+          "ratio": 0.05
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-235",
+      "name": "トライストリンガー燈",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-235.png",
+      "dominantColor": "#5C5B57",
+      "palette": [
+        {
+          "color": "#5C5B57",
+          "ratio": 0.6
+        },
+        {
+          "color": "#171717",
+          "ratio": 0.28
+        },
+        {
+          "color": "#D86D52",
+          "ratio": 0.06
+        },
+        {
+          "color": "#66BAC8",
+          "ratio": 0.05
+        },
+        {
+          "color": "#1DDAA1",
+          "ratio": 0.01
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-236",
+      "name": "トライストリンガー",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-236.png",
+      "dominantColor": "#3C3B3A",
+      "palette": [
+        {
+          "color": "#3C3B3A",
+          "ratio": 0.28
+        },
+        {
+          "color": "#605F5D",
+          "ratio": 0.28
+        },
+        {
+          "color": "#1F1E1E",
+          "ratio": 0.26
+        },
+        {
+          "color": "#63412E",
+          "ratio": 0.09
+        },
+        {
+          "color": "#524132",
+          "ratio": 0.09
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-237",
+      "name": "オーダーストリンガー レプリカ",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-237.png",
+      "dominantColor": "#CCB49A",
+      "palette": [
+        {
+          "color": "#CCB49A",
+          "ratio": 0.34
+        },
+        {
+          "color": "#7F7B74",
+          "ratio": 0.21
+        },
+        {
+          "color": "#4C4B49",
+          "ratio": 0.17
+        },
+        {
+          "color": "#999286",
+          "ratio": 0.14
+        },
+        {
+          "color": "#F3E2C6",
+          "ratio": 0.14
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-238",
+      "name": "ストリンガー",
+      "weaponClass": "stringer",
+      "subWeapon": "",
+      "specialWeapon": "",
+      "imagePath": "/weapons/weapon-238.png",
+      "dominantColor": "#FFFFFF",
+      "palette": [],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-239",
+      "name": "LACT-450",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-239.png",
+      "dominantColor": "#2B2825",
+      "palette": [
+        {
+          "color": "#2B2825",
+          "ratio": 0.39
+        },
+        {
+          "color": "#8A867D",
+          "ratio": 0.26
+        },
+        {
+          "color": "#ADA99D",
+          "ratio": 0.17
+        },
+        {
+          "color": "#5F5D57",
+          "ratio": 0.12
+        },
+        {
+          "color": "#E2DCCB",
+          "ratio": 0.06
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-240",
+      "name": "LACT-450デコ",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-240.png",
+      "dominantColor": "#322E29",
+      "palette": [
+        {
+          "color": "#322E29",
+          "ratio": 0.39
+        },
+        {
+          "color": "#A29B90",
+          "ratio": 0.24
+        },
+        {
+          "color": "#696252",
+          "ratio": 0.22
+        },
+        {
+          "color": "#C5AD26",
+          "ratio": 0.08
+        },
+        {
+          "color": "#DDD5C1",
+          "ratio": 0.07
+        }
+      ],
+      "styleTags": []
+    },
+    {
+      "id": "weapon-241",
+      "name": "LACT-450MILK",
+      "weaponClass": "stringer",
+      "subWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+      "specialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+      "imagePath": "/weapons/weapon-241.png",
+      "dominantColor": "#AAA498",
+      "palette": [
+        {
+          "color": "#AAA498",
+          "ratio": 0.55
+        },
+        {
+          "color": "#D6CDBC",
+          "ratio": 0.19
+        },
+        {
+          "color": "#736F68",
+          "ratio": 0.14
+        },
+        {
+          "color": "#1C1715",
+          "ratio": 0.08
+        },
+        {
+          "color": "#AF5123",
+          "ratio": 0.04
+        }
+      ],
+      "styleTags": []
+    }
+  ]
+}

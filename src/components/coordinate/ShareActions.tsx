@@ -1,7 +1,7 @@
 import { RefObject, useState } from 'react';
 import { toPng, toBlob } from 'html-to-image';
 import { Link as LinkIcon, Download, Check, BookmarkPlus } from 'lucide-react';
-import { Coordinate } from '@/types';
+import { Coordinate, CoordinateScore } from '@/types';
 import { SaveCoordinateModal } from './SaveCoordinateModal';
 import { Toast } from '@/components/ui/Toast';
 import { useFavoritesStore } from '@/store/favoritesStore';
@@ -9,11 +9,12 @@ import { buildTweetText, buildTwitterIntentUrl } from '@/utils/shareToX';
 
 interface ShareActionsProps {
   coordinate: Coordinate;
+  currentScore?: CoordinateScore | null;
   previewRef: RefObject<HTMLDivElement | null>;
   hideSaveButton?: boolean;
 }
 
-export function ShareActions({ coordinate, previewRef, hideSaveButton = false }: ShareActionsProps) {
+export function ShareActions({ coordinate, currentScore, previewRef, hideSaveButton = false }: ShareActionsProps) {
   const [copied, setCopied] = useState(false);
   const [exporting, setExporting] = useState(false);
   const [exportingX, setExportingX] = useState(false);
@@ -46,16 +47,43 @@ export function ShareActions({ coordinate, previewRef, hideSaveButton = false }:
     setExporting(true);
     
     try {
-      const dataUrl = await toPng(previewRef.current, { 
+      // Create a blob directly for mobile compatibility
+      const blob = await toBlob(previewRef.current, { 
         cacheBust: true, 
         backgroundColor: '#ffffff'
       });
-      const link = document.createElement('a');
-      link.download = 'inkclo-coordinate.png';
-      link.href = dataUrl;
-      link.click();
+      
+      if (!blob) throw new Error('Failed to create blob');
+
+      // Check if Web Share API is available and can share files (typically mobile)
+      if (navigator.share && navigator.canShare && navigator.canShare({ files: [new File([blob], 'inkclo.png', { type: 'image/png' })] })) {
+        const file = new File([blob], 'inkclo-coordinate.png', { type: 'image/png' });
+        await navigator.share({
+          title: 'My Splatoon3 Coordinate',
+          text: buildTweetText(coordinate, currentScore || null),
+          files: [file]
+        });
+      } else {
+        // Fallback for PC or unsupported browsers
+        const dataUrl = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.download = 'inkclo-coordinate.png';
+        link.href = dataUrl;
+        link.click();
+        URL.revokeObjectURL(dataUrl);
+      }
     } catch (err) {
       console.error('Failed to export PNG', err);
+      // Fallback to data URL if blob fails
+      try {
+        const dataUrl = await toPng(previewRef.current, { cacheBust: true, backgroundColor: '#ffffff' });
+        const link = document.createElement('a');
+        link.download = 'inkclo-coordinate.png';
+        link.href = dataUrl;
+        link.click();
+      } catch (e) {
+        console.error('Fallback export failed', e);
+      }
     } finally {
       setExporting(false);
     }
@@ -63,27 +91,44 @@ export function ShareActions({ coordinate, previewRef, hideSaveButton = false }:
 
   const handleShareToX = async () => {
     setExportingX(true);
+    
+    // Build text & URL
+    const baseText = buildTweetText(coordinate, currentScore || null);
+    const url = getShareUrl();
+
     try {
-      // Try to copy image to clipboard
-      if (previewRef.current && navigator.clipboard && window.ClipboardItem) {
-        const blob = await toBlob(previewRef.current, { cacheBust: true, backgroundColor: '#ffffff' });
-        if (blob) {
-          await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
-          setToastMessage('画像をコピーしました！投稿画面でペースト（Ctrl+V）して添付してください。');
-          setShowToast(true);
-        }
+      if (!previewRef.current) throw new Error('No preview ref');
+
+      const blob = await toBlob(previewRef.current, { cacheBust: true, backgroundColor: '#ffffff' });
+      if (!blob) throw new Error('Failed to create blob');
+
+      // 1. Try Web Share API (Mobile native sharing)
+      if (navigator.share && navigator.canShare && navigator.canShare({ files: [new File([blob], 'inkclo.png', { type: 'image/png' })] })) {
+        const file = new File([blob], 'inkclo-coordinate.png', { type: 'image/png' });
+        await navigator.share({
+          title: 'INKCLO Coordinate',
+          text: baseText + '\n' + url,
+          files: [file]
+        });
+        setExportingX(false);
+        return; // Success via native share, exit
+      }
+
+      // 2. Try Clipboard API (PC)
+      if (navigator.clipboard && window.ClipboardItem) {
+        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+        setToastMessage('画像をコピーしました！投稿画面でペースト（Ctrl+V）して添付してください。');
+        setShowToast(true);
       }
     } catch (err) {
-      console.error('Failed to copy image to clipboard', err);
+      console.error('Failed to share image', err);
       setToastMessage('共有画面を開きます（画像のクリップボードコピーには非対応の環境です）');
       setShowToast(true);
     } finally {
       setExportingX(false);
     }
 
-    // Build text & URL
-    const baseText = buildTweetText(coordinate);
-    const url = getShareUrl();
+    // Open Twitter intent as fallback/continuation
     const intentUrl = buildTwitterIntentUrl(baseText, url);
     window.open(intentUrl, '_blank');
   };
