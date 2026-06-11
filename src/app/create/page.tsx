@@ -173,28 +173,31 @@ export default function CreatePage() {
       {/* Main Content: Catalog */}
       <div className="flex-1 p-4 md:p-6 overflow-y-auto w-full">
         
-        {/* Category Tabs */}
-        <div className="flex gap-2 mb-6 p-1 bg-gray-200 dark:bg-slate-800 rounded-xl overflow-x-auto">
-          {[
-            { id: 'head', label: 'アタマ' },
-            { id: 'body', label: 'フク' },
-            { id: 'shoes', label: 'クツ' }
-          ].map(cat => (
-            <button
-              key={cat.id}
-              onClick={() => setActiveCategory(cat.id as GearCategory)}
-              className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all whitespace-nowrap ${
-                activeCategory === cat.id 
-                  ? 'bg-white dark:bg-slate-700 text-black dark:text-slate-200 shadow-sm' 
-                  : 'text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200'
-              }`}
-            >
-              {cat.label}
-            </button>
-          ))}
+        {/* Sticky Header: Category Tabs & Assistant */}
+        <div className="sticky top-0 bg-gray-50 dark:bg-gray-950 pt-2 pb-3 z-20 transition-colors duration-300 border-b border-gray-200/50 dark:border-slate-800/50 mb-6">
+          {/* Category Tabs */}
+          <div className="flex gap-2 mb-3 p-1 bg-gray-200 dark:bg-slate-800 rounded-xl overflow-x-auto">
+            {[
+              { id: 'head', label: 'アタマ' },
+              { id: 'body', label: 'フク' },
+              { id: 'shoes', label: 'クツ' }
+            ].map(cat => (
+              <button
+                key={cat.id}
+                onClick={() => setActiveCategory(cat.id as GearCategory)}
+                className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all whitespace-nowrap ${
+                  activeCategory === cat.id 
+                    ? 'bg-white dark:bg-slate-700 text-black dark:text-slate-200 shadow-sm' 
+                    : 'text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200'
+                }`}
+              >
+                {cat.label}
+              </button>
+            ))}
+          </div>
+          
+          <CoordinateAssistant activeCategoryTab={activeCategory} />
         </div>
-        
-        <CoordinateAssistant activeCategoryTab={activeCategory} />
         
         <div className="mb-6">
           <WeaponPanel />
