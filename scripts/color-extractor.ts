@@ -13,6 +13,33 @@ function rgbToHex(r: number, g: number, b: number): string {
 }
 
 /**
+ * Calculate a vibrancy score multiplier (1.0 to ~6.0) based on saturation and lightness.
+ * Vibrant colors (high saturation, medium lightness) get a higher multiplier.
+ */
+function getVibrancyMultiplier(hex: string): number {
+  const rgb = hexToRgb(hex);
+  const r = rgb[0] / 255;
+  const g = rgb[1] / 255;
+  const b = rgb[2] / 255;
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
+  const l = (max + min) / 2;
+  let s = 0;
+  if (max !== min) {
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+  }
+  
+  // Penalty for being too light or too dark
+  const lightnessPenalty = Math.abs(l - 0.5) * 2; // 0 at l=0.5, 1 at l=0 or 1
+  
+  // Vibrancy metric (0 to 1)
+  const vibrancy = s * (1 - lightnessPenalty * 0.8); // Allow some lightness variation
+  
+  // Give up to 5x weight bonus to highly vibrant colors
+  return 1.0 + (vibrancy * 5.0);
+}
+
+/**
  * High-quality color extraction using K-Means++ in CIELAB color space.
  * 
  * 1. Resizes image to speed up processing (max 100x100)
@@ -149,10 +176,18 @@ export async function extractColorsFromImage(
 
   let palette = currentCentroids.map((color, index) => ({
     color,
-    count: clusterCounts[index]
+    count: clusterCounts[index],
+    vibrancyScore: clusterCounts[index] * getVibrancyMultiplier(color)
   }))
   .filter(p => p.count > 0)
-  .sort((a, b) => b.count - a.count); // Descending by count
+  .sort((a, b) => b.count - a.count); // Sort by actual count descending for the palette list
+
+  // The dominant color is the one with the highest vibrancyScore
+  let dominantColorHex = '#FFFFFF';
+  if (palette.length > 0) {
+    const bestDominant = [...palette].sort((a, b) => b.vibrancyScore - a.vibrancyScore)[0];
+    dominantColorHex = bestDominant.color;
+  }
 
   const totalPixels = pixels.length;
   let runningRatio = 0;
@@ -186,7 +221,7 @@ export async function extractColorsFromImage(
   }
 
   return {
-    dominantColor: finalPalette.length > 0 ? finalPalette[0].color : '#FFFFFF',
+    dominantColor: dominantColorHex,
     palette: finalPalette
   };
 }
