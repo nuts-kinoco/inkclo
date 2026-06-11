@@ -26,7 +26,7 @@ export default function MagazinePage() {
             {/* User's 1st image goes here */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/magazine/INKLO_01.png"
+              src="/magazine/mock.png"
               alt="INKCLO 2026 SS Fashion Report"
               className="w-full h-auto object-cover"
             />
@@ -40,7 +40,7 @@ export default function MagazinePage() {
               {/* User's 2nd image goes here */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/magazine/INKLO_02.png"
+                src="/magazine/snap1.png"
                 alt="Coordinate Snap 1"
                 className="w-full h-full object-cover absolute inset-0"
               />
@@ -73,7 +73,7 @@ export default function MagazinePage() {
               {/* User's 3rd image goes here */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/magazine/INKLO_03.png"
+                src="/magazine/snap2.png"
                 alt="Coordinate Snap 2"
                 className="w-full h-full object-cover absolute inset-0"
               />
@@ -97,8 +97,92 @@ export default function MagazinePage() {
                 </p>
               </div>
             </div>
+        </section>
+
+        {/* Feature Section: Snap 3 (INKLO_01) */}
+        <section className="mb-10 md:mb-16 bg-white dark:bg-gray-900 rounded-3xl p-6 md:p-10 shadow-sm border border-stone-100 dark:border-gray-800 transition-colors duration-300">
+          <div className="flex flex-col md:flex-row gap-8 items-center">
+            <div className="w-full md:w-1/2 overflow-hidden rounded-2xl shadow-md relative aspect-video md:aspect-[4/3] bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/magazine/INKLO_01.png"
+                alt="Coordinate Snap 3"
+                className="w-full h-full object-cover absolute inset-0"
+              />
+            </div>
+            <div className="w-full md:w-1/2 flex flex-col justify-center mt-4 md:mt-0">
+              <span className="text-emerald-500 dark:text-emerald-400 font-medium tracking-[0.2em] text-xs mb-2">SNAP 03</span>
+              <h2 className="text-2xl md:text-3xl font-light tracking-tight mb-4 text-slate-900 dark:text-white">タイトルをここに入力</h2>
+              <div className="w-12 h-0.5 bg-emerald-300 dark:bg-emerald-400 mb-6"></div>
+              <div className="space-y-4 text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-light">
+                <p>
+                  <strong>Theme & Concept</strong><br />
+                  <em className="text-emerald-600 dark:text-emerald-300">「コーデのコンセプト」</em>
+                </p>
+                <p>
+                  Geminiで生成された評価テキストをここに貼り付けてください。
+                </p>
+              </div>
+            </div>
           </div>
         </section>
+
+        {/* Feature Section: Snap 4 (INKLO_02) */}
+        <section className="mb-10 md:mb-16 bg-white dark:bg-gray-900 rounded-3xl p-6 md:p-10 shadow-sm border border-stone-100 dark:border-gray-800 transition-colors duration-300">
+          <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
+            <div className="w-full md:w-1/2 overflow-hidden rounded-2xl shadow-md relative aspect-video md:aspect-[4/3] bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/magazine/INKLO_02.png"
+                alt="Coordinate Snap 4"
+                className="w-full h-full object-cover absolute inset-0"
+              />
+            </div>
+            <div className="w-full md:w-1/2 flex flex-col justify-center mt-4 md:mt-0">
+              <span className="text-purple-500 dark:text-purple-400 font-medium tracking-[0.2em] text-xs mb-2">SNAP 04</span>
+              <h2 className="text-2xl md:text-3xl font-light tracking-tight mb-4 text-slate-900 dark:text-white">タイトルをここに入力</h2>
+              <div className="w-12 h-0.5 bg-purple-300 dark:bg-purple-400 mb-6"></div>
+              <div className="space-y-4 text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-light">
+                <p>
+                  <strong>Theme & Concept</strong><br />
+                  <em className="text-purple-600 dark:text-purple-300">「コーデのコンセプト」</em>
+                </p>
+                <p>
+                  Geminiで生成された評価テキストをここに貼り付けてください。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Feature Section: Snap 5 (INKLO_03) */}
+        <section className="mb-10 md:mb-16 bg-white dark:bg-gray-900 rounded-3xl p-6 md:p-10 shadow-sm border border-stone-100 dark:border-gray-800 transition-colors duration-300">
+          <div className="flex flex-col md:flex-row gap-8 items-center">
+            <div className="w-full md:w-1/2 overflow-hidden rounded-2xl shadow-md relative aspect-video md:aspect-[4/3] bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/magazine/INKLO_03.png"
+                alt="Coordinate Snap 5"
+                className="w-full h-full object-cover absolute inset-0"
+              />
+            </div>
+            <div className="w-full md:w-1/2 flex flex-col justify-center mt-4 md:mt-0">
+              <span className="text-amber-500 dark:text-amber-400 font-medium tracking-[0.2em] text-xs mb-2">SNAP 05</span>
+              <h2 className="text-2xl md:text-3xl font-light tracking-tight mb-4 text-slate-900 dark:text-white">タイトルをここに入力</h2>
+              <div className="w-12 h-0.5 bg-amber-300 dark:bg-amber-400 mb-6"></div>
+              <div className="space-y-4 text-stone-600 dark:text-stone-400 leading-relaxed text-sm md:text-base font-light">
+                <p>
+                  <strong>Theme & Concept</strong><br />
+                  <em className="text-amber-600 dark:text-amber-300">「コーデのコンセプト」</em>
+                </p>
+                <p>
+                  Geminiで生成された評価テキストをここに貼り付けてください。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         <div className="text-center mt-12 mb-8">
           <Link href="/" className="inline-block bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 px-8 py-3 rounded-full font-bold hover:bg-slate-800 dark:hover:bg-slate-200 transition-colors shadow-lg">
