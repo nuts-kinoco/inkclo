@@ -30,7 +30,9 @@ export default function CreatePage() {
   // Filters State
   const [filter, setFilter] = useState<FilterState>({
     searchQuery: '',
-    brand: null,
+    brands: [],
+    limit: 30,
+    page: 1,
     tags: [],
     colorThreshold: 30,
     sortBy: 'nameAsc',
@@ -65,15 +67,15 @@ export default function CreatePage() {
     prevGearCountRef.current = selectedCount;
   }, [coordinate, setComparisonOpen, setComparisonCategory]);
 
-  // Filtered & Sorted Gears
-  const filteredGears = useMemo(() => {
-    let result = gears.filter(gear => gear.category === activeCategory);
+  // Filtered Gears (all categories)
+  const allFilteredGears = useMemo(() => {
+    let result = gears;
 
     if (filter.searchQuery) {
       result = result.filter(g => g.name.toLowerCase().includes(filter.searchQuery.toLowerCase()));
     }
-    if (filter.brand) {
-      result = result.filter(g => g.brand.brandId === filter.brand);
+    if (filter.brands.length > 0) {
+      result = result.filter(g => filter.brands.includes(g.brand.brandId));
     }
     if (filter.tags.length > 0) {
       const selectedHexes = filter.tags.map(t => {
@@ -95,21 +97,29 @@ export default function CreatePage() {
     }
 
     if (filter.customColor) {
-      // Sort by Delta E distance to custom color
       const customHex = filter.customColor;
-      
-      // We calculate minimum distance for each gear
       const getMinDistance = (g: Gear) => {
         if (!g.palette || g.palette.length === 0) return 999;
         return Math.min(...g.palette.map(p => deltaE(customHex, p.color)));
       };
-      
-      // Filter out gears that are completely dissimilar (e.g. Delta E > 50)
-      // Or just sort them. Let's filter out very distant ones, then sort.
       result = result.filter(g => getMinDistance(g) < 40);
+    }
+
+    return result;
+  }, [filter, gears]);
+
+  // Filtered & Sorted Gears (active category only)
+  const filteredGears = useMemo(() => {
+    let result = allFilteredGears.filter(gear => gear.category === activeCategory);
+
+    if (filter.customColor) {
+      const customHex = filter.customColor;
+      const getMinDistance = (g: Gear) => {
+        if (!g.palette || g.palette.length === 0) return 999;
+        return Math.min(...g.palette.map(p => deltaE(customHex, p.color)));
+      };
       result.sort((a, b) => getMinDistance(a) - getMinDistance(b));
     } else {
-      // Standard sort if no custom color
       result.sort((a, b) => {
         if (filter.sortBy === 'nameAsc') return a.name.localeCompare(b.name);
         if (filter.sortBy === 'nameDesc') return b.name.localeCompare(a.name);
@@ -118,14 +128,15 @@ export default function CreatePage() {
     }
 
     return result;
-  }, [activeCategory, filter, gears]);
+  }, [allFilteredGears, activeCategory, filter.customColor, filter.sortBy]);
+
 
   return (
     <div className="min-h-screen flex flex-col md:flex-row pb-[200px] md:pb-0">
       
       {/* Desktop Sidebar: Preview */}
-      <div className="hidden md:flex w-[360px] bg-white p-6 border-r border-gray-200 flex-col items-center shadow-sm z-10 shrink-0 sticky top-[61px] h-[calc(100vh-61px)] overflow-y-auto">
-        <h2 className="text-xl font-black tracking-tight mb-6 w-full text-left">Your Coordinate</h2>
+      <div className="hidden md:flex w-[360px] bg-white dark:bg-slate-900 p-5 border-r border-gray-200 dark:border-slate-800 flex-col items-center shadow-sm z-10 shrink-0 sticky top-[61px] h-[calc(100vh-61px)] overflow-y-auto">
+        <h2 className="text-xl font-black tracking-tight mb-4 w-full text-left dark:text-slate-200">Your Coordinate</h2>
         <CoordinatePreview
           ref={previewRef}
           coordinate={coordinate}
@@ -144,7 +155,7 @@ export default function CreatePage() {
       <div className="flex-1 p-4 md:p-6 overflow-y-auto w-full">
         
         {/* Category Tabs */}
-        <div className="flex gap-2 mb-6 p-1 bg-gray-200 rounded-xl overflow-x-auto">
+        <div className="flex gap-2 mb-6 p-1 bg-gray-200 dark:bg-slate-800 rounded-xl overflow-x-auto">
           {[
             { id: 'head', label: 'アタマ' },
             { id: 'body', label: 'フク' },
@@ -155,8 +166,8 @@ export default function CreatePage() {
               onClick={() => setActiveCategory(cat.id as GearCategory)}
               className={`flex-1 py-3 px-4 rounded-lg font-bold text-sm transition-all whitespace-nowrap ${
                 activeCategory === cat.id 
-                  ? 'bg-white text-black shadow-sm' 
-                  : 'text-gray-500 hover:text-gray-700'
+                  ? 'bg-white dark:bg-slate-700 text-black dark:text-slate-200 shadow-sm' 
+                  : 'text-gray-500 dark:text-slate-400 hover:text-gray-700 dark:hover:text-slate-200'
               }`}
             >
               {cat.label}
@@ -164,6 +175,7 @@ export default function CreatePage() {
           ))}
         </div>
         
+        <CoordinateAssistant activeCategoryTab={activeCategory} />
         <SeasonSelector />
 
         <FilterPanel 
@@ -171,40 +183,62 @@ export default function CreatePage() {
           onChange={setFilter}
         />
         
-        <CoordinateAssistant activeCategoryTab={activeCategory} />
-        
         {filteredGears.length === 0 ? (
-          <div className="p-10 text-center text-gray-400 font-bold border-2 border-dashed border-gray-200 rounded-xl">
+          <div className="p-10 text-center text-gray-400 dark:text-slate-500 font-bold border-2 border-dashed border-gray-200 dark:border-slate-700 rounded-xl">
             条件に一致するギアがありません
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-4">
-            {filteredGears.map((gear) => (
-              <GearCard
-                key={gear.id}
-                gear={gear}
-                selected={coordinate[`${gear.category}Id` as keyof typeof coordinate] === gear.id}
-                onClick={() => setGear(gear.category as GearCategory, gear.id)}
-              />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-4">
+              {filteredGears.slice((filter.page - 1) * filter.limit, filter.page * filter.limit).map((gear) => (
+                <GearCard
+                  key={gear.id}
+                  gear={gear}
+                  selected={coordinate[`${gear.category}Id` as keyof typeof coordinate] === gear.id}
+                  onClick={() => setGear(gear.category as GearCategory, gear.id)}
+                />
+              ))}
+            </div>
+            
+            {Math.ceil(filteredGears.length / filter.limit) > 1 && (
+              <div className="flex justify-center items-center gap-4 mt-8 pb-4">
+                <button 
+                  onClick={() => setFilter({ ...filter, page: Math.max(1, filter.page - 1) })}
+                  disabled={filter.page === 1}
+                  className="px-4 py-2 border border-gray-300 dark:border-slate-600 rounded-lg disabled:opacity-50 hover:bg-gray-50 dark:hover:bg-slate-700 font-bold text-sm bg-white dark:bg-slate-800 dark:text-slate-200"
+                >
+                  前へ
+                </button>
+                <span className="text-sm font-bold text-gray-500 dark:text-slate-400">
+                  {filter.page} / {Math.ceil(filteredGears.length / filter.limit)} ページ
+                </span>
+                <button 
+                  onClick={() => setFilter({ ...filter, page: Math.min(Math.ceil(filteredGears.length / filter.limit), filter.page + 1) })}
+                  disabled={filter.page === Math.ceil(filteredGears.length / filter.limit)}
+                  className="px-4 py-2 border border-gray-300 dark:border-slate-600 rounded-lg disabled:opacity-50 hover:bg-gray-50 dark:hover:bg-slate-700 font-bold text-sm bg-white dark:bg-slate-800 dark:text-slate-200"
+                >
+                  次へ
+                </button>
+              </div>
+            )}
+          </>
         )}
       </div>
 
       {/* Mobile Sticky Bottom Bar */}
-      <div className={`md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.1)] z-40 transition-transform duration-300 ${isMobilePreviewOpen ? 'translate-y-0' : 'translate-y-[calc(100%-80px)]'}`}>
+      <div className={`md:hidden fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-900 border-t border-gray-200 dark:border-slate-800 shadow-[0_-4px_20px_rgba(0,0,0,0.1)] z-40 transition-transform duration-300 ${isMobilePreviewOpen ? 'translate-y-0' : 'translate-y-[calc(100%-80px)]'}`}>
         {/* Toggle Bar */}
         <button 
           onClick={() => setIsMobilePreviewOpen(!isMobilePreviewOpen)}
-          className="w-full h-[80px] px-6 flex items-center justify-between bg-white focus:outline-none"
+          className="w-full h-[80px] px-6 flex items-center justify-between bg-white dark:bg-slate-900 focus:outline-none"
         >
           <div className="flex flex-col items-start">
-            <span className="text-xs font-bold text-gray-400">プレビュー・共有</span>
-            <span className="text-sm font-black">
+            <span className="text-xs font-bold text-gray-400 dark:text-slate-400">プレビュー・共有</span>
+            <span className="text-sm font-black dark:text-slate-200">
               {Object.keys(coordinate).length}/3 選択中
             </span>
           </div>
-          <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center">
+          <div className="w-10 h-10 bg-gray-100 dark:bg-slate-800 dark:text-slate-200 rounded-full flex items-center justify-center">
             {isMobilePreviewOpen ? <ChevronDown size={20} /> : <ChevronUp size={20} />}
           </div>
         </button>

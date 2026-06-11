@@ -25,11 +25,12 @@ export interface Coordinate {
   headId?: string;
   bodyId?: string;
   shoesId?: string;
+  name?: string;
 }
 
 export interface CoordinatePreset {
   id: string;
-  title?: string;
+  name: string;
   headId?: string;
   bodyId?: string;
   shoesId?: string;
@@ -58,6 +59,7 @@ export interface RecommendationContext {
   targetCategory: GearCategory;
   allGears: Gear[];
   coordinate: Record<string, string | null>;
+  shuffleSalt?: number;
 }
 
 export interface RecommendationStrategy {
