@@ -4,6 +4,7 @@ import React, { useMemo } from 'react';
 import { useBuilderStore } from '@/store/builderStore';
 import { Gear, GearCategory, ComparisonCandidate } from '@/types';
 import { scoreCoordinate } from '@/lib/scoring/engine';
+import { ChevronDown } from 'lucide-react';
 
 interface ComparisonDrawerProps {
   allGears: Gear[];
@@ -67,37 +68,39 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
     if (!gear || !score) return null;
 
     return (
-      <div key={isCurrent ? 'current' : gear.id} className={`flex-shrink-0 w-36 bg-white rounded-xl border-2 p-3 flex flex-col gap-2 ${isCurrent ? 'border-gray-900 bg-gray-50' : c?.isBest ? 'border-amber-400' : 'border-gray-200'}`}>
-        {c?.isBest && <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm">★ BEST</div>}
-        {isCurrent && <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm">現在</div>}
+      <button 
+        key={isCurrent ? 'current' : gear.id} 
+        onClick={() => !isCurrent && comparisonCategory && setGear(comparisonCategory, gear.id)}
+        disabled={isCurrent}
+        className={`flex-shrink-0 w-36 bg-white rounded-xl border-2 p-3 flex flex-col gap-2 text-left relative transition-all ${
+          isCurrent 
+            ? 'border-gray-900 bg-gray-50 cursor-default opacity-80' 
+            : c?.isBest 
+              ? 'border-amber-400 cursor-pointer hover:bg-amber-50 hover:-translate-y-1 hover:shadow-md' 
+              : 'border-gray-200 cursor-pointer hover:border-gray-300 hover:bg-gray-50 hover:-translate-y-1 hover:shadow-md'
+        }`}
+      >
+        {c?.isBest && <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm whitespace-nowrap">★ BEST</div>}
+        {isCurrent && <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gray-900 text-white text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shadow-sm whitespace-nowrap">現在</div>}
         
-        <div className="relative">
+        <div className="relative w-full">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={gear.imagePath} alt={gear.name} className="w-full h-auto aspect-square object-contain" />
         </div>
-        <div className="text-xs font-bold text-gray-800 line-clamp-1 text-center">{gear.name}</div>
+        <div className="text-xs font-bold text-gray-800 line-clamp-1 text-center w-full">{gear.name}</div>
         
-        <div className="flex items-center justify-center gap-1 my-1">
+        <div className="flex items-center justify-center gap-1 my-1 w-full">
           <span className="text-xs font-black px-1.5 py-0.5 rounded bg-gray-100">{score.totalRank}</span>
           <span className="text-lg font-black text-gray-900">{score.totalScore}</span>
         </div>
 
-        <div className="flex flex-col gap-1 text-[10px] font-bold text-gray-500 bg-gray-50 rounded-lg p-2">
+        <div className="flex flex-col gap-1 text-[10px] font-bold text-gray-500 bg-gray-50 rounded-lg p-2 w-full">
           <div className="flex justify-between"><span>🎨 色彩</span><span className={score.axes.color.value >= currentScore.axes.color.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.color.value}</span></div>
           <div className="flex justify-between"><span>👗 統一</span><span className={score.axes.style.value >= currentScore.axes.style.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.style.value}</span></div>
           <div className="flex justify-between"><span>🌸 季節</span><span className={score.axes.season.value >= currentScore.axes.season.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.season.value}</span></div>
           <div className="flex justify-between"><span>⚖️ ﾊﾞﾗﾝｽ</span><span className={score.axes.balance.value >= currentScore.axes.balance.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.balance.value}</span></div>
         </div>
-
-        {!isCurrent && (
-          <button 
-            onClick={() => setGear(comparisonCategory!, gear.id)}
-            className="mt-auto w-full py-1.5 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-lg font-bold text-xs transition-colors"
-          >
-            入れ替える
-          </button>
-        )}
-      </div>
+      </button>
     );
   };
 
@@ -108,8 +111,20 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.1)] border-t border-gray-200 z-50 animate-in slide-in-from-bottom-full duration-300">
-      <div className="max-w-6xl mx-auto p-4">
+    <div className="fixed bottom-0 left-0 md:left-[360px] right-0 bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.1)] border-t border-gray-200 z-50 animate-in slide-in-from-bottom-full duration-300">
+      
+      {/* 閉じるための格納ボタン（上部中央） */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-50">
+        <button 
+          onClick={() => setComparisonOpen(false)}
+          className="bg-white border border-gray-200 rounded-full p-1.5 shadow-md text-gray-400 hover:bg-gray-50 hover:text-gray-800 transition-all flex items-center justify-center group"
+          aria-label="比較モードを閉じる"
+        >
+          <ChevronDown size={24} className="group-hover:translate-y-0.5 transition-transform" />
+        </button>
+      </div>
+
+      <div className="max-w-6xl mx-auto p-4 pt-5">
         <div className="flex justify-between items-center mb-4">
           <div className="flex items-center gap-4">
             <h3 className="font-bold text-gray-800 flex items-center gap-2">
@@ -128,15 +143,9 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
               ))}
             </div>
           </div>
-          <button 
-            onClick={() => setComparisonOpen(false)}
-            className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 hover:bg-gray-200 text-gray-500 transition-colors"
-          >
-            ✕
-          </button>
         </div>
 
-        <div className="flex gap-4 overflow-x-auto pb-4 pt-4 px-2 -mx-2 snap-x">
+        <div className="flex gap-4 overflow-x-auto pb-4 pt-2 px-2 -mx-2 snap-x">
           {renderCandidate(null, true)}
           
           <div className="w-px bg-gray-200 self-stretch my-2" />
