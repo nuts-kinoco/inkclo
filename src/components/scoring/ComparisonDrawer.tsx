@@ -107,11 +107,23 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
           <span className="text-lg font-black text-gray-900">{score.totalScore}</span>
         </div>
 
-        <div className="flex flex-col gap-1 text-[10px] font-bold text-gray-500 bg-gray-50 rounded-lg p-2 w-full">
-          <div className="flex justify-between"><span>🎨 色彩</span><span className={score.axes.color.value >= currentScore.axes.color.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.color.value}</span></div>
-          <div className="flex justify-between"><span>👗 統一</span><span className={score.axes.style.value >= currentScore.axes.style.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.style.value}</span></div>
-          <div className="flex justify-between"><span>🌸 季節</span><span className={score.axes.season.value >= currentScore.axes.season.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.season.value}</span></div>
-          <div className="flex justify-between"><span>⚖️ ﾊﾞﾗﾝｽ</span><span className={score.axes.balance.value >= currentScore.axes.balance.value && !isCurrent ? 'text-green-600' : ''}>{score.axes.balance.value}</span></div>
+        <div className="flex flex-col gap-1.5 text-[10px] font-medium text-gray-500 w-full pt-1">
+          <div className="flex justify-between items-center border-b border-gray-100 pb-0.5">
+            <span className="tracking-widest uppercase text-[9px]">Color</span>
+            <span className={score.axes.color.value >= currentScore.axes.color.value && !isCurrent ? 'text-gray-900 font-bold' : ''}>{score.axes.color.value}</span>
+          </div>
+          <div className="flex justify-between items-center border-b border-gray-100 pb-0.5">
+            <span className="tracking-widest uppercase text-[9px]">Style</span>
+            <span className={score.axes.style.value >= currentScore.axes.style.value && !isCurrent ? 'text-gray-900 font-bold' : ''}>{score.axes.style.value}</span>
+          </div>
+          <div className="flex justify-between items-center border-b border-gray-100 pb-0.5">
+            <span className="tracking-widest uppercase text-[9px]">Season</span>
+            <span className={score.axes.season.value >= currentScore.axes.season.value && !isCurrent ? 'text-gray-900 font-bold' : ''}>{score.axes.season.value}</span>
+          </div>
+          <div className="flex justify-between items-center pb-0.5">
+            <span className="tracking-widest uppercase text-[9px]">Balance</span>
+            <span className={score.axes.balance.value >= currentScore.axes.balance.value && !isCurrent ? 'text-gray-900 font-bold' : ''}>{score.axes.balance.value}</span>
+          </div>
         </div>
       </button>
     );

@@ -108,7 +108,7 @@ export function calculateColorScore(head: Gear, body: Gear, shoes: Gear): ScoreA
     value: totalScore,
     rank: scoreToRank(totalScore),
     label: '色彩調和',
-    icon: '🎨',
+    icon: '',
     reasons,
   };
 }

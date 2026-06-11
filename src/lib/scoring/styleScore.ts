@@ -75,7 +75,7 @@ export function calculateStyleScore(head: Gear, body: Gear, shoes: Gear): ScoreA
     value: Math.round(totalScore),
     rank: scoreToRank(Math.round(totalScore)),
     label: 'スタイル統一',
-    icon: '👗',
+    icon: '',
     reasons,
   };
 }

@@ -121,7 +121,7 @@ export function calculateSeasonScore(head: Gear, body: Gear, shoes: Gear, target
     value: Math.round(totalScore),
     rank: scoreToRank(Math.round(totalScore)),
     label: '季節感',
-    icon: '🌸',
+    icon: '',
     reasons,
   };
 }

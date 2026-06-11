@@ -89,7 +89,7 @@ export function calculateBalanceScore(head: Gear, body: Gear, shoes: Gear): Scor
     value: Math.round(totalScore),
     rank: scoreToRank(Math.round(totalScore)),
     label: '視覚バランス',
-    icon: '⚖️',
+    icon: '',
     reasons,
   };
 }
