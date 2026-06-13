@@ -36,11 +36,12 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
+      "autoTags": [],
+      "manualTags": [
+        "street",
+        "sporty",
+        "casual"
       ],
-      "manualTags": [],
       "isReviewed": true,
       "isHidden": false
     },
@@ -80,9 +81,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "summer",
@@ -216,10 +215,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "street"
@@ -263,9 +259,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "winter",
@@ -311,10 +305,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool"
@@ -404,13 +395,12 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "winter",
-        "casual"
+        "casual",
+        "outdoor"
       ],
       "isReviewed": true,
       "isHidden": true
@@ -447,9 +437,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "street"
@@ -493,11 +481,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -543,10 +527,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool",
@@ -591,11 +572,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -683,9 +660,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "street"
@@ -728,11 +703,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -779,13 +750,12 @@
         "color:pink",
         "color:purple"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "sporty",
+        "outdoor"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -827,10 +797,7 @@
         "color:yellow",
         "color:green"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "summer",
@@ -876,10 +843,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal",
@@ -923,10 +887,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "sporty",
@@ -970,9 +931,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cute"
       ],
@@ -1055,13 +1014,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -1103,7 +1060,7 @@
       ],
       "autoTags": [],
       "manualTags": [],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -1143,10 +1100,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -1189,10 +1143,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -1235,9 +1186,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -1315,10 +1264,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -1363,10 +1309,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -1410,11 +1353,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual",
+        "outdoor"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -1456,10 +1399,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -1502,10 +1442,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "sporty"
@@ -1550,7 +1487,10 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "sporty",
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -1591,11 +1531,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -1680,9 +1616,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -1767,10 +1701,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -1814,13 +1745,12 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -1862,10 +1792,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -1950,10 +1877,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -1998,10 +1922,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -2046,13 +1967,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -2093,10 +2012,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -2139,13 +2055,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -2185,10 +2099,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -2273,9 +2184,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -2315,10 +2224,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "outdoor",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "sporty"
@@ -2361,10 +2267,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -2448,13 +2351,12 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -2539,10 +2441,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -2585,11 +2484,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -2675,11 +2570,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -2766,9 +2657,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -2811,11 +2700,9 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -2855,11 +2742,9 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "formal"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -2899,10 +2784,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -2993,10 +2875,7 @@
         "color:pink",
         "color:purple"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -3039,9 +2918,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -3163,10 +3040,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -3210,10 +3084,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -3259,10 +3130,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -3305,10 +3173,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -3354,9 +3219,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -3399,9 +3262,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty"
       ],
@@ -3443,9 +3304,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -3528,10 +3387,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "sporty"
@@ -3615,10 +3471,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -3662,9 +3515,7 @@
         "color:purple",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -3707,11 +3558,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -3800,13 +3647,12 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "sporty",
+        "outdoor"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -3849,9 +3695,7 @@
         "color:yellow",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -3896,7 +3740,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "outdoor"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -3935,11 +3782,7 @@
       "tags": [
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -4070,10 +3913,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -4119,10 +3959,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -4246,9 +4083,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -4290,15 +4125,12 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
-        "sporty"
+        "sporty",
+        "outdoor"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -4339,13 +4171,12 @@
         "color:black",
         "color:yellow"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "funny",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -4385,10 +4216,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -4431,10 +4259,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "sporty"
@@ -4479,9 +4304,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -4606,9 +4429,7 @@
         "color:orange",
         "color:pink"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -4651,10 +4472,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -4698,10 +4516,7 @@
         "color:black",
         "color:purple"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -4745,9 +4560,7 @@
         "color:black",
         "color:yellow"
       ],
-      "autoTags": [
-        "funny"
-      ],
+      "autoTags": [],
       "manualTags": [
         "funny"
       ],
@@ -4789,10 +4602,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -4837,10 +4647,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -4881,10 +4688,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -4927,10 +4731,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -4974,13 +4775,12 @@
         "color:yellow",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "winter"
+        "winter",
+        "cute",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -5143,9 +4943,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty"
       ],
@@ -5188,10 +4986,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -5236,10 +5031,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -5283,11 +5075,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -5332,13 +5120,11 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "funny"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -5380,10 +5166,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -5470,11 +5253,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -5598,13 +5381,10 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street",
-        "casual"
+        "outdoor",
+        "sporty"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -5645,10 +5425,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -5692,10 +5469,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -5739,9 +5513,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "winter"
       ],
@@ -5827,9 +5599,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -5873,13 +5643,11 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -5920,11 +5688,10 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -5964,11 +5731,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -6056,10 +5819,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -6104,10 +5864,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -6150,9 +5907,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -6194,9 +5949,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -6240,10 +5993,7 @@
         "color:pink",
         "color:purple"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -6286,10 +6036,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -6334,10 +6081,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -6380,10 +6124,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -6552,10 +6293,7 @@
         "color:orange",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -6594,9 +6332,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -6639,11 +6375,11 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -6684,7 +6420,9 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -6845,10 +6583,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -6892,10 +6627,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -6936,10 +6668,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -7066,11 +6795,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -7116,9 +6841,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -7204,10 +6927,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -7252,10 +6972,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -7298,9 +7015,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -7343,10 +7058,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -7389,9 +7101,7 @@
       "tags": [
         "color:purple"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -7433,13 +7143,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -7480,13 +7188,11 @@
         "color:black",
         "color:green"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -7567,11 +7273,7 @@
         "color:pink",
         "color:purple"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -7616,10 +7318,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -7665,10 +7364,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -7711,9 +7407,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -7797,10 +7491,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -7844,11 +7535,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -7889,7 +7580,9 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -7929,10 +7622,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -7977,9 +7667,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -8022,10 +7710,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -8068,10 +7753,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -8114,10 +7796,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -8205,10 +7884,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -8253,11 +7929,12 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "outdoor",
+        "sporty",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -8339,10 +8016,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -8386,7 +8060,10 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "cool",
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -8503,11 +8180,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -8551,10 +8224,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -8643,13 +8313,9 @@
         "color:yellow",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street",
-        "casual"
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -8690,13 +8356,11 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -8738,10 +8402,7 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -8784,10 +8445,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -8831,10 +8489,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -8879,11 +8534,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -8926,7 +8581,9 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9006,9 +8663,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -9050,9 +8705,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -9094,11 +8747,12 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -9222,10 +8876,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -9269,11 +8920,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -9318,10 +8965,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -9367,10 +9011,7 @@
         "color:orange",
         "color:yellow"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -9414,11 +9055,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -9502,11 +9139,10 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "street",
+        "funny"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -9548,7 +9184,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9589,7 +9228,9 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9630,7 +9271,9 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9671,7 +9314,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "cool",
+        "outdoor"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9712,7 +9359,10 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9752,7 +9402,9 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9791,11 +9443,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "funny",
+        "formal",
+        "cool"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -9837,7 +9489,10 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9877,7 +9532,10 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9919,7 +9577,10 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9959,7 +9620,10 @@
         "color:purple"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "sporty"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9999,10 +9663,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -10083,9 +9744,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -10165,9 +9824,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -10210,11 +9867,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -10295,10 +9952,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -10385,15 +10039,12 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool",
-        "formal"
+        "casual",
+        "summer"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -10474,10 +10125,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -10563,10 +10211,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -10812,9 +10457,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -10900,13 +10543,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "winter"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -10987,10 +10628,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -11074,13 +10712,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "winter"
+        "casual",
+        "cool"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -11162,9 +10798,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -11248,10 +10882,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -11337,9 +10968,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -11421,13 +11050,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -11512,7 +11139,10 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "formal",
+        "cool"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -11758,9 +11388,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -11845,10 +11473,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -11933,13 +11558,11 @@
         "color:yellow",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -12017,10 +11640,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -12148,7 +11768,10 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "outdoor"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -12190,13 +11813,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -12238,7 +11859,9 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -12277,9 +11900,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -12322,7 +11943,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "formal",
+        "cool",
+        "outdoor"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -12362,10 +11987,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -12409,7 +12031,9 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -12445,10 +12069,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -12494,7 +12115,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "outdoor",
+        "casual",
+        "funny"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -12535,10 +12160,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -12578,10 +12200,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -12666,10 +12285,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -12755,13 +12371,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "winter"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -12842,11 +12456,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -12929,7 +12543,9 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "summer"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -13009,9 +12625,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -13095,10 +12709,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -13182,11 +12793,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal",
@@ -13275,7 +12882,8 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "casual"
+        "casual",
+        "street"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -13357,10 +12965,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -13407,7 +13012,11 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "outdoor",
+        "casual",
+        "sporty"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -13443,9 +13052,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -13489,7 +13096,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "outdoor",
+        "casual",
+        "sporty"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -13531,11 +13142,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -13582,7 +13189,11 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "outdoor",
+        "casual",
+        "sporty"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -13622,11 +13233,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool",
@@ -13673,7 +13280,11 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "outdoor",
+        "casual",
+        "sporty"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -13712,10 +13323,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -13801,10 +13409,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -13888,9 +13493,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -13974,9 +13577,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -14061,10 +13662,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -14108,10 +13706,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -14273,10 +13868,7 @@
         "color:purple",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -14362,9 +13954,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -14450,10 +14040,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "winter"
@@ -14539,10 +14126,7 @@
         "color:orange",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -14627,13 +14211,12 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "winter",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -14715,9 +14298,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -14801,10 +14382,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -14972,9 +14550,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -15055,9 +14631,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -15140,11 +14714,12 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -15226,10 +14801,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -15315,9 +14887,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal"
       ],
@@ -15401,9 +14971,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cute"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cute"
       ],
@@ -15447,7 +15015,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "cute",
+        "casual",
+        "street"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -15487,11 +15059,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -15502,7 +15070,7 @@
     },
     {
       "id": "head-287",
-      "name": "ケタコゾネスゴーグル",
+      "name": "タコゾネスゴーグル",
       "category": "head",
       "brand": {
         "brandId": "アタリメイド",
@@ -15580,10 +15148,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -15593,7 +15158,7 @@
     },
     {
       "id": "head-288",
-      "name": "ケタコゾネスゴーグルワカメ",
+      "name": "タコゾネスゴーグルワカメ",
       "category": "head",
       "brand": {
         "brandId": "アタリメイド",
@@ -15667,13 +15232,12 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "summer",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -15799,9 +15363,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -15889,10 +15451,7 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -15979,13 +15538,11 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -16067,9 +15624,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "summer"
       ],
@@ -16155,10 +15710,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -16244,13 +15796,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -16333,13 +15883,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -16422,11 +15970,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -16472,10 +16016,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -16518,10 +16059,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -16564,10 +16102,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "cool"
@@ -16655,9 +16190,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -16740,10 +16273,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -16787,10 +16317,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -16834,10 +16361,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "winter"
@@ -16881,13 +16405,11 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "formal"
+        "formal",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -16929,10 +16451,7 @@
         "color:black",
         "color:orange"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -16975,10 +16494,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -17103,9 +16619,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -17148,11 +16662,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -17198,9 +16708,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -17244,11 +16752,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -17289,11 +16797,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal",
@@ -17382,13 +16886,11 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -17430,13 +16932,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -17477,10 +16977,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -17608,10 +17105,7 @@
       "tags": [
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -17655,13 +17149,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -17786,9 +17278,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -17873,9 +17363,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -17918,11 +17406,10 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -17962,9 +17449,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -18090,11 +17575,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -18134,15 +17619,12 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "cool",
-        "formal"
+        "formal",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -18179,10 +17661,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -18306,10 +17785,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -18353,9 +17829,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -18397,10 +17871,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -18444,11 +17915,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -18489,10 +17960,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -18536,15 +18004,12 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -18587,11 +18052,7 @@
         "color:orange",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -18635,9 +18096,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal"
       ],
@@ -18680,10 +18139,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -18727,10 +18183,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -18775,13 +18228,12 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "winter",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -18822,10 +18274,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -18870,9 +18319,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -18955,10 +18402,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -19002,9 +18446,7 @@
         "color:black",
         "color:yellow"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -19044,13 +18486,11 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -19132,10 +18572,7 @@
         "color:purple",
         "color:orange"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -19180,9 +18617,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -19226,13 +18661,11 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -19273,10 +18706,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -19363,9 +18793,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -19407,10 +18835,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -19450,10 +18875,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -19498,9 +18920,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -19543,11 +18963,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -19633,9 +19049,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -19677,11 +19091,10 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -19721,9 +19134,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -19806,10 +19217,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -19854,11 +19262,10 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -19900,10 +19307,7 @@
         "color:black",
         "color:orange"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -20030,9 +19434,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -20075,13 +19477,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -20122,10 +19522,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -20169,9 +19566,7 @@
         "color:yellow",
         "color:black"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal"
       ],
@@ -20214,9 +19609,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal"
       ],
@@ -20302,10 +19695,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -20389,9 +19779,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -20435,10 +19823,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -20484,7 +19869,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "summer",
+        "outdoor",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -20523,10 +19912,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -20569,10 +19955,7 @@
       "tags": [
         "color:yellow"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -20617,9 +20000,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -20662,11 +20043,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "street",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -20707,15 +20088,12 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -20751,15 +20129,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "cool",
-        "winter"
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -20842,10 +20216,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -20889,13 +20260,11 @@
         "color:brown",
         "color:yellow"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -20977,10 +20346,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -21023,9 +20389,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -21068,10 +20432,7 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -21115,9 +20476,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -21161,10 +20520,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -21208,11 +20564,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -21257,10 +20609,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -21304,9 +20653,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -21350,7 +20697,10 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "formal",
+        "outdoor"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -21390,10 +20740,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -21437,13 +20784,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -21484,10 +20829,7 @@
         "color:orange",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -21531,11 +20873,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -21580,9 +20918,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -21626,10 +20962,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -21713,10 +21046,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -21760,10 +21090,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -21807,9 +21134,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -21894,11 +21219,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -21942,9 +21263,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -21987,10 +21306,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -22034,10 +21350,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -22081,10 +21394,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -22128,10 +21438,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -22215,10 +21522,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -22261,10 +21565,7 @@
       "tags": [
         "color:purple"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -22307,11 +21608,12 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -22348,13 +21650,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -22395,11 +21695,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal",
@@ -22483,10 +21779,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -22530,9 +21823,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal"
       ],
@@ -22574,10 +21865,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -22620,10 +21908,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -22660,11 +21945,10 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -22706,10 +21990,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -22753,10 +22034,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -22800,10 +22078,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -22848,9 +22123,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -22893,9 +22166,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -22938,10 +22209,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -22985,10 +22253,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -23031,11 +22296,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -23077,9 +22338,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -23121,9 +22380,7 @@
       "tags": [
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -23166,13 +22423,11 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -23213,13 +22468,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -23260,10 +22513,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -23308,10 +22558,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "summer"
@@ -23356,10 +22603,7 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -23444,13 +22688,12 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -23492,10 +22735,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "cool"
@@ -23539,10 +22779,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -23586,10 +22823,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -23755,10 +22989,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -23802,10 +23033,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -23850,11 +23078,11 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "outdoor",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -23896,10 +23124,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -23938,10 +23163,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -23985,10 +23207,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -24032,10 +23251,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "formal"
@@ -24078,10 +23294,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -24209,11 +23422,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -24253,10 +23462,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -24299,10 +23505,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -24345,9 +23548,7 @@
       "tags": [
         "color:orange"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -24390,11 +23591,12 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -24435,9 +23637,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "winter"
       ],
@@ -24480,9 +23680,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -24565,10 +23763,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "summer"
@@ -24612,13 +23807,11 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -24700,10 +23893,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -24747,9 +23937,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -24793,13 +23981,11 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -24840,9 +24026,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -24885,10 +24069,7 @@
         "color:purple",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -24931,13 +24112,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -24977,9 +24156,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -25023,11 +24200,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -25072,10 +24245,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "winter"
@@ -25118,11 +24288,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -25163,11 +24333,7 @@
         "color:pink",
         "color:orange"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -25252,10 +24418,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -25341,10 +24504,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -25389,11 +24549,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -25437,10 +24593,7 @@
       "tags": [
         "color:brown"
       ],
-      "autoTags": [
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "summer"
@@ -25484,9 +24637,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -25530,7 +24681,9 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -25610,11 +24763,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -25660,10 +24809,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -25706,13 +24852,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -25752,11 +24896,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal",
@@ -25800,9 +24940,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -25846,10 +24984,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -25893,13 +25028,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -25939,10 +25072,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -26027,11 +25157,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal",
@@ -26161,9 +25287,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -26205,10 +25329,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -26293,9 +25414,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -26339,13 +25458,12 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "summer",
+        "winter"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -26386,10 +25504,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -26433,15 +25548,12 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -26482,13 +25594,12 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street",
+        "summer"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -26528,10 +25639,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -26575,10 +25683,7 @@
         "color:black",
         "color:purple"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -26621,10 +25726,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -26743,9 +25845,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -26787,10 +25887,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -26835,13 +25932,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -26882,13 +25977,12 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -26926,13 +26020,11 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "street",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -26973,11 +26065,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -27104,10 +26192,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -27148,9 +26233,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -27193,13 +26276,12 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "summer",
+        "winter"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -27241,9 +26323,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty"
       ],
@@ -27285,13 +26365,12 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street",
+        "summer"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -27332,11 +26411,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal",
@@ -27382,10 +26457,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -27430,10 +26502,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -27477,9 +26546,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -27518,10 +26585,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -27565,11 +26629,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -27614,9 +26674,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "winter"
       ],
@@ -27701,11 +26759,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "street",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -27747,7 +26805,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "street",
+        "sporty"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -27784,9 +26845,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -27829,13 +26888,12 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "casual"
+        "casual",
+        "summer",
+        "winter"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -27875,10 +26933,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "cool"
@@ -27964,10 +27019,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -28011,13 +27063,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -28059,15 +27109,12 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "cool",
-        "formal"
+        "formal",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -28110,7 +27157,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -28236,11 +27286,10 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "formal"
+        "formal",
+        "funny"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -28280,11 +27329,10 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "formal"
+        "formal",
+        "funny"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -28324,11 +27372,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "formal"
+        "formal",
+        "cool",
+        "funny"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -28370,7 +27418,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -28412,7 +27463,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "cool",
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -28453,7 +27507,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -28496,10 +27553,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -28586,10 +27640,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -28673,10 +27724,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -28761,15 +27809,12 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -28850,9 +27895,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "winter"
       ],
@@ -29019,9 +28062,7 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -29103,11 +28144,7 @@
       "tags": [
         "color:brown"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -29272,10 +28309,7 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -29359,11 +28393,12 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "street",
+        "outdoor",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -29445,13 +28480,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -29532,11 +28565,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual",
+        "summer"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -29619,10 +28652,7 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "winter"
@@ -29706,9 +28736,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -29956,9 +28984,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -30042,10 +29068,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -30132,11 +29155,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual",
+        "summer"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -30218,11 +29241,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -30306,10 +29325,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "winter"
@@ -30394,9 +29410,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -30481,11 +29495,12 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "street",
+        "outdoor",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -30526,11 +29541,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "street",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -30612,10 +29627,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -30699,13 +29711,11 @@
       "tags": [
         "color:orange"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -30787,13 +29797,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -30873,9 +29881,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -30919,9 +29925,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -30964,9 +29968,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -31051,11 +30053,7 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street",
@@ -31066,7 +30064,7 @@
     },
     {
       "id": "body-596",
-      "name": "ケタコゾネスプロテクター",
+      "name": "タコゾネスプロテクター",
       "category": "body",
       "brand": {
         "brandId": "アタリメイド",
@@ -31182,10 +30180,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -31274,9 +30269,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -31361,11 +30354,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -31454,9 +30443,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -31544,10 +30531,7 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -31630,13 +30614,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -31720,11 +30702,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "summer",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -31807,10 +30789,7 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -31896,9 +30875,7 @@
         "color:black",
         "color:purple"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -31982,10 +30959,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -32070,9 +31044,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "winter"
       ],
@@ -32115,7 +31087,9 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -32155,10 +31129,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -32241,13 +31212,11 @@
         "color:brown",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -32330,9 +31299,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -32375,11 +31342,11 @@
         "color:purple",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "street",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -32419,13 +31386,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -32466,11 +31431,10 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -32555,10 +31519,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -32603,10 +31564,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -32651,10 +31609,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "winter"
@@ -32738,9 +31693,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -32783,9 +31736,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -32828,10 +31779,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -32875,11 +31823,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -32924,10 +31868,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -32972,11 +31913,7 @@
         "color:brown",
         "color:yellow"
       ],
-      "autoTags": [
-        "sporty",
-        "street",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street",
@@ -33021,13 +31958,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33109,11 +32044,11 @@
         "color:purple",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33196,11 +32131,10 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33241,13 +32175,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -33287,13 +32219,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33335,10 +32265,7 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -33384,9 +32311,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -33428,11 +32353,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33475,13 +32400,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33522,9 +32445,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty"
       ],
@@ -33567,10 +32488,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -33615,13 +32533,11 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -33659,9 +32575,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -33704,11 +32618,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -33750,10 +32664,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -33797,9 +32708,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -33841,11 +32750,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33886,11 +32795,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual",
+        "summer"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -33930,10 +32839,7 @@
       "tags": [
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -33980,10 +32886,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -34028,10 +32931,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -34075,9 +32975,7 @@
         "color:black",
         "color:yellow"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -34119,9 +33017,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -34165,11 +33061,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -34210,11 +33106,11 @@
         "color:black",
         "color:purple"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -34257,9 +33153,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -34301,11 +33195,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -34392,13 +33282,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -34438,11 +33326,11 @@
         "color:yellow",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -34483,10 +33371,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -34530,13 +33415,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -34578,10 +33461,7 @@
         "color:white",
         "color:yellow"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -34625,9 +33505,7 @@
       "tags": [
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -34670,10 +33548,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -34758,9 +33633,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -34803,10 +33676,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool"
@@ -34849,10 +33719,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -34896,11 +33763,11 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "summer",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -34941,10 +33808,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "winter"
@@ -34988,13 +33852,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -35033,11 +33895,11 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -35077,11 +33939,10 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -35122,9 +33983,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -35167,10 +34026,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "winter"
@@ -35214,11 +34070,11 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -35259,11 +34115,7 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -35349,9 +34201,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -35393,10 +34243,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -35440,11 +34287,10 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -35486,11 +34332,10 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -35531,10 +34376,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -35576,10 +34418,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -35623,10 +34462,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -35669,13 +34505,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -35716,13 +34550,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -35762,10 +34594,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -35893,10 +34722,7 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "winter"
@@ -35941,13 +34767,11 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -35990,9 +34814,7 @@
         "color:black",
         "color:orange"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -36034,13 +34856,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "sporty"
+        "sporty",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -36081,9 +34901,7 @@
         "color:yellow",
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -36127,11 +34945,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -36172,11 +34990,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -36217,10 +35035,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -36263,10 +35078,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "winter"
@@ -36310,9 +35122,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -36356,11 +35166,11 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -36403,11 +35213,11 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -36448,10 +35258,7 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool"
@@ -36496,10 +35303,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual"
@@ -36543,9 +35347,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -36588,9 +35390,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -36634,11 +35434,11 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "casual",
+        "summer"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -36678,10 +35478,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -36725,10 +35522,7 @@
         "color:yellow",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -36773,13 +35567,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -36820,10 +35612,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -36868,13 +35657,11 @@
         "color:brown",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -36912,9 +35699,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -36958,9 +35743,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -37003,13 +35786,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -37049,11 +35830,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "outdoor",
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor",
         "casual",
@@ -37098,9 +35875,7 @@
         "color:white",
         "color:yellow"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty"
       ],
@@ -37143,10 +35918,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual"
@@ -37189,11 +35961,11 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -37234,9 +36006,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -37280,10 +36050,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -37367,9 +36134,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -37452,10 +36217,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -37499,9 +36261,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -37543,9 +36303,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -37583,10 +36341,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual"
@@ -37630,10 +36385,7 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "casual",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual",
         "winter"
@@ -37800,10 +36552,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -37847,10 +36596,7 @@
         "color:yellow",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -37895,13 +36641,11 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -37940,9 +36684,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -37986,11 +36728,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "summer",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -38031,11 +36773,11 @@
         "color:pink",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -38077,11 +36819,11 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -38122,10 +36864,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -38214,11 +36953,11 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -38332,9 +37071,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -38378,9 +37115,7 @@
         "color:yellow",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -38425,9 +37160,7 @@
         "color:pink",
         "color:brown"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -38470,10 +37203,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -38519,13 +37249,11 @@
         "color:pink",
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -38563,9 +37291,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -38609,11 +37335,11 @@
         "color:yellow",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -38654,13 +37380,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -38701,10 +37425,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -38748,11 +37469,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -38790,11 +37511,7 @@
         }
       ],
       "tags": [],
-      "autoTags": [
-        "formal",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -38839,9 +37556,7 @@
         "color:black",
         "color:red"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -38883,13 +37598,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
-      "isHidden": false,
+      "isHidden": true,
       "isReviewed": true
     },
     {
@@ -38928,9 +37641,7 @@
         "color:black",
         "color:pink"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -38974,10 +37685,7 @@
         "color:orange",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -39020,13 +37728,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "sporty"
+        "sporty",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -39067,13 +37773,12 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "winter"
+        "winter",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -39114,13 +37819,11 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -39245,10 +37948,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -39293,9 +37993,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -39338,13 +38036,11 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -39386,11 +38082,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "street",
-        "casual",
-        "summer"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "casual",
@@ -39475,10 +38167,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "formal",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool"
@@ -39561,9 +38250,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -39606,13 +38293,12 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "street",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
-        "cool"
+        "cool",
+        "casual",
+        "summer"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -39653,9 +38339,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool"
       ],
@@ -39698,9 +38382,7 @@
         "color:white",
         "color:pink"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -39743,11 +38425,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -39789,10 +38471,7 @@
         "color:orange",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -39835,13 +38514,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -39882,13 +38559,11 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "cool"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
-        "cool"
+        "cool",
+        "street"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -39929,9 +38604,7 @@
         "color:black",
         "color:white"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "winter"
       ],
@@ -39973,10 +38646,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "street"
@@ -40019,10 +38689,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "formal"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "formal"
@@ -40105,9 +38772,7 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "outdoor"
-      ],
+      "autoTags": [],
       "manualTags": [
         "outdoor"
       ],
@@ -40149,15 +38814,12 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "street",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "street",
         "cool",
-        "winter"
+        "winter",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -40197,10 +38859,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "sporty",
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "sporty",
         "casual",
@@ -40245,9 +38904,7 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "casual"
-      ],
+      "autoTags": [],
       "manualTags": [
         "casual"
       ],
@@ -40289,10 +38946,7 @@
       "tags": [
         "color:black"
       ],
-      "autoTags": [
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "cool",
         "winter"
@@ -40337,11 +38991,11 @@
         "color:white",
         "color:brown"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "outdoor"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -40383,11 +39037,11 @@
         "color:brown",
         "color:white"
       ],
-      "autoTags": [
-        "sporty"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "sporty"
+        "sporty",
+        "casual",
+        "street"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -40427,11 +39081,11 @@
       "tags": [
         "color:white"
       ],
-      "autoTags": [
-        "street"
-      ],
+      "autoTags": [],
       "manualTags": [
-        "street"
+        "street",
+        "summer",
+        "casual"
       ],
       "isHidden": true,
       "isReviewed": true
@@ -40472,11 +39126,7 @@
         "color:black",
         "color:brown"
       ],
-      "autoTags": [
-        "formal",
-        "cool",
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "formal",
         "cool",
@@ -40521,9 +39171,7 @@
         "color:white",
         "color:black"
       ],
-      "autoTags": [
-        "winter"
-      ],
+      "autoTags": [],
       "manualTags": [
         "winter"
       ],
@@ -40897,7 +39545,10 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "sporty",
+        "street"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -41020,7 +39671,10 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "street",
+        "casual"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -41061,7 +39715,10 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "sporty",
+        "street"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -41266,7 +39923,10 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "summer",
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -41306,13 +39966,16 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "formal",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
     {
       "id": "shoes-810",
-      "name": "ケタコゾネスブーツ",
+      "name": "タコゾネスブーツ",
       "category": "shoes",
       "brand": {
         "brandId": "アタリメイド",
