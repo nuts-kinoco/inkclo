@@ -1,0 +1,155 @@
+/* ベースリセットとフォント設定 */
+/* 全体適用はNext.jsのグローバルに影響するのでスコープを絞るか、magazine-test-containerの配下に適用します */
+
+.magazine-test-container {
+    background-color: #f8f9fa; /* うっすらとしたグレーで紙面を表現 */
+    color: #222;
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* 雑誌のコンテナ */
+.magazine-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 60px 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* ヘッダー */
+.magazine-header {
+    text-align: center;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+
+.catch-copy {
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.magazine-title {
+    font-size: 4rem;
+    font-family: "Times New Roman", Times, serif; /* ロゴらしくセリフ体に */
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.special-feature {
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #a8e6cf; /* ミントグリーンに変更 */
+    letter-spacing: 0.05em;
+}
+
+/* コーディネートブロック */
+.look-block {
+    display: grid;
+    grid-template-columns: 3fr 2fr; /* 画像領域とテキスト領域の比率 */
+    gap: 40px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+/* ビジュアルエリア（相対配置の基準） */
+.visual-area {
+    position: relative;
+    width: 100%;
+}
+
+.main-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+    border-radius: 4px;
+}
+
+/* 丸抜きサブ画像 */
+.sub-img-wrapper {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    overflow: hidden;
+    background-color: #ddd; /* 画像がない時のプレースホルダー色 */
+}
+
+.sub-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* サブ画像の配置位置（適宜調整してください） */
+.pos-1 {
+    bottom: -20px;
+    left: -20px;
+}
+
+.pos-2 {
+    top: 20px;
+    right: -30px;
+    width: 140px;
+    height: 140px;
+}
+
+/* ポップアップテキスト（アメコミ風） */
+.comic-effect {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ffeb3b;
+    color: #000;
+    font-weight: bold;
+    font-style: italic;
+    padding: 4px 12px;
+    transform: rotate(-10deg);
+    border: 2px solid #000;
+    box-shadow: 2px 2px 0px #000;
+    font-size: 0.9rem;
+    z-index: 10;
+}
+
+/* テキストエリア */
+.text-area {
+    padding-left: 20px;
+}
+
+.look-title {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-left: 4px solid #a8e6cf; /* ミントグリーンに変更 */
+    padding-left: 15px;
+}
+
+.look-text {
+    font-size: 0.95rem;
+    color: #444;
+    text-align: justify;
+}
+
+/* レスポンシブ対応（スマホ表示時） */
+@media (max-width: 768px) {
+    .look-block {
+        grid-template-columns: 1fr;
+    }
+    .pos-2 {
+        right: -10px;
+    }
+    .text-area {
+        padding-left: 0;
+    }
+}

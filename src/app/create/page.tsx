@@ -153,8 +153,9 @@ export default function CreatePage() {
         <h2 className="text-xl font-black tracking-tight mb-4 w-full text-left dark:text-slate-200">Your Coordinate</h2>
         
         {/* Export Container */}
-        <div ref={previewRef} className="w-full flex flex-col items-center bg-white dark:bg-slate-900 pb-2">
+        <div className="w-full flex flex-col items-center bg-white dark:bg-slate-900 pb-2">
           <CoordinatePreview
+            ref={previewRef}
             coordinate={coordinate}
             onRemoveGear={removeGear}
           />
@@ -271,8 +272,9 @@ export default function CreatePage() {
         {/* Expanded Content */}
         <div className="p-6 pt-0 max-h-[60vh] overflow-y-auto">
           {/* Export Container Mobile */}
-          <div ref={mobilePreviewRef} className="w-full flex flex-col items-center bg-white dark:bg-slate-900 pb-2">
+          <div className="w-full flex flex-col items-center bg-white dark:bg-slate-900 pb-2">
             <CoordinatePreview
+              ref={mobilePreviewRef}
               coordinate={coordinate}
               onRemoveGear={removeGear}
             />

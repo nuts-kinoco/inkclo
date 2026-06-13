@@ -129,7 +129,9 @@
       "autoTags": [],
       "manualTags": [
         "funny",
-        "cute"
+        "cute",
+        "cool",
+        "casual"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -221,7 +223,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-005",
@@ -403,7 +405,7 @@
         "outdoor"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-009",
@@ -620,7 +622,10 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "casual"
+        "casual",
+        "sporty",
+        "summer",
+        "outdoor"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -975,7 +980,7 @@
       ],
       "autoTags": [],
       "manualTags": [],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -1060,7 +1065,7 @@
       ],
       "autoTags": [],
       "manualTags": [],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -1359,7 +1364,7 @@
         "casual",
         "outdoor"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -1663,7 +1668,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-038",
@@ -1705,10 +1710,12 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor"
+        "outdoor",
+        "street",
+        "summer"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-039",
@@ -1752,7 +1759,7 @@
         "outdoor",
         "casual"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -1797,7 +1804,7 @@
         "outdoor",
         "cool"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -1836,7 +1843,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "casual",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -1882,7 +1893,7 @@
         "outdoor",
         "cool"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -2144,7 +2155,12 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "street",
+        "cute",
+        "casual",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -2358,7 +2374,7 @@
         "casual",
         "outdoor"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -2446,7 +2462,7 @@
         "outdoor",
         "cool"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -2530,7 +2546,7 @@
       ],
       "autoTags": [],
       "manualTags": [],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -2617,7 +2633,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "cool",
+        "funny",
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -3000,7 +3020,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "street",
+        "cool",
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -3089,7 +3113,7 @@
         "outdoor",
         "cool"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -3178,7 +3202,8 @@
         "sporty",
         "casual",
         "outdoor",
-        "street"
+        "street",
+        "summer"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -3476,7 +3501,7 @@
         "outdoor",
         "casual"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -3564,7 +3589,7 @@
         "cool",
         "sporty"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -3605,7 +3630,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -3654,7 +3682,7 @@
         "sporty",
         "outdoor"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -3833,7 +3861,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-088",
@@ -3918,7 +3946,8 @@
         "sporty",
         "casual",
         "outdoor",
-        "street"
+        "street",
+        "summer"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -4003,7 +4032,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -4043,7 +4076,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -4562,7 +4599,9 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "funny"
+        "funny",
+        "casual",
+        "cool"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -4990,7 +5029,8 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor"
+        "outdoor",
+        "summer"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -5215,7 +5255,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-120",
@@ -5300,7 +5340,10 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -5558,8 +5601,11 @@
         "color:blue"
       ],
       "autoTags": [],
-      "manualTags": [],
-      "isHidden": true,
+      "manualTags": [
+        "casual",
+        "funny"
+      ],
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -6169,7 +6215,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -6209,7 +6259,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "cute"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -6251,7 +6305,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -6712,7 +6770,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -6889,7 +6950,7 @@
         "cute"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-159",
@@ -7233,7 +7294,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "street"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -7323,7 +7388,8 @@
         "sporty",
         "casual",
         "outdoor",
-        "street"
+        "street",
+        "summer"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -7627,7 +7693,8 @@
         "sporty",
         "casual",
         "summer",
-        "outdoor"
+        "outdoor",
+        "funny"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -8103,7 +8170,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -8273,7 +8343,7 @@
         "funny"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-191",
@@ -8836,7 +8906,10 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9705,7 +9778,11 @@
       ],
       "tags": [],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "street"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -9787,7 +9864,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "street",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -10297,7 +10378,11 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -10804,7 +10889,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-236",
@@ -10885,10 +10970,12 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "street",
+        "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-237",
@@ -11727,7 +11814,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -12164,10 +12255,12 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor"
+        "outdoor",
+        "summer",
+        "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-253",
@@ -12968,10 +13061,12 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "street",
+        "summer"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "head-262",
@@ -13495,7 +13590,10 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "cool"
+        "cool",
+        "formal",
+        "cute",
+        "winter"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -13579,6 +13677,8 @@
       ],
       "autoTags": [],
       "manualTags": [
+        "formal",
+        "winter",
         "cool"
       ],
       "isHidden": false,
@@ -14889,9 +14989,11 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "formal"
+        "formal",
+        "casual",
+        "cool"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -14973,9 +15075,11 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "cute"
+        "cute",
+        "formal",
+        "winter"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -15063,7 +15167,9 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor"
+        "outdoor",
+        "summer",
+        "street"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -15109,7 +15215,7 @@
         "funny"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-288",
@@ -15673,7 +15779,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-295",
@@ -15758,7 +15864,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-296",
@@ -16152,7 +16258,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-303",
@@ -16540,7 +16646,11 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cute"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -16847,7 +16957,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-319",
@@ -17027,7 +17137,7 @@
         "winter"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-323",
@@ -17066,7 +17176,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "funny",
+        "casual"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -17789,10 +17902,12 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor"
+        "outdoor",
+        "summer",
+        "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-341",
@@ -18098,7 +18213,9 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "formal"
+        "casual",
+        "funny",
+        "outdoor"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -18751,7 +18868,12 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "street",
+        "cool",
+        "cute"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -18878,7 +19000,9 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "winter",
+        "street"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -19571,7 +19695,7 @@
         "formal"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-382",
@@ -19611,7 +19735,8 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "formal"
+        "casual",
+        "funny"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -19697,8 +19822,9 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "sporty",
-        "casual"
+        "casual",
+        "winter",
+        "sporty"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -19958,7 +20084,9 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "street",
+        "summer"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -20306,7 +20434,10 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -21049,10 +21180,12 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "street",
+        "summer"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-416",
@@ -21825,9 +21958,10 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "formal"
+        "casual",
+        "funny"
       ],
-      "isHidden": true,
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -22081,10 +22215,12 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "street",
+        "summer"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-440",
@@ -22868,7 +23004,11 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "street",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -23210,7 +23350,9 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "winter",
+        "street"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -23343,7 +23485,7 @@
         "casual"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-469",
@@ -23426,7 +23568,8 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor"
+        "outdoor",
+        "summer"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -23852,7 +23995,12 @@
         "color:orange"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "cute",
+        "street"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -23896,7 +24044,8 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "outdoor"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -24508,7 +24657,9 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor"
+        "winter",
+        "street",
+        "cool"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -24723,7 +24874,11 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "cute"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -25118,8 +25273,13 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
-      "isHidden": true,
+      "manualTags": [
+        "casual",
+        "sporty",
+        "funny",
+        "formal"
+      ],
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -25770,7 +25930,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -25810,7 +25974,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "cute"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -26196,7 +26364,9 @@
       "manualTags": [
         "sporty",
         "casual",
-        "street"
+        "street",
+        "summer",
+        "cool"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -26461,7 +26631,8 @@
       "manualTags": [
         "sporty",
         "casual",
-        "street"
+        "street",
+        "winter"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -26676,7 +26847,9 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "winter"
+        "casual",
+        "cute",
+        "cool"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -27557,11 +27730,10 @@
       "manualTags": [
         "sporty",
         "casual",
-        "outdoor",
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-565",
@@ -27599,7 +27771,12 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "winter",
+        "casual",
+        "cute",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -27685,7 +27862,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "formal",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -27900,7 +28081,7 @@
         "winter"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-569",
@@ -27981,7 +28162,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -28820,8 +29005,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
-      "isHidden": true,
+      "manualTags": [
+        "formal",
+        "cute"
+      ],
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -28903,8 +29091,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
-      "isHidden": true,
+      "manualTags": [
+        "formal",
+        "cute"
+      ],
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -30140,7 +30331,10 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -30187,7 +30381,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-598",
@@ -30664,7 +30858,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-604",
@@ -30792,10 +30986,12 @@
       "autoTags": [],
       "manualTags": [
         "sporty",
-        "casual"
+        "casual",
+        "summer",
+        "outdoor"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-605",
@@ -30837,7 +31033,7 @@
         "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-606",
@@ -31046,7 +31242,9 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "winter"
+        "casual",
+        "cute",
+        "cool"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -31136,7 +31334,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "body-609",
@@ -31523,10 +31721,11 @@
       "manualTags": [
         "sporty",
         "casual",
-        "street"
+        "street",
+        "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-617",
@@ -31653,7 +31852,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -31830,7 +32033,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-624",
@@ -32269,10 +32472,12 @@
       "manualTags": [
         "sporty",
         "casual",
-        "street"
+        "street",
+        "outdoor",
+        "cool"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-633",
@@ -32447,7 +32652,9 @@
       ],
       "autoTags": [],
       "manualTags": [
-        "sporty"
+        "casual",
+        "cute",
+        "cool"
       ],
       "isHidden": false,
       "isReviewed": true
@@ -32847,7 +33054,7 @@
         "outdoor"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-646",
@@ -33242,7 +33449,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -33468,7 +33679,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-660",
@@ -33593,7 +33804,11 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -34160,7 +34375,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -34383,7 +34602,7 @@
         "outdoor"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-681",
@@ -34644,7 +34863,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-687",
@@ -34682,7 +34901,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -35529,7 +35752,7 @@
         "outdoor"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-707",
@@ -35880,7 +36103,7 @@
         "sporty"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-715",
@@ -36178,7 +36401,11 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -36430,8 +36657,12 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
-      "isHidden": true,
+      "manualTags": [
+        "casual",
+        "formal",
+        "cute"
+      ],
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -36471,8 +36702,13 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
-      "isHidden": true,
+      "manualTags": [
+        "casual",
+        "formal",
+        "cute",
+        "cool"
+      ],
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -36512,8 +36748,12 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
-      "isHidden": true,
+      "manualTags": [
+        "casual",
+        "cool",
+        "funny"
+      ],
+      "isHidden": false,
       "isReviewed": true
     },
     {
@@ -36603,7 +36843,7 @@
         "street"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-732",
@@ -36872,7 +37112,7 @@
         "summer"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-738",
@@ -36995,7 +37235,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -37208,7 +37452,8 @@
         "sporty",
         "casual",
         "summer",
-        "street"
+        "street",
+        "outdoor"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -37908,7 +38153,11 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "outdoor"
+      ],
       "isHidden": true,
       "isReviewed": true
     },
@@ -37952,10 +38201,11 @@
       "manualTags": [
         "sporty",
         "casual",
-        "street"
+        "street",
+        "outdoor"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-763",
@@ -38211,7 +38461,11 @@
         "color:white"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "funny",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -38733,7 +38987,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cool",
+        "funny"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -38863,7 +39121,8 @@
       "manualTags": [
         "sporty",
         "casual",
-        "street"
+        "street",
+        "outdoor"
       ],
       "isReviewed": true,
       "isHidden": false
@@ -39258,7 +39517,11 @@
         "color:brown"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "outdoor"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -39299,7 +39562,12 @@
         "color:pink"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "cool",
+        "winter"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -39339,7 +39607,11 @@
         "color:black"
       ],
       "autoTags": [],
-      "manualTags": [],
+      "manualTags": [
+        "casual",
+        "cute",
+        "cool"
+      ],
       "isHidden": false,
       "isReviewed": true
     },
@@ -40059,7 +40331,7 @@
         "sporty"
       ],
       "isReviewed": true,
-      "isHidden": false
+      "isHidden": true
     },
     {
       "id": "shoes-813",
@@ -40268,7 +40540,7 @@
         "sporty"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-818",
@@ -40354,7 +40626,7 @@
         "outdoor"
       ],
       "isReviewed": true,
-      "isHidden": true
+      "isHidden": false
     },
     {
       "id": "shoes-820",
@@ -40517,7 +40789,8 @@
       "autoTags": [],
       "manualTags": [
         "street",
-        "sporty"
+        "sporty",
+        "outdoor"
       ],
       "isReviewed": true,
       "isHidden": false

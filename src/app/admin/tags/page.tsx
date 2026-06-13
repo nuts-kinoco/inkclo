@@ -439,14 +439,14 @@ export default function AdminTagsPage() {
                         onChange={() => toggleHidden(currentGear.id)}
                         className="w-5 h-5 cursor-pointer accent-blue-600"
                       />
-                      <span className="text-sm font-bold text-gray-700">{currentGear.isHidden ? '🚫 Hidden from Catalog' : '👁️ Visible in Catalog'}</span>
+                      <span className="text-sm font-bold text-gray-700">{currentGear.isHidden ? 'Hidden from Catalog' : 'Visible in Catalog'}</span>
                     </label>
 
                     {currentGear.autoTags && currentGear.autoTags.length > 0 && (
                       <div className="w-full flex flex-wrap justify-center gap-2 mt-4">
                         {currentGear.autoTags.map(tag => (
                           <span key={`auto-${tag}`} className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs font-bold border border-blue-200">
-                            🤖 {tag}
+                            {tag}
                           </span>
                         ))}
                       </div>
@@ -455,7 +455,7 @@ export default function AdminTagsPage() {
                       <div className="w-full flex flex-wrap justify-center gap-2 mt-2">
                         {currentGear.manualTags.map(tag => (
                           <span key={`manual-${tag}`} className="px-2 py-1 bg-purple-100 text-purple-700 rounded text-xs font-bold border border-purple-200">
-                            ✍️ {tag}
+                            {tag}
                           </span>
                         ))}
                       </div>

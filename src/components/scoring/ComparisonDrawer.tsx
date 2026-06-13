@@ -1,10 +1,8 @@
-// src/components/scoring/ComparisonDrawer.tsx
-
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { useBuilderStore } from '@/store/builderStore';
 import { Gear, GearCategory, ComparisonCandidate } from '@/types';
 import { scoreCoordinate } from '@/lib/scoring/engine';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, ChevronLeft, ChevronRight, Shuffle } from 'lucide-react';
 
 interface ComparisonDrawerProps {
   allGears: Gear[];
@@ -20,6 +18,11 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
     setComparisonCategory,
     seasonOverride
   } = useBuilderStore();
+
+  const [startIndex, setStartIndex] = useState(0);
+  const [shuffleSeed, setShuffleSeed] = useState(0);
+  const [isShuffling, setIsShuffling] = useState(false);
+  const itemsPerPage = 5;
 
   const isReady = coordinate.headId && coordinate.bodyId && coordinate.shoesId;
 
@@ -38,8 +41,6 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
     const currentGearId = coordinate[`${comparisonCategory}Id`];
     const categoryGears = allGears.filter(g => g.category === comparisonCategory && g.id !== currentGearId);
     
-    // Evaluate top 100 gears for performance, sort by totalScore
-    // For a real app we might use MMR or another pre-filter to get 20 diverse candidates
     const evaluated = categoryGears.slice(0, 50).map(gear => {
       const h = comparisonCategory === 'head' ? gear : currentHead;
       const b = comparisonCategory === 'body' ? gear : currentBody;
@@ -53,15 +54,36 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
     });
 
     evaluated.sort((a, b) => b.score.totalScore - a.score.totalScore);
-    const topCandidates = evaluated.slice(0, 4);
     
-    // 候補の最高得点が現在の得点より高ければ、候補にBESTをつける
-    if (topCandidates.length > 0 && topCandidates[0].score.totalScore > currentScore.totalScore) {
-      topCandidates[0].isBest = true;
+    let topCandidates = [];
+    if (evaluated.length <= itemsPerPage * 2) {
+      topCandidates = evaluated;
+    } else {
+      const top50 = evaluated.slice(0, 50);
+      
+      const pseudoRandom = (seed: number) => {
+        let x = Math.sin(seed) * 10000;
+        return x - Math.floor(x);
+      };
+      
+      let seedCounter = shuffleSeed + 1;
+      top50.sort(() => pseudoRandom(seedCounter++) - 0.5);
+      
+      topCandidates = top50.slice(0, 20);
+    }
+    
+    // Find the max score among candidates to mark as BEST
+    const maxCandidateScore = topCandidates.reduce((max, c) => Math.max(max, c.score.totalScore), -1);
+    if (maxCandidateScore > currentScore.totalScore) {
+      topCandidates.forEach(c => {
+        if (c.score.totalScore === maxCandidateScore) {
+          c.isBest = true;
+        }
+      });
     }
 
     return topCandidates;
-  }, [isReady, comparisonCategory, currentHead, currentBody, currentShoes, allGears, seasonOverride, coordinate, currentScore]);
+  }, [isReady, comparisonCategory, currentHead, currentBody, currentShoes, allGears, seasonOverride, coordinate, currentScore, shuffleSeed]);
 
   if (!isComparisonOpen || !isReady || !currentHead || !currentBody || !currentShoes || !currentScore) return null;
 
@@ -72,7 +94,8 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
     if (!gear || !score) return null;
 
     // 現在のギアが最高得点かどうか判定
-    const isBestCurrent = isCurrent && (candidates.length === 0 || score.totalScore >= candidates[0].score.totalScore);
+    const maxCandidateScore = candidates.length > 0 ? candidates.reduce((max, cand) => Math.max(max, cand.score.totalScore), -1) : -1;
+    const isBestCurrent = isCurrent && (score.totalScore >= maxCandidateScore);
     const isBest = isCurrent ? isBestCurrent : c?.isBest;
 
     return (
@@ -80,7 +103,7 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
         key={isCurrent ? 'current' : gear.id} 
         onClick={() => !isCurrent && comparisonCategory && setGear(comparisonCategory, gear.id)}
         disabled={isCurrent}
-        className={`flex-shrink-0 w-36 bg-white rounded-xl border-2 p-3 flex flex-col gap-2 text-left relative transition-all ${
+        className={`flex-shrink-0 w-36 bg-white rounded-xl border-2 p-3 mt-4 flex flex-col gap-2 text-left relative transition-all ${
           isCurrent 
             ? (isBest ? 'border-amber-400 bg-amber-50/30 cursor-default' : 'border-gray-900 bg-gray-50 cursor-default opacity-80')
             : isBest 
@@ -135,6 +158,33 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
     {id: 'shoes', label: 'クツ'}
   ];
 
+  const totalCandidates = candidates.length;
+  const handlePrev = () => {
+    if (totalCandidates === 0) return;
+    setStartIndex((prev) => (prev - itemsPerPage + totalCandidates) % totalCandidates);
+  };
+  
+  const handleNext = () => {
+    if (totalCandidates === 0) return;
+    setStartIndex((prev) => (prev + itemsPerPage) % totalCandidates);
+  };
+  
+  const handleShuffle = () => {
+    setIsShuffling(true);
+    setTimeout(() => {
+      setShuffleSeed(s => s + 1);
+      setStartIndex(0);
+      setIsShuffling(false);
+    }, 150);
+  };
+
+  const visibleCandidates = [];
+  if (totalCandidates > 0) {
+    for (let i = 0; i < Math.min(itemsPerPage, totalCandidates); i++) {
+      visibleCandidates.push(candidates[(startIndex + i) % totalCandidates]);
+    }
+  }
+
   return (
     <div className="fixed bottom-0 left-0 md:left-[360px] right-0 bg-white shadow-[0_-4px_20px_rgba(0,0,0,0.1)] border-t border-gray-200 z-50 animate-in slide-in-from-bottom-full duration-300">
       
@@ -160,22 +210,44 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({ allGears }) 
               {tabs.map(t => (
                 <button
                   key={t.id}
-                  onClick={() => setComparisonCategory(t.id)}
+                  onClick={() => {
+                    setComparisonCategory(t.id);
+                    setStartIndex(0);
+                  }}
                   className={`px-4 py-1 text-xs font-bold rounded-md transition-colors ${comparisonCategory === t.id ? 'bg-white shadow-sm text-gray-900' : 'text-gray-500 hover:text-gray-700'}`}
                 >
                   {t.label}を比較
                 </button>
               ))}
             </div>
+            <button
+              onClick={handleShuffle}
+              className={`flex items-center gap-1.5 px-3 py-1.5 ml-2 bg-indigo-50 text-indigo-600 rounded-md text-xs font-bold hover:bg-indigo-100 active:scale-95 active:bg-indigo-200 transition-all ${isShuffling ? 'opacity-70 pointer-events-none' : ''}`}
+            >
+              <Shuffle size={14} className={isShuffling ? 'animate-spin' : ''} />
+              シャッフル
+            </button>
           </div>
         </div>
 
-        <div className="flex gap-4 overflow-x-auto pb-4 pt-2 px-2 -mx-2 snap-x">
-          {renderCandidate(null, true)}
+        <div className="flex items-center justify-center gap-2 pb-4 pt-2">
+          {totalCandidates > itemsPerPage && (
+            <button onClick={handlePrev} className="p-2 rounded-full bg-gray-50 hover:bg-gray-100 text-gray-600 transition-colors">
+              <ChevronLeft size={24} />
+            </button>
+          )}
           
-          <div className="w-px bg-gray-200 self-stretch my-2" />
+          <div className={`flex gap-4 px-2 overflow-x-auto snap-x transition-all duration-150 ${isShuffling ? 'opacity-0 scale-95' : 'opacity-100 scale-100'}`}>
+            {renderCandidate(null, true)}
+            <div className="w-px bg-gray-200 self-stretch my-2" />
+            {visibleCandidates.map(c => renderCandidate(c, false))}
+          </div>
           
-          {candidates.map(c => renderCandidate(c, false))}
+          {totalCandidates > itemsPerPage && (
+            <button onClick={handleNext} className="p-2 rounded-full bg-gray-50 hover:bg-gray-100 text-gray-600 transition-colors">
+              <ChevronRight size={24} />
+            </button>
+          )}
         </div>
       </div>
     </div>

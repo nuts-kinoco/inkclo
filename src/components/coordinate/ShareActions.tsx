@@ -81,45 +81,27 @@ export function ShareActions({ coordinate, currentScore, previewRef, hideSaveBut
   const handleShareToX = async () => {
     setExportingX(true);
     
-    // Build text & URL
-    const baseText = buildTweetText(coordinate, currentScore || null);
-    const url = getShareUrl();
-
     try {
-      if (!previewRef.current) throw new Error('No preview ref');
+      // Build text & URL
+      const baseText = buildTweetText(coordinate, currentScore || null);
+      const url = getShareUrl();
 
-      const blob = await toBlob(previewRef.current, { cacheBust: true, backgroundColor: '#ffffff' });
-      if (!blob) throw new Error('Failed to create blob');
-
-      // 1. Try Web Share API (Mobile native sharing)
-      if (navigator.share && navigator.canShare && navigator.canShare({ files: [new File([blob], 'inkclo.png', { type: 'image/png' })] })) {
-        const file = new File([blob], 'inkclo-coordinate.png', { type: 'image/png' });
-        await navigator.share({
-          title: 'INKCLO Coordinate',
-          text: baseText + '\n' + url,
-          files: [file]
-        });
-        setExportingX(false);
-        return; // Success via native share, exit
-      }
-
-      // 2. Try Clipboard API (PC)
-      if (navigator.clipboard && window.ClipboardItem) {
-        await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
-        setToastMessage('画像をコピーしました！投稿画面でペースト（Ctrl+V）して添付してください。');
-        setShowToast(true);
-      }
+      // Open Twitter intent directly in a popup window. The OG image will be fetched by Twitter.
+      const intentUrl = buildTwitterIntentUrl(baseText, url);
+      const width = 600;
+      const height = 400;
+      const left = window.screen.width / 2 - width / 2;
+      const top = window.screen.height / 2 - height / 2;
+      window.open(
+        intentUrl,
+        'share-x',
+        `width=${width},height=${height},left=${left},top=${top},scrollbars=no,resizable=no`
+      );
     } catch (err) {
-      console.error('Failed to share image', err);
-      setToastMessage('共有画面を開きます（画像のクリップボードコピーには非対応の環境です）');
-      setShowToast(true);
+      console.error('Failed to share to X', err);
     } finally {
       setExportingX(false);
     }
-
-    // Open Twitter intent as fallback/continuation
-    const intentUrl = buildTwitterIntentUrl(baseText, url);
-    window.open(intentUrl, '_blank');
   };
 
   const handleSave = (name: string) => {
